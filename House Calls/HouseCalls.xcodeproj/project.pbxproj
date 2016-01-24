@@ -41,6 +41,7 @@
 		3B97FCCE1C0B17FB0009DFEB /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */; };
 		3B97FCCF1C0B17FB0009DFEB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */; };
 		3BCFFEF81C0CF7A800C20C79 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */; };
+		D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestViewController.swift; path = ../RequestViewController.swift; sourceTree = "<group>"; };
+		D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +257,7 @@
 				3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */,
 				27C3E7911BFC0ECB002F67C8 /* ViewController.swift */,
 				27C3E7931BFC0ECB002F67C8 /* Main.storyboard */,
+				D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */,
 				095D92D81C55697D00660599 /* DoctorStatusViewController.swift */,
 				3B97FCC61C0B11B70009DFEB /* LogInViewController.swift */,
 				2750873B1BFC6AE80030863E /* OurViewController.swift */,
@@ -433,6 +436,7 @@
 				2750873A1BFC66380030863E /* SWRevealViewController.m in Sources */,
 				3B97FCC71C0B11B70009DFEB /* LogInViewController.swift in Sources */,
 				2750873C1BFC6AE80030863E /* OurViewController.swift in Sources */,
+				D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */,
 				095D92D91C55697D00660599 /* DoctorStatusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
