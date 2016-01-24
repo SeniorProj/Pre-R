@@ -19,6 +19,7 @@
 		27C3E7951BFC0ECB002F67C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C3E7931BFC0ECB002F67C8 /* Main.storyboard */; };
 		27C3E7971BFC0ECB002F67C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C3E7961BFC0ECB002F67C8 /* Assets.xcassets */; };
 		27C3E79A1BFC0ECB002F67C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C3E7981BFC0ECB002F67C8 /* LaunchScreen.storyboard */; };
+		27F3C2361C5572F700388436 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27F3C2341C5572F700388436 /* CoreDataModel.xcdatamodeld */; };
 		3B97FC9C1BFC81FB0009DFEB /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B97FC9B1BFC81FB0009DFEB /* menu.png */; };
 		3B97FCA21BFC8E2B0009DFEB /* pre-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B97FCA11BFC8E2B0009DFEB /* pre-r.png */; };
 		3B97FCA61C0AF5740009DFEB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCA51C0AF5740009DFEB /* AudioToolbox.framework */; };
@@ -145,6 +146,7 @@
 		27C3E7961BFC0ECB002F67C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C3E7991BFC0ECB002F67C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C3E79B1BFC0ECB002F67C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F3C2351C5572F700388436 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		3B97FC9B1BFC81FB0009DFEB /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		3B97FCA11BFC8E2B0009DFEB /* pre-r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pre-r.png"; sourceTree = "<group>"; };
 		3B97FCA51C0AF5740009DFEB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -261,6 +263,7 @@
 		27C3E78E1BFC0ECB002F67C8 /* HouseCalls */ = {
 			isa = PBXGroup;
 			children = (
+				27F3C2341C5572F700388436 /* CoreDataModel.xcdatamodeld */,
 				275087371BFC66370030863E /* HouseCalls-Bridging-Header.h */,
 				275087361BFC65D60030863E /* SWRevealViewController */,
 				27C3E78F1BFC0ECB002F67C8 /* AppDelegate.swift */,
@@ -453,6 +456,7 @@
 				2750873A1BFC66380030863E /* SWRevealViewController.m in Sources */,
 				D07AF96C1C559044006AB1AF /* HIPPANoticeViewController.swift in Sources */,
 				3B97FCC71C0B11B70009DFEB /* LogInViewController.swift in Sources */,
+				27F3C2361C5572F700388436 /* CoreDataModel.xcdatamodeld in Sources */,
 				2750873C1BFC6AE80030863E /* OurViewController.swift in Sources */,
 				D07AF9641C559003006AB1AF /* FAQViewController.swift in Sources */,
 				D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */,
@@ -636,6 +640,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27F3C2341C5572F700388436 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27F3C2351C5572F700388436 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 27F3C2351C5572F700388436 /* CoreDataModel.xcdatamodel */;
+			name = CoreDataModel.xcdatamodeld;
+			path = ../CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 27C3E7841BFC0ECB002F67C8 /* Project object */;
 }
