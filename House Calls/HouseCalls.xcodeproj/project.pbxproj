@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095D92D91C55697D00660599 /* DoctorStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D92D81C55697D00660599 /* DoctorStatusViewController.swift */; };
 		271BDF811C121D5F0075A29E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271BDF721C121D2D0075A29E /* Alamofire.framework */; };
 		271BDF821C121D5F0075A29E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 271BDF721C121D2D0075A29E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2750873A1BFC66380030863E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275087391BFC66380030863E /* SWRevealViewController.m */; };
@@ -123,6 +124,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		095D92D81C55697D00660599 /* DoctorStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorStatusViewController.swift; sourceTree = "<group>"; };
 		271BDF671C121D2C0075A29E /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Frameworks/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		275087371BFC66370030863E /* HouseCalls-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HouseCalls-Bridging-Header.h"; sourceTree = "<group>"; };
 		275087381BFC66380030863E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */,
 				27C3E7911BFC0ECB002F67C8 /* ViewController.swift */,
 				27C3E7931BFC0ECB002F67C8 /* Main.storyboard */,
+				095D92D81C55697D00660599 /* DoctorStatusViewController.swift */,
 				3B97FCC61C0B11B70009DFEB /* LogInViewController.swift */,
 				2750873B1BFC6AE80030863E /* OurViewController.swift */,
 				27C3E7961BFC0ECB002F67C8 /* Assets.xcassets */,
@@ -430,6 +433,7 @@
 				2750873A1BFC66380030863E /* SWRevealViewController.m in Sources */,
 				3B97FCC71C0B11B70009DFEB /* LogInViewController.swift in Sources */,
 				2750873C1BFC6AE80030863E /* OurViewController.swift in Sources */,
+				095D92D91C55697D00660599 /* DoctorStatusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
