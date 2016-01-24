@@ -106,6 +106,9 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="0J0-NC-UU3" secondAttribute="bottom" id="y4J-dQ-6bf"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eHY-1Y-XMk" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="alp-wI-eLt"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="U4B-ta-buA">
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
@@ -128,6 +131,9 @@
                                                 <constraint firstAttribute="leadingMargin" secondItem="E7a-tM-OFf" secondAttribute="leading" id="lWB-Uz-uXS"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="swI-uD-Dwi" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="h5n-Gc-5lb"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="LI1-uh-Cu1">
                                         <rect key="frame" x="0.0" y="176" width="375" height="44"/>
@@ -150,6 +156,9 @@
                                                 <constraint firstAttribute="leadingMargin" secondItem="DhI-Tj-j78" secondAttribute="leading" id="jFc-lY-XQb"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="LfY-f4-MWa" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="uuM-S8-dmz"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hGp-fu-ZvY">
                                         <rect key="frame" x="0.0" y="220" width="375" height="44"/>
@@ -172,6 +181,9 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="9Vy-3s-F7H" secondAttribute="bottom" id="xjA-u7-kWn"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="1hR-yx-7PK" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="o0m-SM-6tD"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hG5-MS-MAq">
                                         <rect key="frame" x="0.0" y="264" width="375" height="44"/>
@@ -194,6 +206,9 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="dFa-bW-97v" secondAttribute="trailing" id="suR-tt-n2M"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vv5-ye-psg" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="iam-pQ-Erm"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5dE-Hv-iCd">
                                         <rect key="frame" x="0.0" y="308" width="375" height="44"/>
@@ -657,19 +672,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XGD-ji-FCf">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGD-ji-FCf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="886"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7s7-bG-hjF">
-                                        <rect key="frame" x="8" y="18" width="76" height="26"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M4U-DV-5jF">
-                                        <rect key="frame" x="8" y="52" width="359" height="818"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ec-Xu-m1Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="886"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M4U-DV-5jF">
+                                                <rect key="frame" x="8" y="42" width="359" height="818"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
 
 Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
 
@@ -687,13 +699,35 @@ Our main service is house calls for people who have questions and problems that 
 “Momma just needs a dressing change and she has a hard time getting to see her doctor.”
 “My wife is dehydrated with morning sickness. Can you give her some IV saline?”
 
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7s7-bG-hjF">
+                                                <rect key="frame" x="8" y="8" width="76" height="26"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="7s7-bG-hjF" firstAttribute="leading" secondItem="5ec-Xu-m1Q" secondAttribute="leading" constant="8" id="1pE-PW-iWC"/>
+                                            <constraint firstAttribute="bottom" secondItem="M4U-DV-5jF" secondAttribute="bottom" constant="8" id="94s-2Y-KFP"/>
+                                            <constraint firstAttribute="trailing" secondItem="M4U-DV-5jF" secondAttribute="trailing" constant="8" id="And-IX-gIk"/>
+                                            <constraint firstAttribute="trailing" secondItem="7s7-bG-hjF" secondAttribute="trailing" constant="291" id="L4Y-OZ-gZT"/>
+                                            <constraint firstItem="M4U-DV-5jF" firstAttribute="top" secondItem="7s7-bG-hjF" secondAttribute="bottom" constant="8" id="Rjl-4g-YdR"/>
+                                            <constraint firstItem="M4U-DV-5jF" firstAttribute="top" secondItem="7s7-bG-hjF" secondAttribute="bottom" constant="8" id="der-yp-DW8"/>
+                                            <constraint firstItem="7s7-bG-hjF" firstAttribute="top" secondItem="5ec-Xu-m1Q" secondAttribute="top" constant="8" id="hWc-aA-bf9"/>
+                                            <constraint firstItem="M4U-DV-5jF" firstAttribute="leading" secondItem="5ec-Xu-m1Q" secondAttribute="leading" constant="8" id="oVc-wA-zkP"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="7s7-bG-hjF" secondAttribute="trailing" constant="291" id="Pj8-rG-eXd"/>
+                                    <constraint firstItem="5ec-Xu-m1Q" firstAttribute="top" secondItem="XGD-ji-FCf" secondAttribute="top" id="1nG-uI-FFj"/>
+                                    <constraint firstAttribute="bottom" secondItem="5ec-Xu-m1Q" secondAttribute="bottom" id="CPy-zM-azT"/>
+                                    <constraint firstItem="5ec-Xu-m1Q" firstAttribute="leading" secondItem="XGD-ji-FCf" secondAttribute="leading" id="EjF-n4-ivo"/>
+                                    <constraint firstAttribute="trailing" secondItem="5ec-Xu-m1Q" secondAttribute="trailing" id="a7e-xi-3PE"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -703,6 +737,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                             <constraint firstItem="XGD-ji-FCf" firstAttribute="height" secondItem="XKx-uD-gO6" secondAttribute="height" id="FS6-lU-o2e"/>
                             <constraint firstItem="XGD-ji-FCf" firstAttribute="width" secondItem="XKx-uD-gO6" secondAttribute="width" id="NFa-8m-kDT"/>
                             <constraint firstItem="XGD-ji-FCf" firstAttribute="centerY" secondItem="XKx-uD-gO6" secondAttribute="centerY" id="NaJ-iC-yq1"/>
+                            <constraint firstItem="XGD-ji-FCf" firstAttribute="height" secondItem="XKx-uD-gO6" secondAttribute="height" id="tP7-cf-E1S"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RyJ-MJ-QXC">
@@ -717,7 +752,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fD2-pc-TbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1934.5" y="1585"/>
+            <point key="canvasLocation" x="-2108.5" y="2625"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hIq-OV-znk">
@@ -736,7 +771,567 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FV0-bI-8VT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1470.5" y="1585.5"/>
+            <point key="canvasLocation" x="-2108.5" y="1715.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LN9-P4-ESG">
+            <objects>
+                <viewController id="VLv-ko-Fxd" customClass="FAQViewController" customModule="HouseCalls" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rIM-Re-kLF"/>
+                        <viewControllerLayoutGuide type="bottom" id="NB9-xp-LOb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dCr-kN-A7g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRu-tj-XV2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="886"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G8N-ya-Z0x">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="886"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="F.A.Q." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABI-7D-noG">
+                                                <rect key="frame" x="8" y="8" width="76" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a6P-8G-mhi">
+                                                <rect key="frame" x="7" y="45" width="359" height="818"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <mutableString key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="a6P-8G-mhi" secondAttribute="bottom" constant="8" id="5rw-mh-1lf"/>
+                                            <constraint firstItem="a6P-8G-mhi" firstAttribute="leading" secondItem="G8N-ya-Z0x" secondAttribute="leading" constant="8" id="9gg-Yx-e2b"/>
+                                            <constraint firstItem="ABI-7D-noG" firstAttribute="leading" secondItem="G8N-ya-Z0x" secondAttribute="leading" constant="8" id="VWX-el-six"/>
+                                            <constraint firstItem="a6P-8G-mhi" firstAttribute="top" secondItem="ABI-7D-noG" secondAttribute="bottom" constant="5" id="Vjt-Xm-9AE"/>
+                                            <constraint firstItem="ABI-7D-noG" firstAttribute="top" secondItem="G8N-ya-Z0x" secondAttribute="top" constant="8" id="hDq-3m-Psw"/>
+                                            <constraint firstAttribute="trailing" secondItem="a6P-8G-mhi" secondAttribute="trailing" constant="8" id="kqz-OF-5tF"/>
+                                            <constraint firstItem="a6P-8G-mhi" firstAttribute="top" secondItem="ABI-7D-noG" secondAttribute="bottom" constant="8" id="uFa-lq-bvh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="G8N-ya-Z0x" secondAttribute="bottom" id="Hib-I1-TC1"/>
+                                    <constraint firstItem="G8N-ya-Z0x" firstAttribute="top" secondItem="QRu-tj-XV2" secondAttribute="top" id="ekq-1Y-20u"/>
+                                    <constraint firstAttribute="trailing" secondItem="G8N-ya-Z0x" secondAttribute="trailing" id="nHn-1u-2NQ"/>
+                                    <constraint firstItem="G8N-ya-Z0x" firstAttribute="leading" secondItem="QRu-tj-XV2" secondAttribute="leading" id="tPy-5b-bxL"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QRu-tj-XV2" firstAttribute="centerY" secondItem="dCr-kN-A7g" secondAttribute="centerY" id="5Ba-S0-cR9"/>
+                            <constraint firstItem="QRu-tj-XV2" firstAttribute="height" secondItem="dCr-kN-A7g" secondAttribute="height" id="AiR-Sb-8a0"/>
+                            <constraint firstItem="QRu-tj-XV2" firstAttribute="width" secondItem="dCr-kN-A7g" secondAttribute="width" id="UKB-yG-cuG"/>
+                            <constraint firstItem="QRu-tj-XV2" firstAttribute="height" secondItem="dCr-kN-A7g" secondAttribute="height" id="YHP-bJ-Bh3"/>
+                            <constraint firstItem="QRu-tj-XV2" firstAttribute="centerX" secondItem="dCr-kN-A7g" secondAttribute="centerX" id="bfl-uM-ce5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cOD-65-eTc">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="Rjq-iP-0qK"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="950"/>
+                    <connections>
+                        <outlet property="ScrollView" destination="QRu-tj-XV2" id="oEy-qg-2ft"/>
+                        <outlet property="menuButton" destination="Rjq-iP-0qK" id="GLu-2o-VMk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hgf-EF-uDD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1672.5" y="2625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KDm-0I-iUK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eHY-1Y-XMk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QGM-V2-j9c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VLv-ko-Fxd" kind="relationship" relationship="rootViewController" id="hEl-Xe-ejV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b0C-0J-s8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1672.5" y="1715.5"/>
+        </scene>
+        <!--Terms Of Service View Controller-->
+        <scene sceneID="QPJ-iw-ZLK">
+            <objects>
+                <viewController id="nn1-rl-cWs" customClass="TermsOfServiceViewController" customModule="HouseCalls" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="msR-IV-xHd"/>
+                        <viewControllerLayoutGuide type="bottom" id="9qZ-Gf-Q1h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vFC-b8-dAG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYf-ID-xxW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="886"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAw-17-9Sn">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="886"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0p9-Mg-lrD">
+                                                <rect key="frame" x="8" y="42" width="359" height="818"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms of Service" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgM-sj-6iL">
+                                                <rect key="frame" x="8" y="8" width="178" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="jgM-sj-6iL" firstAttribute="leading" secondItem="rAw-17-9Sn" secondAttribute="leading" constant="8" id="3b3-IE-Doh"/>
+                                            <constraint firstItem="0p9-Mg-lrD" firstAttribute="leading" secondItem="rAw-17-9Sn" secondAttribute="leading" constant="8" id="9ha-9T-fJa"/>
+                                            <constraint firstItem="0p9-Mg-lrD" firstAttribute="top" secondItem="jgM-sj-6iL" secondAttribute="bottom" constant="8" id="Ng4-r7-D7q"/>
+                                            <constraint firstItem="jgM-sj-6iL" firstAttribute="top" secondItem="rAw-17-9Sn" secondAttribute="top" constant="8" id="bOP-dH-1bh"/>
+                                            <constraint firstItem="0p9-Mg-lrD" firstAttribute="top" secondItem="jgM-sj-6iL" secondAttribute="bottom" constant="8" id="bv8-SZ-D6k"/>
+                                            <constraint firstAttribute="trailing" secondItem="0p9-Mg-lrD" secondAttribute="trailing" constant="8" id="hy6-bK-zh3"/>
+                                            <constraint firstAttribute="bottom" secondItem="0p9-Mg-lrD" secondAttribute="bottom" constant="8" id="wW6-vp-lon"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="rAw-17-9Sn" secondAttribute="bottom" id="7ZR-Kj-xE7"/>
+                                    <constraint firstItem="rAw-17-9Sn" firstAttribute="top" secondItem="bYf-ID-xxW" secondAttribute="top" id="NlP-h9-vm8"/>
+                                    <constraint firstItem="rAw-17-9Sn" firstAttribute="leading" secondItem="bYf-ID-xxW" secondAttribute="leading" id="TMA-mb-VpD"/>
+                                    <constraint firstAttribute="trailing" secondItem="rAw-17-9Sn" secondAttribute="trailing" id="bJe-dh-2Jq"/>
+                                    <constraint firstItem="rAw-17-9Sn" firstAttribute="leading" secondItem="bYf-ID-xxW" secondAttribute="leading" id="zce-og-uIB"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bYf-ID-xxW" firstAttribute="centerY" secondItem="vFC-b8-dAG" secondAttribute="centerY" id="0O2-Pv-uWg"/>
+                            <constraint firstItem="bYf-ID-xxW" firstAttribute="centerX" secondItem="vFC-b8-dAG" secondAttribute="centerX" id="QhH-CS-JUH"/>
+                            <constraint firstItem="bYf-ID-xxW" firstAttribute="height" secondItem="vFC-b8-dAG" secondAttribute="height" id="S63-Eg-o0q"/>
+                            <constraint firstItem="bYf-ID-xxW" firstAttribute="height" secondItem="vFC-b8-dAG" secondAttribute="height" id="e8O-Mx-6u4"/>
+                            <constraint firstItem="bYf-ID-xxW" firstAttribute="width" secondItem="vFC-b8-dAG" secondAttribute="width" id="iK5-Rt-fqa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3A2-DK-0Ny">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="E0h-j1-b3b"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="950"/>
+                    <connections>
+                        <outlet property="ScrollView" destination="bYf-ID-xxW" id="DXd-4q-1c9"/>
+                        <outlet property="menuButton" destination="E0h-j1-b3b" id="clg-Db-fLT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="huX-BQ-S5B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1236.5" y="2625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d7X-3G-iVl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="swI-uD-Dwi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="14K-oA-mHX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nn1-rl-cWs" kind="relationship" relationship="rootViewController" id="zVk-eL-Rwg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IGI-Fh-ABh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1236.5" y="1715.5"/>
+        </scene>
+        <!--Share View Controller-->
+        <scene sceneID="h2h-Nd-liZ">
+            <objects>
+                <viewController id="5AA-YV-TWm" customClass="ShareViewController" customModule="HouseCalls" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7c9-Mm-9Tk"/>
+                        <viewControllerLayoutGuide type="bottom" id="lmP-UW-nM4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nS1-vA-AOi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8DI-eg-xo5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="886"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uXW-5m-nYJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="886"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9lp-na-zOA">
+                                                <rect key="frame" x="8" y="42" width="359" height="818"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Share" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taH-0W-GhM">
+                                                <rect key="frame" x="8" y="8" width="76" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="9lp-na-zOA" firstAttribute="leading" secondItem="uXW-5m-nYJ" secondAttribute="leading" constant="8" id="2ic-Oo-r0q"/>
+                                            <constraint firstItem="9lp-na-zOA" firstAttribute="top" secondItem="taH-0W-GhM" secondAttribute="bottom" constant="8" id="50D-cj-5ng"/>
+                                            <constraint firstAttribute="bottom" secondItem="9lp-na-zOA" secondAttribute="bottom" constant="8" id="O4i-9k-B8Z"/>
+                                            <constraint firstItem="taH-0W-GhM" firstAttribute="leading" secondItem="uXW-5m-nYJ" secondAttribute="leading" constant="8" id="p6A-so-W5r"/>
+                                            <constraint firstAttribute="trailing" secondItem="9lp-na-zOA" secondAttribute="trailing" constant="8" id="rl5-JL-FGa"/>
+                                            <constraint firstItem="taH-0W-GhM" firstAttribute="top" secondItem="uXW-5m-nYJ" secondAttribute="top" constant="8" id="yKJ-rq-nTo"/>
+                                            <constraint firstItem="9lp-na-zOA" firstAttribute="top" secondItem="taH-0W-GhM" secondAttribute="bottom" constant="5" id="yLF-0k-I0b"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uXW-5m-nYJ" firstAttribute="top" secondItem="8DI-eg-xo5" secondAttribute="top" id="Jr6-n5-8Bi"/>
+                                    <constraint firstItem="uXW-5m-nYJ" firstAttribute="leading" secondItem="8DI-eg-xo5" secondAttribute="leading" id="QAV-DU-Rom"/>
+                                    <constraint firstAttribute="bottom" secondItem="uXW-5m-nYJ" secondAttribute="bottom" id="SXn-Ii-ifr"/>
+                                    <constraint firstAttribute="trailing" secondItem="uXW-5m-nYJ" secondAttribute="trailing" id="vlU-Pz-99O"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8DI-eg-xo5" firstAttribute="centerY" secondItem="nS1-vA-AOi" secondAttribute="centerY" id="8bb-Og-pQS"/>
+                            <constraint firstItem="8DI-eg-xo5" firstAttribute="centerX" secondItem="nS1-vA-AOi" secondAttribute="centerX" id="PWa-5l-6z2"/>
+                            <constraint firstItem="8DI-eg-xo5" firstAttribute="height" secondItem="nS1-vA-AOi" secondAttribute="height" id="hVz-Ec-pUC"/>
+                            <constraint firstItem="8DI-eg-xo5" firstAttribute="width" secondItem="nS1-vA-AOi" secondAttribute="width" id="iaK-Xe-fEO"/>
+                            <constraint firstItem="8DI-eg-xo5" firstAttribute="height" secondItem="nS1-vA-AOi" secondAttribute="height" id="mGE-JX-k1d"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="X4S-8a-bDg">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="dqe-O6-a7L"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="950"/>
+                    <connections>
+                        <outlet property="ScrollView" destination="8DI-eg-xo5" id="lbM-z7-fV8"/>
+                        <outlet property="menuButton" destination="dqe-O6-a7L" id="ltf-Kb-lZU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vs0-ve-Pt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-800.5" y="2625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PG9-S4-hWs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LfY-f4-MWa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Glh-EJ-7ac">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5AA-YV-TWm" kind="relationship" relationship="rootViewController" id="T8W-dJ-eKd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svp-Es-uwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-800.5" y="1715.5"/>
+        </scene>
+        <!--Privacy Policy View Controller-->
+        <scene sceneID="4Aq-cO-OUe">
+            <objects>
+                <viewController id="lih-M6-o06" customClass="PrivacyPolicyViewController" customModule="HouseCalls" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Adn-0C-AoH"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Aq-tI-KlC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YWg-7g-QNf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OWP-Vx-pYL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="886"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VIq-TX-Grw">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="886"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zKS-MY-Ymx">
+                                                <rect key="frame" x="8" y="42" width="359" height="818"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUo-11-P5s">
+                                                <rect key="frame" x="8" y="8" width="148" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="zKS-MY-Ymx" secondAttribute="trailing" constant="8" id="7Vg-tY-ozC"/>
+                                            <constraint firstItem="lUo-11-P5s" firstAttribute="top" secondItem="VIq-TX-Grw" secondAttribute="top" constant="8" id="B7b-re-Fm2"/>
+                                            <constraint firstItem="zKS-MY-Ymx" firstAttribute="top" secondItem="lUo-11-P5s" secondAttribute="bottom" constant="8" id="SmZ-vf-74K"/>
+                                            <constraint firstAttribute="bottom" secondItem="zKS-MY-Ymx" secondAttribute="bottom" constant="8" id="XMf-te-rI4"/>
+                                            <constraint firstItem="zKS-MY-Ymx" firstAttribute="top" secondItem="lUo-11-P5s" secondAttribute="bottom" constant="5" id="c33-Bh-jR7"/>
+                                            <constraint firstItem="lUo-11-P5s" firstAttribute="leading" secondItem="VIq-TX-Grw" secondAttribute="leading" constant="8" id="eK6-RC-wtH"/>
+                                            <constraint firstItem="zKS-MY-Ymx" firstAttribute="leading" secondItem="VIq-TX-Grw" secondAttribute="leading" constant="8" id="svU-13-MN5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="VIq-TX-Grw" secondAttribute="bottom" id="U45-dj-3yB"/>
+                                    <constraint firstItem="VIq-TX-Grw" firstAttribute="leading" secondItem="OWP-Vx-pYL" secondAttribute="leading" id="f12-Xg-Vxd"/>
+                                    <constraint firstAttribute="trailing" secondItem="VIq-TX-Grw" secondAttribute="trailing" id="hzW-t8-bIk"/>
+                                    <constraint firstItem="VIq-TX-Grw" firstAttribute="top" secondItem="OWP-Vx-pYL" secondAttribute="top" id="zpa-st-tS5"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OWP-Vx-pYL" firstAttribute="centerX" secondItem="YWg-7g-QNf" secondAttribute="centerX" id="ZT3-dL-iis"/>
+                            <constraint firstItem="OWP-Vx-pYL" firstAttribute="height" secondItem="YWg-7g-QNf" secondAttribute="height" id="ah8-BO-tSR"/>
+                            <constraint firstItem="OWP-Vx-pYL" firstAttribute="centerY" secondItem="YWg-7g-QNf" secondAttribute="centerY" id="axu-66-9TW"/>
+                            <constraint firstItem="OWP-Vx-pYL" firstAttribute="height" secondItem="YWg-7g-QNf" secondAttribute="height" id="fKq-uz-Kzn"/>
+                            <constraint firstItem="OWP-Vx-pYL" firstAttribute="width" secondItem="YWg-7g-QNf" secondAttribute="width" id="hEx-U5-q1Q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="c0T-0D-Xry">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="fP3-rz-64H"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="950"/>
+                    <connections>
+                        <outlet property="ScrollView" destination="OWP-Vx-pYL" id="Ko5-2m-ZZK"/>
+                        <outlet property="menuButton" destination="fP3-rz-64H" id="0o9-uf-aHw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZd-xL-vSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-364.5" y="2625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9hf-jm-J0V">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1hR-yx-7PK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zyC-Dh-YHv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lih-M6-o06" kind="relationship" relationship="rootViewController" id="unO-si-cWl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q9P-ii-DYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-364.5" y="1715.5"/>
+        </scene>
+        <!--Notice View Controller-->
+        <scene sceneID="PP3-H7-m7d">
+            <objects>
+                <viewController id="2bA-EH-jnA" customClass="HIPPANoticeViewController" customModule="HouseCalls" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gtB-fx-ryb"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pgn-y0-F5B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JWk-P6-WQg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bd-Rk-35k">
+                                <rect key="frame" x="0.0" y="64" width="375" height="886"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m0O-pY-gkw">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="886"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1JD-Vx-3aT">
+                                                <rect key="frame" x="8" y="42" width="359" height="818"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+
+Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+
+“Can you prescribe something for this rash?”
+“Would you be able to repair my laceration at my home?”
+“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
+“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+
+Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIPPA Notice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRK-mv-1GQ">
+                                                <rect key="frame" x="8" y="8" width="142" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="HRK-mv-1GQ" firstAttribute="leading" secondItem="m0O-pY-gkw" secondAttribute="leading" constant="8" id="92D-27-SYd"/>
+                                            <constraint firstAttribute="trailing" secondItem="1JD-Vx-3aT" secondAttribute="trailing" constant="8" id="NzH-Lb-LR3"/>
+                                            <constraint firstItem="1JD-Vx-3aT" firstAttribute="leading" secondItem="m0O-pY-gkw" secondAttribute="leading" constant="8" id="msB-8N-uXz"/>
+                                            <constraint firstItem="1JD-Vx-3aT" firstAttribute="top" secondItem="HRK-mv-1GQ" secondAttribute="bottom" constant="8" id="n0x-LL-sEX"/>
+                                            <constraint firstItem="1JD-Vx-3aT" firstAttribute="top" secondItem="HRK-mv-1GQ" secondAttribute="bottom" constant="8" id="ndE-xu-dyf"/>
+                                            <constraint firstItem="HRK-mv-1GQ" firstAttribute="top" secondItem="m0O-pY-gkw" secondAttribute="top" constant="8" id="t5v-A6-ouT"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="m0O-pY-gkw" secondAttribute="trailing" id="7iY-aT-oxW"/>
+                                    <constraint firstItem="m0O-pY-gkw" firstAttribute="top" secondItem="9bd-Rk-35k" secondAttribute="top" id="QsN-ZC-17P"/>
+                                    <constraint firstAttribute="bottom" secondItem="m0O-pY-gkw" secondAttribute="bottom" id="STP-xL-bDm"/>
+                                    <constraint firstItem="m0O-pY-gkw" firstAttribute="leading" secondItem="9bd-Rk-35k" secondAttribute="leading" id="mbI-YV-TEa"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9bd-Rk-35k" firstAttribute="centerX" secondItem="JWk-P6-WQg" secondAttribute="centerX" id="Pkq-rV-CpA"/>
+                            <constraint firstItem="9bd-Rk-35k" firstAttribute="height" secondItem="JWk-P6-WQg" secondAttribute="height" id="beM-KR-aU1"/>
+                            <constraint firstItem="9bd-Rk-35k" firstAttribute="centerY" secondItem="JWk-P6-WQg" secondAttribute="centerY" id="cXb-b5-Sab"/>
+                            <constraint firstItem="9bd-Rk-35k" firstAttribute="height" secondItem="JWk-P6-WQg" secondAttribute="height" id="kMz-da-7VT"/>
+                            <constraint firstItem="9bd-Rk-35k" firstAttribute="width" secondItem="JWk-P6-WQg" secondAttribute="width" id="yiQ-Na-zb5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z61-o6-wCw">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="g7S-q1-30M"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="950"/>
+                    <connections>
+                        <outlet property="ScrollView" destination="9bd-Rk-35k" id="smc-a1-sws"/>
+                        <outlet property="menuButton" destination="g7S-q1-30M" id="fb2-VR-4oX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ps6-5c-8BM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71.5" y="2625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d3y-dB-nK5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vv5-ye-psg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v7P-o8-QQT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2bA-EH-jnA" kind="relationship" relationship="rootViewController" id="z46-zh-GRv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aY8-XF-Ef1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71.5" y="1715.5"/>
         </scene>
     </scenes>
     <resources>
