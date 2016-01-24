@@ -11,6 +11,7 @@ import Parse
 
 class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDelegate {
     @IBOutlet weak var myPicker: UIPickerView!
+    @IBOutlet var menuButton: UIBarButtonItem!
     
     @IBOutlet weak var doctorStatus: UILabel!
      let pickerData = ["Available","Temporarily Unavailable", "Telemedicine", "Unavailable"]
@@ -28,6 +29,12 @@ class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPic
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if self.revealViewController() != nil {
+            menuButton.target = self.revealViewController()
+            menuButton.action = "revealToggle:"
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
 
         myPicker.dataSource = self
         myPicker.delegate = self
