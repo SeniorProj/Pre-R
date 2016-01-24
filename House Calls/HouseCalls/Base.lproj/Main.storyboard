@@ -469,6 +469,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="availButton" destination="z7V-hR-DfC" id="1Op-6p-54C"/>
                         <outlet property="menuButton" destination="0T4-Ra-40Q" id="9ea-jU-dW1"/>
                     </connections>
                 </viewController>

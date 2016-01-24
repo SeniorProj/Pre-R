@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import Parse
 
 class OurViewController: UIViewController {
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    @IBOutlet weak var availButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,17 @@ class OurViewController: UIViewController {
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+        
+        do {
+            var user = try PFQuery.getUserObjectWithId("dB4rAootm2")
+            var status = user["availability"] as! String
+            availButton.setTitle(status.uppercaseString, forState: .Normal)
+            
+        }
+        catch {
+           print("Did not get user")
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
