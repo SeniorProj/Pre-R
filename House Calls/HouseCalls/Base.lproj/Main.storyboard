@@ -291,6 +291,7 @@
                         <outlet property="passwordTextField" destination="Yze-3Y-TPl" id="cER-N2-DF4"/>
                         <outlet property="usernameTextField" destination="n2e-cN-KZP" id="9df-Ta-XPN"/>
                         <outlet property="verificationLabel" destination="JfK-Ew-kN1" id="oiy-EE-XeF"/>
+                        <segue destination="ZcV-hM-bMz" kind="show" identifier="statusMenu" id="hsa-aF-A1W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lhk-lf-a9C" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -338,15 +339,19 @@
                             <constraint firstItem="hDR-kU-2gl" firstAttribute="width" secondItem="hDR-kU-2gl" secondAttribute="height" multiplier="43:25" id="TiH-qa-jYL"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="eMa-4l-iCb">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="tcs-1r-Thp"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="doctorStatus" destination="4h3-Eq-zqs" id="fk1-VZ-lfq"/>
+                        <outlet property="menuButton" destination="tcs-1r-Thp" id="Rzp-bp-PnC"/>
                         <outlet property="myPicker" destination="RdL-Cv-MVJ" id="qYA-zF-C9C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nHd-Cf-yNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="686.5" y="825.5"/>
+            <point key="canvasLocation" x="665.5" y="826.5"/>
         </scene>
         <!--Pre-R-->
         <scene sceneID="tne-QT-ifu">

@@ -37,8 +37,9 @@ class LogInViewController: UIViewController {
             if Error == nil {
                 dispatch_async(dispatch_get_main_queue()) {
                     var Storyboard = UIStoryboard(name: "Main", bundle: nil)
-                    var logInSuccessVC = Storyboard.instantiateViewControllerWithIdentifier("logInSuccessVC")
-                    self.presentViewController(logInSuccessVC, animated: true, completion: nil)
+                    //var logInSuccessVC = Storyboard.instantiateViewControllerWithIdentifier("logInSuccessVC")
+                    //self.presentViewController(logInSuccessVC, animated: true, completion: nil)
+                    self.performSegueWithIdentifier("statusMenu", sender: self)
                 }
             }
             else {
