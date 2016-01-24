@@ -1,38 +1,24 @@
 //
-//  OurViewController.swift
+//  AboutViewController.swift
 //  HouseCalls
 //
-//  Created by Mariel Sanchez on 11/18/15.
-//  Copyright © 2015 MarielSanchez. All rights reserved.
+//  Created by Derek Vitaliano Vallar on 1/24/16.
+//  Copyright © 2016 MarielSanchez. All rights reserved.
 //
 
 import UIKit
-import Parse
 
-class OurViewController: UIViewController {
-    
+class AboutViewController: UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
-    @IBOutlet weak var availButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
-        
-        do {
-            var user = try PFQuery.getUserObjectWithId("dB4rAootm2")
-            var status = user["availability"] as! String
-            availButton.setTitle(status.uppercaseString, forState: .Normal)
-            
-        }
-        catch {
-           print("Did not get user")
-        }
-        
     }
 
     override func didReceiveMemoryWarning() {
