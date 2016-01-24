@@ -10,6 +10,7 @@ import UIKit
 
 class AboutViewController: UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    @IBOutlet weak var ScrollView: UIScrollView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
