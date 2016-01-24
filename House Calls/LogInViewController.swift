@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import CoreData
 
 class LogInViewController: UIViewController {
 
@@ -18,12 +19,43 @@ class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //let appDel: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
+        
+        
+  /*      let newDoc = NSEntityDescription.insertNewObjectForEntityForName("Doctor", inManagedObjectContext: context!)
+        
+        
+        newDoc.setValue("Rob", forKey: "username")
+        newDoc.setValue("123", forKey: "password")
+        newDoc.setValue(false, forKey: "isLoggedIn")
+        
+        do {
+            try context!.save()
+        }
+        catch {
+            print("Could not save Doctor profile")
+        }*/
+        
+        let request = NSFetchRequest(entityName: "Doctor")
+        request.returnsObjectsAsFaults = false
+        
+        do {
+            let results = try context!.executeFetchRequest(request)
+            print(results)
+        }
+        catch {
+            print("Fetch failed")
+        }
+
 
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+
     }
     
     @IBAction func logInButtonAction(sender: AnyObject) {
