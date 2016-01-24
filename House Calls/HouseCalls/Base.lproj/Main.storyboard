@@ -313,7 +313,7 @@
             </objects>
             <point key="canvasLocation" x="103.5" y="825.5"/>
         </scene>
-        <!--Doctor Status View Controller-->
+        <!--Title-->
         <scene sceneID="WnO-tf-7zb">
             <objects>
                 <viewController storyboardIdentifier="logInSuccessVC" id="ZcV-hM-bMz" customClass="DoctorStatusViewController" customModule="HouseCalls" customModuleProvider="target" sceneMemberID="viewController">
@@ -354,6 +354,7 @@
                             <constraint firstItem="hDR-kU-2gl" firstAttribute="width" secondItem="hDR-kU-2gl" secondAttribute="height" multiplier="43:25" id="TiH-qa-jYL"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="3eO-Rs-SSx"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="doctorStatus" destination="4h3-Eq-zqs" id="fk1-VZ-lfq"/>
