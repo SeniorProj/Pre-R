@@ -24,6 +24,13 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?){
+        view.endEditing(true)
+        super.touchesBegan(touches, withEvent: event)
+    }
+    
     @IBAction func submitRequestAction(sender: AnyObject) {
         let twilioUsername = "AC674d685ee4f3246548bc79a539056aca"
         let twilioPassword = "a10c9b4790dba27fa905597d35b3d4c2"

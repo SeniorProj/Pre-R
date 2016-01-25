@@ -332,7 +332,7 @@
             </objects>
             <point key="canvasLocation" x="103.5" y="825.5"/>
         </scene>
-        <!--Title-->
+        <!--Doctor Status View Controller-->
         <scene sceneID="WnO-tf-7zb">
             <objects>
                 <viewController storyboardIdentifier="logInSuccessVC" id="ZcV-hM-bMz" customClass="DoctorStatusViewController" customModule="HouseCalls" customModuleProvider="target" sceneMemberID="viewController">
