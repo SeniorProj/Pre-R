@@ -8,12 +8,14 @@
 
 import UIKit
 import Alamofire
+import MessageUI
 
-class RequestViewController: UIViewController {
+class RequestViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
     }
 
@@ -38,6 +40,40 @@ class RequestViewController: UIViewController {
                 print(response.response)
                 print(response.result)
         }
+        
+            
+            let mc = MFMailComposeViewController()
+            let recipient = ["allielustig@gmail.com"]
+        
+            //uses Apple Mail app right now. Will be changing to mailGun for parseDB
+            mc.mailComposeDelegate = self
+            mc.setToRecipients(recipient)
+            mc.setSubject("Pre-R Client Request")
+            
+            if MFMailComposeViewController.canSendMail() {
+                
+                presentViewController(mc, animated: true, completion: nil)
+                print("Feedback email sent succesfully")
+                
+            }
+            else {
+                
+                let sendMailErrorAlert = UIAlertView(title: "Could Not Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", delegate: self, cancelButtonTitle: "OK")
+                sendMailErrorAlert.show()
+                print("Unable to send email.")
+            }
+            
+        }
+        
+        func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+            
+            dismissViewControllerAnimated(true, completion: nil)
+            
+            if (error != nil) {
+                print("Error while sending feedback email \(error)")
+            }
+            
+        
     }
 
     /*
