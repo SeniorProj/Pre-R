@@ -1,5 +1,5 @@
 //
-//  AboutViewController.swift
+//  ShareViewController.swift
 //  HouseCalls
 //
 //  Created by Derek Vitaliano Vallar on 1/24/16.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class AboutViewController: UIViewController {
+class ShareViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var ScrollView: UIScrollView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
