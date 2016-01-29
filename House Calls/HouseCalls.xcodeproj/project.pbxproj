@@ -266,11 +266,12 @@
 				27F3C2341C5572F700388436 /* CoreDataModel.xcdatamodeld */,
 				275087371BFC66370030863E /* HouseCalls-Bridging-Header.h */,
 				275087361BFC65D60030863E /* SWRevealViewController */,
+				27C3E7981BFC0ECB002F67C8 /* LaunchScreen.storyboard */,
+				27C3E7931BFC0ECB002F67C8 /* Main.storyboard */,
 				27C3E78F1BFC0ECB002F67C8 /* AppDelegate.swift */,
 				2750873B1BFC6AE80030863E /* OurViewController.swift */,
 				3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */,
 				27C3E7911BFC0ECB002F67C8 /* ViewController.swift */,
-				27C3E7931BFC0ECB002F67C8 /* Main.storyboard */,
 				D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */,
 				D07AF9631C559002006AB1AF /* FAQViewController.swift */,
 				D07AF9651C55901D006AB1AF /* TermsOfServiceViewController.swift */,
@@ -280,7 +281,6 @@
 				095D92D81C55697D00660599 /* DoctorStatusViewController.swift */,
 				3B97FCC61C0B11B70009DFEB /* LogInViewController.swift */,
 				27C3E7961BFC0ECB002F67C8 /* Assets.xcassets */,
-				27C3E7981BFC0ECB002F67C8 /* LaunchScreen.storyboard */,
 				27C3E79B1BFC0ECB002F67C8 /* Info.plist */,
 			);
 			path = HouseCalls;
