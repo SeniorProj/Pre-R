@@ -9,11 +9,21 @@
 import UIKit
 import Alamofire
 import MessageUI
+//import mandrill
 
 class RequestViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
+    @IBOutlet weak var Zip: UITextField!
+    @IBOutlet weak var State: UITextField!
+    @IBOutlet weak var LastName: UITextField!
+    @IBOutlet weak var FirstName: UITextField!
+    @IBOutlet weak var Email: UITextField!
+    @IBOutlet weak var City: UITextField!
+    @IBOutlet weak var Phone: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
 
         
         // Do any additional setup after loading the view.
@@ -49,40 +59,47 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
         }
         
             
-            let mc = MFMailComposeViewController()
-            let recipient = ["allielustig@gmail.com"]
-        
-            //uses Apple Mail app right now. Will be changing to mailGun for parseDB
-            mc.mailComposeDelegate = self
-            mc.setToRecipients(recipient)
-            mc.setSubject("Pre-R Client Request")
-            
-            if MFMailComposeViewController.canSendMail() {
-                
-                presentViewController(mc, animated: true, completion: nil)
-                print("Feedback email sent succesfully")
-                
-            }
-            else {
-                
-                let sendMailErrorAlert = UIAlertView(title: "Could Not Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", delegate: self, cancelButtonTitle: "OK")
-                sendMailErrorAlert.show()
-                print("Unable to send email.")
-            }
-            
+        let formData = PFObject(className:"Form")
+        formData["First"] = FirstName.text
+        formData["Last"] = LastName.text
+        formData["Phone"] = Phone.text
+        formData["Email"] = Email.text
+        formData["City"] = City.text
+        formData["State"] = State.text
+        formData["Zip"] = Zip.text
+        formData.saveInBackgroundWithBlock {
+                (success: Bool, error: NSError?) -> Void in
+                if (success) {
+                    print("Success")
+                } else {
+                    // There was a problem, check error.description
+                    print("ERROR")
+                }
         }
         
-        func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
-            
-            dismissViewControllerAnimated(true, completion: nil)
-            
-            if (error != nil) {
-                print("Error while sending feedback email \(error)")
-            }
-            
+        /*let mandrill = require("mandrill");
+        mandrill.initialize("mandrillAPIKey");
         
-    }
-
+        Parse.Cloud.define("myMandrillFunction", function(request, response) {
+            mandrill.sendEmail({
+                message: {
+                    text: "Hello World!",
+                    subject: "Using Cloud Code and Mandrill is great!",
+                    from_email: "parse@cloudcode.com",
+                    from_name: "Cloud Code",
+                    to: [
+                    {
+                    email: "you@parse.com",
+                    name: "Your Name"
+                    }
+                    ]
+                },
+                async: true
+                }, {
+                    success: function(httpResponse) { response.success("Email sent!"); },
+                    error: function(httpResponse) { response.error("Uh oh, something went wrong"); }
+            });*/
+        }//submitrequestactionsender
     /*
     // MARK: - Navigation
 
@@ -93,4 +110,4 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
     }
     */
 
-}
+}//class
