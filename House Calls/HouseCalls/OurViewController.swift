@@ -9,8 +9,12 @@
 import UIKit
 import Parse
 import Foundation
+import LBBlurredImage
 
 class OurViewController: UIViewController {
+    
+    var backgroundImageView :UIImageView
+    var blurredImageView :UIImageView
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var availButton: UIButton!
@@ -18,6 +22,14 @@ class OurViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Set the blurred background image
+        if let image = UIImage(named: "downtown.jpg") {
+            view.backgroundColor = UIColor.colorWithPatternImage(image)
+        }
+        else {
+            println("There was no such image as background.jpg")
+        }
         
         // Update the status of doctor every 10 seconds
         var helloWorldTimer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: Selector("getStatus"), userInfo: nil, repeats: true)

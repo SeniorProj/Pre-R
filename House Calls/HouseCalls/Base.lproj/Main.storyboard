@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Y1-pK-a9p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Y1-pK-a9p">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -29,10 +29,8 @@
             <string>OpenSans-Bold</string>
             <string>OpenSans-Bold</string>
             <string>OpenSans-Bold</string>
-            <string>OpenSans-Bold</string>
         </mutableArray>
         <mutableArray key="OpenSans-Regular.ttf">
-            <string>OpenSans</string>
             <string>OpenSans</string>
             <string>OpenSans</string>
             <string>OpenSans</string>
@@ -462,38 +460,10 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XLY-CF-NX7">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="402"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="IXD-Pt-Xso">
-                                                        <rect key="frame" x="0.0" y="0.0" width="185" height="402"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dr. Sam Slishman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOT-66-sZ2">
-                                                                <rect key="frame" x="0.0" y="0.0" width="185" height="26"/>
-                                                                <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="23"/>
-                                                                <color key="textColor" red="1" green="0.34509803921568627" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Y5-qX-sct">
-                                                                <rect key="frame" x="0.0" y="31" width="185" height="371"/>
-                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
-                                                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
-                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                            </textView>
-                                                        </subviews>
-                                                        <constraints>
-                                                            <constraint firstItem="3Y5-qX-sct" firstAttribute="leading" secondItem="IXD-Pt-Xso" secondAttribute="leading" id="7Ou-CT-YX8"/>
-                                                            <constraint firstItem="dOT-66-sZ2" firstAttribute="leading" secondItem="IXD-Pt-Xso" secondAttribute="leading" id="Ku3-ny-Gvj"/>
-                                                            <constraint firstItem="3Y5-qX-sct" firstAttribute="leading" secondItem="IXD-Pt-Xso" secondAttribute="leading" id="NlZ-pN-yPu"/>
-                                                            <constraint firstAttribute="bottom" secondItem="3Y5-qX-sct" secondAttribute="bottom" id="axF-m5-VdX"/>
-                                                            <constraint firstItem="dOT-66-sZ2" firstAttribute="top" secondItem="IXD-Pt-Xso" secondAttribute="top" id="eea-Gi-Jis"/>
-                                                            <constraint firstAttribute="trailing" secondItem="3Y5-qX-sct" secondAttribute="trailing" id="sgG-07-rNj"/>
-                                                            <constraint firstAttribute="trailing" secondItem="3Y5-qX-sct" secondAttribute="trailing" id="t7r-LX-Vg0"/>
-                                                            <constraint firstAttribute="trailing" secondItem="dOT-66-sZ2" secondAttribute="trailing" id="vpx-YX-HeF"/>
-                                                        </constraints>
-                                                    </stackView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivb-1z-50y">
-                                                        <rect key="frame" x="195" y="0.0" width="148" height="402"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="402"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yer-ul-Igu">
+                                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yer-ul-Igu">
                                                                 <rect key="frame" x="0.0" y="35" width="148" height="148"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="yer-ul-Igu" secondAttribute="height" multiplier="1:1" id="LqQ-Cd-6af"/>
@@ -503,7 +473,7 @@
                                                                     <segue destination="7mc-Wb-JMc" kind="show" id="0z7-Fb-ojL"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-Zm-wQp">
+                                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-Zm-wQp">
                                                                 <rect key="frame" x="0.0" y="220" width="148" height="74"/>
                                                                 <color key="backgroundColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="0.90883620689655176" colorSpace="calibratedRGB"/>
                                                                 <constraints>
@@ -531,13 +501,8 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="IXD-Pt-Xso" firstAttribute="top" secondItem="XLY-CF-NX7" secondAttribute="top" id="I9I-BQ-8sZ"/>
                                                     <constraint firstItem="ivb-1z-50y" firstAttribute="top" secondItem="XLY-CF-NX7" secondAttribute="top" id="Rm3-xx-38p"/>
-                                                    <constraint firstItem="ivb-1z-50y" firstAttribute="leading" secondItem="IXD-Pt-Xso" secondAttribute="trailing" constant="10" id="TPo-es-bw2"/>
                                                     <constraint firstAttribute="trailing" secondItem="ivb-1z-50y" secondAttribute="trailing" id="dP4-dy-wRu"/>
-                                                    <constraint firstItem="IXD-Pt-Xso" firstAttribute="leading" secondItem="XLY-CF-NX7" secondAttribute="leading" id="lR8-N1-jgt"/>
-                                                    <constraint firstItem="ivb-1z-50y" firstAttribute="width" secondItem="IXD-Pt-Xso" secondAttribute="width" multiplier="0.8" id="n4s-g8-XC4"/>
-                                                    <constraint firstAttribute="bottom" secondItem="IXD-Pt-Xso" secondAttribute="bottom" id="sfT-6f-V1O"/>
                                                     <constraint firstAttribute="bottom" secondItem="ivb-1z-50y" secondAttribute="bottom" id="uU5-5z-wWo"/>
                                                 </constraints>
                                             </stackView>
@@ -631,20 +596,20 @@
                                                 <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fE1-BY-CUL">
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fE1-BY-CUL">
                                                 <rect key="frame" x="0.0" y="276" width="343" height="1198"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-US-yZZ">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-US-yZZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="201"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ER IS MY SPECIALTY, BUT I PREFER PRE-R" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-A7-RmW">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ER IS MY SPECIALTY, BUT I PREFER PRE-R" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-A7-RmW">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-6k-btw">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-6k-btw">
                                                                 <rect key="frame" x="0.0" y="76" width="343" height="125"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">WHILE EMERGENCY MEDICINE CAN BE FASCINATING AND EXCITING,
@@ -654,18 +619,18 @@ PRE-R LETS ME SPEND MUCH MORE TIME WITH MY PATIENTS IN THE COMFORT OF THEIR HOME
                                                             </textView>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DeV-MZ-1bg">
-                                                        <rect key="frame" x="0.0" y="211" width="343" height="386.5"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DeV-MZ-1bg">
+                                                        <rect key="frame" x="0.0" y="211" width="343" height="387"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="BIOGRAPHY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-m8-rQQ">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="BIOGRAPHY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-m8-rQQ">
                                                                 <rect key="frame" x="105" y="0.0" width="133" height="46"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-c8-zz7">
-                                                                <rect key="frame" x="0.0" y="46" width="343" height="340.5"/>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-c8-zz7">
+                                                                <rect key="frame" x="0.0" y="46" width="343" height="341"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">Since graduation from my residency in 2000, I have also worked in tiny rural New Mexico hospitals, in the NM Heart Hospital, and in Wyoming, New Zealand and Tasmania. In 2003, I started a nonprofit in Albuquerque, Endorphin Power Company, to help people with drug and alcohol problems.
 
@@ -675,24 +640,24 @@ Today I am part of the Central Coast Emergency Physicians group working in San L
                                                             </textView>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-YY-7jZ">
-                                                        <rect key="frame" x="0.0" y="607" width="343" height="590.5"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-YY-7jZ">
+                                                        <rect key="frame" x="0.0" y="608" width="343" height="591"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="PRE-R ALLOWS ME TO BE PART OF THE COMMUNITY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-qH-tFQ">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="PRE-R ALLOWS ME TO BE PART OF THE COMMUNITY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-qH-tFQ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="I CAN TREAT PATIENTS MORE COMFORTABLY IN THEIR HOMES, AND MAYBE EVEN GO FOR HIKES WITH THEM." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20z-By-O6R">
-                                                                <rect key="frame" x="0.0" y="76" width="343" height="81.5"/>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="I CAN TREAT PATIENTS MORE COMFORTABLY IN THEIR HOMES, AND MAYBE EVEN GO FOR HIKES WITH THEM." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20z-By-O6R">
+                                                                <rect key="frame" x="0.0" y="76" width="343" height="82"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-i3-2Ij">
-                                                                <rect key="frame" x="0.0" y="157" width="343" height="321.5"/>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-i3-2Ij">
+                                                                <rect key="frame" x="0.0" y="158" width="343" height="322"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">In 2012 I moved to San Luis Obispo to live closer to my parents, and met my wife Vanessa shortly after. Today Vanessa and I love living in San Luis Obispo and we have embarked on a new adventure we call Pre-R. We want to help people with their basic medical needs in the comfort of home, while sheltering them from ER and urgent care stressors and expenses.
 
@@ -700,8 +665,8 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-9b-0Fp">
-                                                                <rect key="frame" x="0.0" y="479" width="343" height="111.5"/>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-9b-0Fp">
+                                                                <rect key="frame" x="0.0" y="479" width="343" height="112"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">In October 2015 Pre-R got a new boss named Max. I still do the medicine, Vanessa still does the books, while Max takes all the money… typical corporate medicine I guess. Joking aside, I’m considerably better at pediatrics now with Max in the mix.</string>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
@@ -765,16 +730,16 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4tv-yC-l0N">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4tv-yC-l0N">
                                 <rect key="frame" x="26" y="89" width="322" height="384"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REQUEST A CONSULT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="d2B-EB-YyR">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="REQUEST A CONSULT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="d2B-EB-YyR">
                                         <rect key="frame" x="11" y="0.0" width="300" height="40"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="29"/>
                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQM-uX-tn2">
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQM-uX-tn2">
                                         <rect key="frame" x="25" y="70" width="272" height="230"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N4H-i6-Jex">
@@ -829,7 +794,7 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                             </textField>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga9-ga-sDi">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga9-ga-sDi">
                                         <rect key="frame" x="93" y="330" width="136" height="55"/>
                                         <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="0.5" colorSpace="calibratedRGB"/>
                                         <constraints>
