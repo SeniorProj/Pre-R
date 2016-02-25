@@ -40,6 +40,8 @@
 		3B97FCCE1C0B17FB0009DFEB /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */; };
 		3B97FCCF1C0B17FB0009DFEB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */; };
 		3BCFFEF81C0CF7A800C20C79 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */; };
+		49347D0C1C7A67A300C439EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49347D0B1C7A67A300C439EC /* MapKit.framework */; };
+		49890B581C5570540007F1B0 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49890B571C5570540007F1B0 /* MapsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +161,8 @@
 		3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestViewController.swift; path = ../RequestViewController.swift; sourceTree = "<group>"; };
+		49347D0B1C7A67A300C439EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49890B571C5570540007F1B0 /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,7 @@
 			files = (
 				3B97FCCF1C0B17FB0009DFEB /* ParseUI.framework in Frameworks */,
 				3B97FCBC1C0AF5E50009DFEB /* Social.framework in Frameworks */,
+				49347D0C1C7A67A300C439EC /* MapKit.framework in Frameworks */,
 				3B97FCBA1C0AF5E00009DFEB /* Accounts.framework in Frameworks */,
 				3B97FCB81C0AF5B60009DFEB /* libsqlite3.tbd in Frameworks */,
 				3B97FCB61C0AF5AD0009DFEB /* libz.tbd in Frameworks */,
@@ -247,6 +252,7 @@
 		27C3E78E1BFC0ECB002F67C8 /* HouseCalls */ = {
 			isa = PBXGroup;
 			children = (
+				49890B571C5570540007F1B0 /* MapsViewController.swift */,
 				275087371BFC66370030863E /* HouseCalls-Bridging-Header.h */,
 				275087361BFC65D60030863E /* SWRevealViewController */,
 				27C3E78F1BFC0ECB002F67C8 /* AppDelegate.swift */,
@@ -265,6 +271,7 @@
 		3B97FCC11C0AF6200009DFEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49347D0B1C7A67A300C439EC /* MapKit.framework */,
 				3B97FCC81C0B17FB0009DFEB /* ParseFacebookUtils.framework */,
 				3B97FCC91C0B17FB0009DFEB /* ParseFacebookUtilsV4.framework */,
 				3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */,
@@ -323,6 +330,11 @@
 					27C3E78B1BFC0ECB002F67C8 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = HE6C44UYMF;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -426,6 +438,7 @@
 			files = (
 				27C3E7921BFC0ECB002F67C8 /* ViewController.swift in Sources */,
 				27C3E7901BFC0ECB002F67C8 /* AppDelegate.swift in Sources */,
+				49890B581C5570540007F1B0 /* MapsViewController.swift in Sources */,
 				3BCFFEF81C0CF7A800C20C79 /* RequestViewController.swift in Sources */,
 				2750873A1BFC66380030863E /* SWRevealViewController.m in Sources */,
 				3B97FCC71C0B11B70009DFEB /* LogInViewController.swift in Sources */,
