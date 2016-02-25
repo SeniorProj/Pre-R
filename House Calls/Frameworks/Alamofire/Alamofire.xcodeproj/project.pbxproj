@@ -735,7 +735,7 @@
 					};
 					F8111E3219A95C8B0040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 8TTK5Y9L68;
+						DevelopmentTeam = 4SWT652875;
 					};
 					F8111E3D19A95C8B0040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
