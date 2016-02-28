@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4202FCD1B667AA100C997FB"
-               BuildableName = "Alamofire.framework"
-               BlueprintName = "Alamofire watchOS"
-               ReferencedContainer = "container:Alamofire.xcodeproj">
+               BlueprintIdentifier = "B4633A3DA665F92D77E2167443C4D45F"
+               BuildableName = "LBBlurredImage.framework"
+               BlueprintName = "LBBlurredImage"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,8 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
       <AdditionalOptions>
@@ -46,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4202FCD1B667AA100C997FB"
-            BuildableName = "Alamofire.framework"
-            BlueprintName = "Alamofire watchOS"
-            ReferencedContainer = "container:Alamofire.xcodeproj">
+            BlueprintIdentifier = "B4633A3DA665F92D77E2167443C4D45F"
+            BuildableName = "LBBlurredImage.framework"
+            BlueprintName = "LBBlurredImage"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -61,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4202FCD1B667AA100C997FB"
-            BuildableName = "Alamofire.framework"
-            BlueprintName = "Alamofire watchOS"
-            ReferencedContainer = "container:Alamofire.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -9,15 +9,51 @@
 import UIKit
 import Parse
 import Foundation
+import LBBlurredImage
 
 class OurViewController: UIViewController {
     
+    var backgroundImageView :UIImageView!
+    var blurredImageView :UIImageView!
+    
+    @IBOutlet weak var requestButton: UIButton!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var availButton: UIButton!
-    
+    @IBOutlet weak var distanceButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Round out button corners
+        self.requestButton.layer.cornerRadius = 5.0
+        self.availButton.layer.cornerRadius = 5.0
+        self.distanceButton.layer.cornerRadius = 5.0
+
+        // Set the blurred background image
+        if let image = UIImage(named: "downtown.jpg") {
+            // initialize the value of imageView with a CGRectZero, resize it later
+            self.backgroundImageView = UIImageView(frame: CGRectZero)
+            
+            // set the appropriate contentMode and add the image to your imageView property
+            self.backgroundImageView.contentMode = .ScaleAspectFill
+            self.backgroundImageView.image = image
+            
+
+            self.blurredImageView = UIImageView(frame: CGRectZero)
+            self.blurredImageView.contentMode = .ScaleAspectFill
+            self.blurredImageView.alpha = 0.2
+            self.blurredImageView.setImageToBlur(image, blurRadius:30.0, completionBlock:nil)
+
+            // add the views to your view hierarchy
+            self.view.addSubview(backgroundImageView)
+            self.view.addSubview(blurredImageView)
+            self.view.sendSubviewToBack(blurredImageView)
+            self.view.sendSubviewToBack(backgroundImageView)
+        }
+            
+        else {
+            print("There was no such image")
+        }
         
         // Update the status of doctor every 10 seconds
         var helloWorldTimer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: Selector("getStatus"), userInfo: nil, repeats: true)
@@ -36,7 +72,15 @@ class OurViewController: UIViewController {
         catch {
            print("Did not get user")
         }
+    }
+
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         
+        //set the frame of your imageView here to automatically adopt screen size changes (e.g. by rotation or splitscreen)
+        self.backgroundImageView.frame = self.view.bounds
+        self.blurredImageView.frame = self.view.bounds;
     }
     
     func getStatus() {
@@ -57,7 +101,12 @@ class OurViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews();
+        
+        
+        
+    }
 
     /*
     // MARK: - Navigation
