@@ -1099,25 +1099,42 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="028-WC-pNl">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+                                        <mutableString key="text">WHAT IS PRE-R?
+	Through telemedicine and house calls we offer care for basic acute medical problems. We accept calls from anywhere, but our house calls are offered primarily to the San Luis Obispo community. Dr. Sam Slishman has practiced emergency medicine since 1997. We provide thoughtful, personal care to help solve your problems as efficiently and pleasantly as possible with no financial surprises.
 
-Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+WHAT HAPPENS DURING A HOUSE CALL?
+	After telephone conversation, we decide together whether a visit may be a useful next step. If we come to your home, expect no sirens, white coats or scrubs to protect your privacy. We bring supplies appropriate for your problem. If you have a wound, we bring supplies for proper wound care. If you are dehydrated, we bring supplies such as saline for rehydration. If prescription medications are required, we are happy to call them to a pharmacy or in some cases bring them directly to you.
+	Expect a follow up call or text the next day to see that you are improving.
 
-“Can you prescribe something for this rash?”
-“Would you be able to repair my laceration at my home?”
-“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
-“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+WHAT IF I NEED LABS OR X-RAYS?
+	We are happy to call Central Coast Pathology or Selma Carlson Diagnostic Center to order a wide variety of studies. We recommend you bring results to your primary care physician, but we will help you to interpret them as well if you like.
 
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+HOW ARE PRE-R SERVICES DIFFERENT THAN URGENT CARE OR EMERGENCY ROOM SERVICES?
+	Most notably, if your question or problem is relatively minor, but cannot be solved by phone or Skype, our care comes to you! We address acute medical problems, which do not require a great deal of diagnostic study or specialist consultation. Antibiotic prescription and wound care are two of our services.
+	Unlike an urgent care or ER, we do not offer same day diagnostic studies. However, we can order these through Central Coast Pathology and Selma Carlson Diagnostic Center. We are not your best choice for chronic conditions and long-term healthcare. As such we recommend all of our patients still have their own primary care physicians. In addition, we do not prescribe narcotics, sedatives or psychoactive medications. Click here to view a list of Pre-R services.
 
-Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+WHAT HAPPENS IF I NEED TO GO TO THE HOSPITAL OR SEE A SPECIALIST?
+	If we feel you would be better served by going to an urgent care or emergency department we will absolutely recommend this path. We have no interest in cutting corners at the expense of your health. If we visit your home and decide you should go to a hospital, then we will help you to choose the best path, whether by private vehicle or by ambulance.
 
-“Can you prescribe something for this rash?”
-“Would you be able to repair my laceration at my home?”
-“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
-“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+WHAT ARE YOUR FEES AND DO YOU ACCEPT INSURANCE?
+	Here lies the true experiment. You choose. We do not bill insurance companies and we do not have set fees. If you are pleased with our care, we ask you to pay what feels most appropriate to help our experiment continue. And if you are unhappy, we welcome your feedback. Rest assured, no collections agents will be calling. We want to know what our customers feel our services are worth. This will shape the evolution of our business.
 
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+
+WHY SHOULD I CALL YOU IF YOU DON’T TAKE MY INSURANCE?
+	Many insurance plans have high deductibles. By using our services you may save a great deal of money without leaving the comfort of your home. Plus, time is money. Just as important, by receiving care at home you may spare yourself from hospital acquired infections. Even if you have full coverage, make sure you are familiar with the exclusions and limitations of your plan.
+	That being said, we are happy to generate superbills on request, which you may then pass along to your insurer.
+
+CAN I PAY YOU WITH MY HSA OR FSA CARD?
+	Yes, and we happily will provide you with an invoice after services are rendered on request. For your convenience, we accept all major credit cards, checks, cash, health savings account or flexible spending account cards.
+
+CAN YOU PRESCRIBE MEDICATIONS?
+	If we have met in person and we have an established doctor-patient relationship, then we are able to call in prescriptions and refills. However, we do not prescribe narcotics, sedatives or psychoactive medications.
+
+DO YOU HAVE AN OFFICE AND CAN YOU BE MY PCP?
+	We do not have an office because house calls are our main service. Since we are focused on basic acute medical needs rather than chronic conditions and long term health maintenance, we still encourage our patients to have their own primary care physicians.
+
+CAN YOU MAKE SPECIALIST REFERRALS?
+	If we have met in person, then we are happy to provide specialist contact information and we will fill out referral forms if needed.</mutableString>
                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
