@@ -10,6 +10,8 @@ import UIKit
 import Parse
 
 class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDelegate {
+    
+    @IBOutlet weak var updateButton: UIButton!
     @IBOutlet weak var myPicker: UIPickerView!
     @IBOutlet var menuButton: UIBarButtonItem!
     
@@ -30,6 +32,9 @@ class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPic
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.updateButton.layer.cornerRadius = 5.0
+        
+        
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
@@ -39,6 +44,7 @@ class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPic
         myPicker.dataSource = self
         myPicker.delegate = self
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

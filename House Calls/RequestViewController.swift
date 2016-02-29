@@ -13,6 +13,8 @@ import MessageUI
 
 class RequestViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
+    @IBOutlet weak var submitButton: UIButton!
+    
     @IBOutlet weak var FirstName: UITextField!
     @IBOutlet weak var Zip: UITextField!
     @IBOutlet weak var State: UITextField!
@@ -24,7 +26,7 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        self.submitButton.layer.cornerRadius = 5.0
         
         // Do any additional setup after loading the view.
     }

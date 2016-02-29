@@ -48,7 +48,7 @@
 		D04A7EDB1C73F87300787EE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */; };
 		D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */; };
 		D07AF9641C559003006AB1AF /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF9631C559002006AB1AF /* FAQViewController.swift */; };
-		D07AF9661C55901D006AB1AF /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF9651C55901D006AB1AF /* TermsOfServiceViewController.swift */; };
+		D07AF9661C55901D006AB1AF /* InformedConsentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF9651C55901D006AB1AF /* InformedConsentViewController.swift */; };
 		D07AF9681C559033006AB1AF /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF9671C559033006AB1AF /* ShareViewController.swift */; };
 		D07AF96A1C55903A006AB1AF /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF9691C55903A006AB1AF /* PrivacyPolicyViewController.swift */; };
 		D07AF96C1C559044006AB1AF /* HIPPANoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF96B1C559044006AB1AF /* HIPPANoticeViewController.swift */; };
@@ -182,7 +182,7 @@
 		D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D07AF9631C559002006AB1AF /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
-		D07AF9651C55901D006AB1AF /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
+		D07AF9651C55901D006AB1AF /* InformedConsentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformedConsentViewController.swift; sourceTree = "<group>"; };
 		D07AF9671C559033006AB1AF /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		D07AF9691C55903A006AB1AF /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
 		D07AF96B1C559044006AB1AF /* HIPPANoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIPPANoticeViewController.swift; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 				27C3E7911BFC0ECB002F67C8 /* ViewController.swift */,
 				D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */,
 				D07AF9631C559002006AB1AF /* FAQViewController.swift */,
-				D07AF9651C55901D006AB1AF /* TermsOfServiceViewController.swift */,
+				D07AF9651C55901D006AB1AF /* InformedConsentViewController.swift */,
 				D07AF9671C559033006AB1AF /* ShareViewController.swift */,
 				D07AF9691C55903A006AB1AF /* PrivacyPolicyViewController.swift */,
 				D07AF96B1C559044006AB1AF /* HIPPANoticeViewController.swift */,
@@ -552,7 +552,7 @@
 				D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */,
 				D04A7EDB1C73F87300787EE1 /* ProfileViewController.swift in Sources */,
 				095D92D91C55697D00660599 /* DoctorStatusViewController.swift in Sources */,
-				D07AF9661C55901D006AB1AF /* TermsOfServiceViewController.swift in Sources */,
+				D07AF9661C55901D006AB1AF /* InformedConsentViewController.swift in Sources */,
 				49BEB6DA1C83B3AB00BA55A1 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
