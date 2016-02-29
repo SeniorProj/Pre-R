@@ -58,6 +58,11 @@ class LogInViewController: UIViewController {
 
     }
     
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?){
+        view.endEditing(true)
+        super.touchesBegan(touches, withEvent: event)
+    }
+    
     @IBAction func logInButtonAction(sender: AnyObject) {
         var user = PFUser()
         user.username = usernameTextField.text!
