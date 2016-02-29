@@ -12,7 +12,7 @@ import CoreLocation
 
 class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
-    @IBOutlet weak var maps: MKMapView!
+    var maps: MKMapView!
     @IBOutlet weak var distance: UILabel!
     
     let locationManager = CLLocationManager()

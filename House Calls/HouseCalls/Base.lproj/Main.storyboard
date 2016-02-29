@@ -640,7 +640,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awe-KD-B2f">
                                 <rect key="frame" x="16" y="64" width="343" height="1516"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gaa-76-Spr" userLabel="Content View">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gaa-76-Spr" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="1474"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SamSlishman" translatesAutoresizingMaskIntoConstraints="NO" id="hfD-4g-ZuT">
@@ -1136,7 +1136,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="028-WC-pNl">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">WHAT IS PRE-R?
+                                        <string key="text">WHAT IS PRE-R?
 	Through telemedicine and house calls we offer care for basic acute medical problems. We accept calls from anywhere, but our house calls are offered primarily to the San Luis Obispo community. Dr. Sam Slishman has practiced emergency medicine since 1997. We provide thoughtful, personal care to help solve your problems as efficiently and pleasantly as possible with no financial surprises.
 
 WHAT HAPPENS DURING A HOUSE CALL?
@@ -1171,7 +1171,7 @@ DO YOU HAVE AN OFFICE AND CAN YOU BE MY PCP?
 	We do not have an office because house calls are our main service. Since we are focused on basic acute medical needs rather than chronic conditions and long term health maintenance, we still encourage our patients to have their own primary care physicians.
 
 CAN YOU MAKE SPECIALIST REFERRALS?
-	If we have met in person, then we are happy to provide specialist contact information and we will fill out referral forms if needed.</mutableString>
+	If we have met in person, then we are happy to provide specialist contact information and we will fill out referral forms if needed.</string>
                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>

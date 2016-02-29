@@ -10,11 +10,17 @@ import UIKit
 import Parse
 import Foundation
 import LBBlurredImage
+import MapKit
+import CoreLocation
 
-class OurViewController: UIViewController {
+class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     var backgroundImageView :UIImageView!
     var blurredImageView :UIImageView!
+    var maps :MKMapView!
+    var doctorLocation = CLLocation(latitude: 35.289239, longitude: -120.667206)
+    
+    let locationManager = CLLocationManager()
     
     @IBOutlet weak var requestButton: UIButton!
     @IBOutlet weak var menuButton: UIBarButtonItem!
@@ -72,6 +78,11 @@ class OurViewController: UIViewController {
         catch {
            print("Did not get user")
         }
+        
+        self.locationManager.delegate = self
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationManager.requestWhenInUseAuthorization()
+        self.locationManager.startUpdatingLocation()
     }
 
     
@@ -95,7 +106,22 @@ class OurViewController: UIViewController {
         }
         //print("this is a check")
     }
-
+    
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+    {
+        let location = locations.last
+        let distanceMiles = doctorLocation.distanceFromLocation(location!) * 0.000621371192237
+        distanceButton.setTitle(NSString(format: "%.2f miles", distanceMiles) as String, forState: .Normal)
+        print(distanceMiles)
+        let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))
+        self.locationManager.stopUpdatingLocation()
+        
+    }
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        print("Errors: " + error.localizedDescription)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
