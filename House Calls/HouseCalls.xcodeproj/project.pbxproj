@@ -42,6 +42,8 @@
 		3B97FCCE1C0B17FB0009DFEB /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */; };
 		3B97FCCF1C0B17FB0009DFEB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */; };
 		3BCFFEF81C0CF7A800C20C79 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */; };
+		49BEB6DA1C83B3AB00BA55A1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BEB6D91C83B3AB00BA55A1 /* MapViewController.swift */; };
+		49BEB6E21C83BCAC00BA55A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */; };
 		ACF0A699CF9837B47EBF7CDF /* Pods_HouseCalls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE9EE8FBB259764C05D3B09 /* Pods_HouseCalls.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		D04A7EDB1C73F87300787EE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */; };
 		D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */; };
@@ -173,6 +175,8 @@
 		3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestViewController.swift; path = ../RequestViewController.swift; sourceTree = "<group>"; };
+		49BEB6D91C83B3AB00BA55A1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4FE9EE8FBB259764C05D3B09 /* Pods_HouseCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCDF99E732508E2CF2C94FC /* Pods-HouseCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseCalls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseCalls/Pods-HouseCalls.debug.xcconfig"; sourceTree = "<group>"; };
 		D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -194,9 +198,9 @@
 			files = (
 				3B97FCCF1C0B17FB0009DFEB /* ParseUI.framework in Frameworks */,
 				3B97FCBC1C0AF5E50009DFEB /* Social.framework in Frameworks */,
-				49347D0C1C7A67A300C439EC /* MapKit.framework in Frameworks */,
 				3B97FCBA1C0AF5E00009DFEB /* Accounts.framework in Frameworks */,
 				3B97FCB81C0AF5B60009DFEB /* libsqlite3.tbd in Frameworks */,
+				49BEB6E21C83BCAC00BA55A1 /* MapKit.framework in Frameworks */,
 				3B97FCB61C0AF5AD0009DFEB /* libz.tbd in Frameworks */,
 				3B97FCB41C0AF5A50009DFEB /* SystemConfiguration.framework in Frameworks */,
 				3B97FCB21C0AF59D0009DFEB /* StoreKit.framework in Frameworks */,
@@ -283,6 +287,7 @@
 				275087361BFC65D60030863E /* SWRevealViewController */,
 				27C3E7981BFC0ECB002F67C8 /* LaunchScreen.storyboard */,
 				27C3E7931BFC0ECB002F67C8 /* Main.storyboard */,
+				49BEB6D91C83B3AB00BA55A1 /* MapViewController.swift */,
 				27C3E78F1BFC0ECB002F67C8 /* AppDelegate.swift */,
 				2750873B1BFC6AE80030863E /* OurViewController.swift */,
 				D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */,
@@ -305,7 +310,7 @@
 		3B97FCC11C0AF6200009DFEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				49347D0B1C7A67A300C439EC /* MapKit.framework */,
+				49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */,
 				3B97FCC81C0B17FB0009DFEB /* ParseFacebookUtils.framework */,
 				3B97FCC91C0B17FB0009DFEB /* ParseFacebookUtilsV4.framework */,
 				3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */,
@@ -377,6 +382,11 @@
 					27C3E78B1BFC0ECB002F67C8 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 4SWT652875;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -543,6 +553,7 @@
 				D04A7EDB1C73F87300787EE1 /* ProfileViewController.swift in Sources */,
 				095D92D91C55697D00660599 /* DoctorStatusViewController.swift in Sources */,
 				D07AF9661C55901D006AB1AF /* TermsOfServiceViewController.swift in Sources */,
+				49BEB6DA1C83B3AB00BA55A1 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
