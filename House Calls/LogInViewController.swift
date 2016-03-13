@@ -12,6 +12,7 @@ import CoreData
 
 class LogInViewController: UIViewController {
 
+    @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet var usernameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
@@ -19,6 +20,8 @@ class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.loginButton.layer.cornerRadius = 5.0
         
         //let appDel: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext

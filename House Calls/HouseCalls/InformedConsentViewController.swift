@@ -10,12 +10,14 @@ import UIKit
 
 class TermsOfServiceViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var ScrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        titleLabel.lineBreakMode = .ByWordWrapping
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"

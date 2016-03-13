@@ -29,7 +29,6 @@
             <string>OpenSans-Bold</string>
             <string>OpenSans-Bold</string>
             <string>OpenSans-Bold</string>
-            <string>OpenSans-Bold</string>
         </mutableArray>
         <mutableArray key="OpenSans-Regular.ttf">
             <string>OpenSans</string>
@@ -98,7 +97,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <sections>
-                            <tableViewSection id="C4H-XY-ov2">
+                            <tableViewSection id="rEs-zZ-cnU">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Qyq-SQ-nxK">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
@@ -176,7 +175,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="54.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TERMS OF SERVICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7a-tM-OFf">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFORMED CONSENT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="E7a-tM-OFf">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
@@ -201,7 +200,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="54.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhI-Tj-j78">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRIVACY PRACTICES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DhI-Tj-j78">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
@@ -226,7 +225,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="54.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRIVACY POLICY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vy-3s-F7H">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRACTICE POLICY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vy-3s-F7H">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
@@ -244,33 +243,8 @@
                                             <segue destination="1hR-yx-7PK" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="o0m-SM-6tD"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hG5-MS-MAq">
-                                        <rect key="frame" x="0.0" y="330" width="375" height="55"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hG5-MS-MAq" id="n6f-pq-AaO">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="54.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIPPA NOTICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFa-bW-97v">
-                                                    <rect key="frame" x="8" y="8" width="359" height="39"/>
-                                                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
-                                                    <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="dFa-bW-97v" firstAttribute="top" secondItem="n6f-pq-AaO" secondAttribute="topMargin" id="3s0-3c-Gdk"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="dFa-bW-97v" secondAttribute="bottom" id="6mE-Kq-W4o"/>
-                                                <constraint firstAttribute="leadingMargin" secondItem="dFa-bW-97v" secondAttribute="leading" id="PVQ-fg-4sP"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="dFa-bW-97v" secondAttribute="trailing" id="suR-tt-n2M"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="vv5-ye-psg" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="iam-pQ-Erm"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5dE-Hv-iCd">
-                                        <rect key="frame" x="0.0" y="385" width="375" height="55"/>
+                                        <rect key="frame" x="0.0" y="330" width="375" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5dE-Hv-iCd" id="dwc-99-hVW">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="54.5"/>
@@ -321,16 +295,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOCTOR LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIk-c7-xab">
-                                <rect key="frame" x="69" y="159" width="237" height="43"/>
+                                <rect key="frame" x="69" y="159" width="237.5" height="42.5"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="31"/>
                                 <color key="textColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfK-Ew-kN1">
+                                <rect key="frame" x="-11" y="17" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.010051519906341788" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n2e-cN-KZP">
+                                <rect key="frame" x="75" y="267.5" width="225" height="30"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yze-3Y-TPl">
+                                <rect key="frame" x="75" y="311" width="225" height="30"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mt-Co-0kL">
-                                <rect key="frame" x="109" y="391" width="158" height="63"/>
-                                <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="94.5" y="391" width="187.5" height="62.5"/>
+                                <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="8Mt-Co-0kL" secondAttribute="height" multiplier="5:2" id="10I-Hc-g2b"/>
+                                    <constraint firstAttribute="width" secondItem="8Mt-Co-0kL" secondAttribute="height" multiplier="3:1" id="10I-Hc-g2b"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="19"/>
                                 <state key="normal" title="LOG IN">
@@ -340,22 +330,6 @@
                                     <action selector="logInButtonAction:" destination="lPH-k5-lxr" eventType="touchUpInside" id="Dx2-WQ-uFk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfK-Ew-kN1">
-                                <rect key="frame" x="29" y="1" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.010051519906341788" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n2e-cN-KZP">
-                                <rect key="frame" x="75" y="268" width="225" height="30"/>
-                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="next"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yze-3Y-TPl">
-                                <rect key="frame" x="76" y="311" width="225" height="30"/>
-                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.98127003209999997" green="0.98127003209999997" blue="0.98127003209999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -363,13 +337,13 @@
                             <constraint firstItem="Yze-3Y-TPl" firstAttribute="centerX" secondItem="xyp-j0-bUU" secondAttribute="centerX" id="ItV-gW-Ne7"/>
                             <constraint firstItem="zIk-c7-xab" firstAttribute="centerX" secondItem="xyp-j0-bUU" secondAttribute="centerX" id="K8p-UO-Vme"/>
                             <constraint firstItem="n2e-cN-KZP" firstAttribute="width" secondItem="xyp-j0-bUU" secondAttribute="width" multiplier="0.6" id="Lwr-cU-xXQ"/>
-                            <constraint firstItem="8Mt-Co-0kL" firstAttribute="width" secondItem="Yze-3Y-TPl" secondAttribute="width" multiplier="0.7" id="Nym-HV-hme"/>
                             <constraint firstItem="n2e-cN-KZP" firstAttribute="centerX" secondItem="xyp-j0-bUU" secondAttribute="centerX" id="RBr-Ov-4Z3"/>
                             <constraint firstItem="8Mt-Co-0kL" firstAttribute="top" secondItem="Yze-3Y-TPl" secondAttribute="bottom" constant="50" id="Sbl-vo-mmc"/>
                             <constraint firstItem="Yze-3Y-TPl" firstAttribute="width" secondItem="xyp-j0-bUU" secondAttribute="width" multiplier="0.6" id="dfA-Y3-FrE"/>
                             <constraint firstItem="zIk-c7-xab" firstAttribute="top" secondItem="saQ-Uf-B48" secondAttribute="bottom" constant="95" id="jvI-rL-3lS"/>
                             <constraint firstItem="n2e-cN-KZP" firstAttribute="top" secondItem="zIk-c7-xab" secondAttribute="bottom" constant="66" id="mXU-FE-iD8"/>
                             <constraint firstItem="8Mt-Co-0kL" firstAttribute="centerX" secondItem="xyp-j0-bUU" secondAttribute="centerX" id="rCo-xn-IsS"/>
+                            <constraint firstItem="8Mt-Co-0kL" firstAttribute="width" secondItem="xyp-j0-bUU" secondAttribute="width" multiplier="0.5" id="yIE-Pt-EhH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1kg-E1-hm6">
@@ -377,6 +351,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="loginButton" destination="8Mt-Co-0kL" id="DWU-UV-Ubl"/>
                         <outlet property="menuButton" destination="fqQ-D9-PIQ" id="8jK-tM-cuE"/>
                         <outlet property="passwordTextField" destination="Yze-3Y-TPl" id="cER-N2-DF4"/>
                         <outlet property="usernameTextField" destination="n2e-cN-KZP" id="9df-Ta-XPN"/>
@@ -458,6 +433,7 @@
                         <outlet property="doctorStatus" destination="4h3-Eq-zqs" id="fk1-VZ-lfq"/>
                         <outlet property="menuButton" destination="tcs-1r-Thp" id="Rzp-bp-PnC"/>
                         <outlet property="myPicker" destination="RdL-Cv-MVJ" id="qYA-zF-C9C"/>
+                        <outlet property="updateButton" destination="hDR-kU-2gl" id="SKb-Sa-edK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nHd-Cf-yNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -534,8 +510,8 @@
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="z7V-hR-DfC">
                                                         <rect key="frame" x="0.0" y="45" width="169" height="113"/>
                                                         <color key="backgroundColor" white="0.25" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
-                                                        <inset key="contentEdgeInsets" minX="1" minY="1" maxX="0.0" maxY="0.0"/>
+                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="18"/>
+                                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                                         <state key="normal" title="AVAILABLE">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -563,7 +539,8 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DKH-5c-kiD">
                                                         <rect key="frame" x="0.0" y="45" width="170" height="113"/>
                                                         <color key="backgroundColor" white="0.25" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="35"/>
+                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="26"/>
+                                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                                         <state key="normal" title="3.2 mi">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
@@ -588,7 +565,7 @@
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-Zm-wQp" userLabel="Request">
                                         <rect key="frame" x="16" y="276" width="351" height="112"/>
-                                        <color key="backgroundColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="0.70134698275862073" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                         <state key="normal" title="REQUEST A CONSULT">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -683,20 +660,20 @@
                                                 <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fE1-BY-CUL">
-                                                <rect key="frame" x="0.0" y="276" width="343" height="1198"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fE1-BY-CUL">
+                                                <rect key="frame" x="0.0" y="276" width="343" height="1178"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-US-yZZ">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-US-yZZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="201"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ER IS MY SPECIALTY, BUT I PREFER PRE-R" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-A7-RmW">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ER IS MY SPECIALTY, BUT I PREFER PRE-R" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-A7-RmW">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-6k-btw">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-6k-btw">
                                                                 <rect key="frame" x="0.0" y="76" width="343" height="125"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">WHILE EMERGENCY MEDICINE CAN BE FASCINATING AND EXCITING,
@@ -706,17 +683,17 @@ PRE-R LETS ME SPEND MUCH MORE TIME WITH MY PATIENTS IN THE COMFORT OF THEIR HOME
                                                             </textView>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DeV-MZ-1bg">
-                                                        <rect key="frame" x="0.0" y="211" width="343" height="387"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DeV-MZ-1bg">
+                                                        <rect key="frame" x="0.0" y="201" width="343" height="387"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="BIOGRAPHY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-m8-rQQ">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="BIOGRAPHY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-m8-rQQ">
                                                                 <rect key="frame" x="105" y="0.0" width="133" height="46"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-c8-zz7">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-c8-zz7">
                                                                 <rect key="frame" x="0.0" y="46" width="343" height="341"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">Since graduation from my residency in 2000, I have also worked in tiny rural New Mexico hospitals, in the NM Heart Hospital, and in Wyoming, New Zealand and Tasmania. In 2003, I started a nonprofit in Albuquerque, Endorphin Power Company, to help people with drug and alcohol problems.
@@ -727,23 +704,23 @@ Today I am part of the Central Coast Emergency Physicians group working in San L
                                                             </textView>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-YY-7jZ">
-                                                        <rect key="frame" x="0.0" y="608" width="343" height="591"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-YY-7jZ">
+                                                        <rect key="frame" x="0.0" y="588" width="343" height="591"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="PRE-R ALLOWS ME TO BE PART OF THE COMMUNITY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-qH-tFQ">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="PRE-R ALLOWS ME TO BE PART OF THE COMMUNITY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-qH-tFQ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="I CAN TREAT PATIENTS MORE COMFORTABLY IN THEIR HOMES, AND MAYBE EVEN GO FOR HIKES WITH THEM." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20z-By-O6R">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="I CAN TREAT PATIENTS MORE COMFORTABLY IN THEIR HOMES, AND MAYBE EVEN GO FOR HIKES WITH THEM." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20z-By-O6R">
                                                                 <rect key="frame" x="0.0" y="76" width="343" height="82"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-i3-2Ij">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-i3-2Ij">
                                                                 <rect key="frame" x="0.0" y="158" width="343" height="322"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">In 2012 I moved to San Luis Obispo to live closer to my parents, and met my wife Vanessa shortly after. Today Vanessa and I love living in San Luis Obispo and we have embarked on a new adventure we call Pre-R. We want to help people with their basic medical needs in the comfort of home, while sheltering them from ER and urgent care stressors and expenses.
@@ -752,7 +729,7 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-9b-0Fp">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-9b-0Fp">
                                                                 <rect key="frame" x="0.0" y="479" width="343" height="112"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">In October 2015 Pre-R got a new boss named Max. I still do the medicine, Vanessa still does the books, while Max takes all the money… typical corporate medicine I guess. Joking aside, I’m considerably better at pediatrics now with Max in the mix.</string>
@@ -817,16 +794,16 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4tv-yC-l0N">
-                                <rect key="frame" x="26" y="89" width="322" height="384"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4tv-yC-l0N">
+                                <rect key="frame" x="26" y="89" width="322" height="392"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REQUEST A CONSULT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="d2B-EB-YyR">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="REQUEST A CONSULT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="d2B-EB-YyR">
                                         <rect key="frame" x="11" y="0.0" width="300" height="40"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="29"/>
                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQM-uX-tn2">
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQM-uX-tn2">
                                         <rect key="frame" x="25" y="70" width="272" height="230"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N4H-i6-Jex">
@@ -857,20 +834,20 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                                 <rect key="frame" x="0.0" y="160" width="272" height="30"/>
                                                 <subviews>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-xw-lG8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="148" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="126" height="30"/>
                                                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xuf-YQ-Bpm">
-                                                        <rect key="frame" x="168" y="0.0" width="104" height="30"/>
+                                                        <rect key="frame" x="146" y="0.0" width="126" height="30"/>
                                                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="xuf-YQ-Bpm" firstAttribute="width" secondItem="8UH-xw-lG8" secondAttribute="width" multiplier="0.7" id="E1G-bq-CPv"/>
+                                                    <constraint firstItem="xuf-YQ-Bpm" firstAttribute="width" secondItem="8UH-xw-lG8" secondAttribute="width" id="E1G-bq-CPv"/>
                                                 </constraints>
                                             </stackView>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zip Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P6Y-fP-Qwq">
@@ -881,11 +858,11 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                             </textField>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga9-ga-sDi">
-                                        <rect key="frame" x="93" y="330" width="136" height="55"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga9-ga-sDi">
+                                        <rect key="frame" x="67" y="330" width="188" height="63"/>
                                         <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="0.82734375000000004" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="Ga9-ga-sDi" secondAttribute="height" multiplier="5:2" id="5Cr-1s-6C5"/>
+                                            <constraint firstAttribute="width" secondItem="Ga9-ga-sDi" secondAttribute="height" multiplier="3:1" id="5Cr-1s-6C5"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
                                         <state key="normal" title="SUBMIT">
@@ -898,13 +875,13 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="CQM-uX-tn2" secondAttribute="trailing" constant="25" id="RKa-qF-AtR"/>
-                                    <constraint firstItem="Ga9-ga-sDi" firstAttribute="width" secondItem="CQM-uX-tn2" secondAttribute="width" multiplier="0.5" id="cjV-MT-Kpv"/>
                                     <constraint firstItem="CQM-uX-tn2" firstAttribute="leading" secondItem="4tv-yC-l0N" secondAttribute="leading" constant="25" id="dRd-b0-2BP"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.98127003209999997" green="0.98127003209999997" blue="0.98127003209999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Ga9-ga-sDi" firstAttribute="width" secondItem="hiG-DZ-LW9" secondAttribute="width" multiplier="0.5" id="2h7-BV-pku"/>
                             <constraint firstItem="4tv-yC-l0N" firstAttribute="leading" secondItem="hiG-DZ-LW9" secondAttribute="leadingMargin" constant="10" id="JuU-FM-DGV"/>
                             <constraint firstItem="4tv-yC-l0N" firstAttribute="top" secondItem="Ugn-la-hTp" secondAttribute="bottom" constant="25" id="VxL-x5-0pc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4tv-yC-l0N" secondAttribute="trailing" constant="11" id="g7L-gS-tXK"/>
@@ -919,6 +896,7 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                         <outlet property="Phone" destination="Cgz-4H-eFh" id="Xvk-61-GW9"/>
                         <outlet property="State" destination="xuf-YQ-Bpm" id="2gN-0W-c1B"/>
                         <outlet property="Zip" destination="P6Y-fP-Qwq" id="cM7-c3-03M"/>
+                        <outlet property="submitButton" destination="Ga9-ga-sDi" id="ocj-a2-XI7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s9i-HY-30F" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1253,34 +1231,32 @@ CAN YOU MAKE SPECIALIST REFERRALS?
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ova-3y-pTQ">
                                 <rect key="frame" x="16" y="80" width="343" height="572"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms of Service" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36s-tG-Dgd">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="27"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Informed Consent for Medical Treatment" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36s-tG-Dgd">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="56"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trb-Re-LNH">
-                                        <rect key="frame" x="0.0" y="37" width="343" height="535"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trb-Re-LNH">
+                                        <rect key="frame" x="0.0" y="66" width="343" height="506"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+                                        <string key="text">General Information The doctor-patient relationship is unique in that it is a highly personal and at the same time, a contractual agreement. Given this, it is important for us to reach a clear understanding about how our relationship will work, and what each of us can expect. This consent will provide a clear framework for our work together. Feel free to discuss any of this with me. Please read and indicate that you have reviewed this information and agree to it by filling in the checkbox at the end of this document.
 
-Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+Confidentiality The session content and all relevant materials to the client’s treatment will be held confidential unless the client requests in writing to have all or portions of such content released to a specifically named person/persons. Limitations of such client held privilege of confidentiality exist and are itemized below:
 
-“Can you prescribe something for this rash?”
-“Would you be able to repair my laceration at my home?”
-“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
-“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+	1.	If a client threatens or attempts to commit suicide or otherwise conducts him/her self in a manner in which there is a substantial risk of incurring serious bodily harm. 
+	2.	If a client threatens grave bodily harm or death to another person. 
+	3.	If the care provider has a reasonable suspicion that a client or other named victim is the perpetrator, observer of, or actual victim of physical, emotional or sexual abuse of children under the age of 18 years. 
+	4.	Suspicions as stated above in the case of an elderly person who may be subjected to these abuses. 
+	5.	Suspected neglect of the parties named in items #3 and # 4. 
+	6.	If a court of law issues a legitimate subpoena for information stated on the subpoena. 
+	7.	If a client is in therapy or being treated by order of a court of law, or if information is obtained for the purpose of rendering an expert’s report to an attorney. 
+Occasionally I may need to consult with other professionals in their areas of expertise in order to provide the best treatment for you. Information about you may be shared in this context without using your name.
 
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+If we see each other in public, I will not acknowledge you first. Your right to privacy and confidentiality is of the utmost importance to me, and I do not wish to jeopardize your privacy. However, if you acknowledge me first, I will be more than happy to have a nice conversation.
 
-Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
-
-“Can you prescribe something for this rash?”
-“Would you be able to repair my laceration at my home?”
-“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
-“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
-
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+Samuel Slishman, MD Board Certified Emergency Medicine
+</string>
                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1288,6 +1264,11 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                                 <constraints>
                                     <constraint firstItem="36s-tG-Dgd" firstAttribute="height" secondItem="trb-Re-LNH" secondAttribute="height" multiplier="0.05" id="UjF-Oz-WzB"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="UjF-Oz-WzB"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1304,6 +1285,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="menuButton" destination="cVq-8y-hqz" id="RGt-pi-BAa"/>
+                        <outlet property="titleLabel" destination="36s-tG-Dgd" id="HAg-1U-g3P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ojv-1h-QUI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1325,7 +1307,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Vct-CU-KWf">
                                 <rect key="frame" x="16" y="80" width="343" height="572"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CS1-Zq-vVY">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notice of Privacy Practices" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CS1-Zq-vVY">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="27"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1334,25 +1316,49 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unS-fY-9IQ">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+                                        <string key="text">THIS NOTICE DESCRIBES HOW HEALTH INFORMATION MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY.
 
-Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+I. MY PLEDGE REGARDING HEALTH INFORMATION: I understand that health information about you and your health care is personal. I am committed to protecting health information about you. I create a record of the care and services you receive from me. I need this record to provide you with quality care and to comply with certain legal requirements. This notice applies to all of the records of your care generated by this medical practice. This notice will tell you about the ways in which I may use and disclose health information about you. I also describe your rights to the health information I keep about you, and describe certain obligations I have regarding the use and disclosure of your health information. I am required by law to:
 
-“Can you prescribe something for this rash?”
-“Would you be able to repair my laceration at my home?”
-“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
-“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+• Make sure that protected health information (“PHI”) that identifies you is kept private. • Give you this notice of my legal duties and privacy practices with respect to health information. • Follow the terms of the notice that is currently in effect. • I can change the terms of this Notice, and such changes will apply to all information I have about you. The new Notice will be available upon request, in my office, and on my website.
 
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+II. HOW I MAY USE AND DISCLOSE HEALTH INFORMATION ABOUT YOU: The following categories describe different ways that I use and disclose health information. For each category of uses or disclosures I will explain what I mean and try to give some examples. Not every use or disclosure in a category will be listed. However, all of the ways I am permitted to use and disclose information will fall within one of the categories.
+For Treatment Payment, or Health Care Operations: Federal privacy rules (regulations) allow health care providers who have direct treatment relationship with the patient/client to use or disclose the patient/client’s personal health information without the patient’s written authorization, to carry out the health care provider’s own treatment, payment or health care operations. I may also disclose your protected health information for the treatment activities of any health care provider. This too can be done without your written authorization. For example, if a clinician were to consult with another licensed health care provider about your condition, we would be permitted to use and disclose your person health information, which is otherwise confidential, in order to assist the clinician in diagnosis and treatment of your medical condition.
+Disclosures for treatment purposes are not limited to the minimum necessary standard, because health care providers need access to the full record and/or full and complete information in order to provide quality care. The word “treatment” includes, among other things, the coordination and management of health care providers with a third party, consultations between health care providers and referrals of a patient for health care from one health care provider to another.
+Lawsuits and Disputes: If you are involved in a lawsuit, I may disclose health information in response to a court or administrative order. I may also disclose health information about your child in response to a subpoena, discovery request, or other lawful process by someone else involved in the dispute, but only if efforts have been made to tell you about the request or to obtain an order protecting the information requested.
 
-Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+III. CERTAIN USES AND DISCLOSURES REQUIRE YOUR AUTHORIZATION:
+	1.	Medical Notes. I do keep “medical notes” and any use or disclosure of such notes requires your Authorization unless the use or disclosure is: a. For my use in treating you. b. For my use in training or supervising medical practitioners to help them improve their skills. c. For my use in defending myself in legal proceedings instituted by you. d. For use by the Secretary of Health and Human Services to investigate my compliance with HIPAA. e. Required by law and the use or disclosure is limited to the requirements of such law. f. Required by law for certain health oversight activities pertaining to the originator of the medical notes. g. Required by a coroner who is performing duties authorized by law. h. Required to help avert a serious threat to the health and safety of others. 
+	2.	Marketing Purposes. As a doctor, I will not use or disclose your PHI for marketing purposes. 
+	3.	Sale of PHI. As a doctor, I will not sell your PHI in the regular course of my business. 
+IV. CERTAIN USES AND DISCLOSURES DO NOT REQUIRE YOUR AUTHORIZATION. Subject to certain limitations in the law, I can use and disclose your PHI without your Authorization for the following reasons:
+	1.	When disclosure is required by state or federal law, and the use or disclosure complies with and is limited to the relevant requirements of such law.
+	2.	For public health activities, including reporting suspected child, elder, or dependent adult abuse, or preventing or reducing a serious threat to anyone’s health or safety.
+	3.	For health oversight activities, including audits and investigations.
+	4.	For judicial and administrative proceedings, including responding to a court or administrative order, although my preference is to obtain an Authorization from you before doing so.
+	5.	For law enforcement purposes, including reporting crimes occurring on my premises.
+	6.	To coroners or medical examiners, when such individuals are performing duties authorized by law.
+	7.	For research purposes, including studying and comparing the medical health of patients who received one form of treatment versus those who received another form of treatment for the same condition.
+	8.	Specialized government functions, including, ensuring the proper execution of military missions; protecting the President of the United States; conducting intelligence or counter-intelligence operations; or, helping to ensure the safety of those working within or housed in correctional institutions.
+	9.	For workers’ compensation purposes. Although my preference is to obtain an Authorization from you, I may provide your PHI in order to comply with workers’ compensation laws.
+	10.	Appointment reminders and health related benefits or services. I may use and disclose your PHI to contact you to remind you that you have an appointment with me. I may also use and disclose your PHI to tell you about treatment alternatives, or other health care services or benefits that I offer.
 
-“Can you prescribe something for this rash?”
-“Would you be able to repair my laceration at my home?”
-“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
-“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+V. CERTAIN USES AND DISCLOSURES REQUIRE YOU TO HAVE THE OPPORTUNITY TO OBJECT.
+	1.	Disclosures to family, friends, or others. I may provide your PHI to a family member, friend, or other person that you indicate is involved in your care or the payment for your health care, unless you object in whole or in part. The opportunity to consent may be obtained retroactively in emergency situations.
 
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+VI. YOU HAVE THE FOLLOWING RIGHTS WITH RESPECT TO YOUR PHI:
+	1.	The Right to Request Limits on Uses and Disclosures of Your PHI. You have the right to ask me not to use or disclose certain PHI for treatment, payment, or health care operations purposes. I am not required to agree to your request, and I may say “no” if I believe it would affect your health care.
+	2.	The Right to Request Restrictions for Out-of-Pocket Expenses Paid for In Full. You have the right to request restrictions on disclosures of your PHI to health plans for payment or health care operations purposes if the PHI pertains solely to a health care item or a health care service that you have paid for out-of-pocket in full.
+	3.	The Right to Choose How I Send PHI to You. You have the right to ask me to contact you in a specific way (for example, home or office phone) or to send mail to a different address, and I will agree to all reasonable requests.
+	4.	The Right to See and Get Copies of Your PHI. Other than “medical notes,” you have the right to get an electronic or paper copy of your medical record and other information that I have about you. I will provide you with a copy of your record, or a summary of it, if you agree to receive a summary, within 30 days of receiving your written request, and I may charge a reasonable, cost based fee for doing so.
+	5.	The Right to Get a List of the Disclosures I Have Made.You have the right to request a list of instances in which I have disclosed your PHI for purposes other than treatment, payment, or health care operations, or for which you provided me with an Authorization. I will respond to your request for an accounting of disclosures within 60 days of receiving your request. The list I will give you will include disclosures made in the last six years unless you request a shorter time. I will provide the list to you at no charge, but if you make more than one request in the same year, I will charge you a reasonable cost based fee for each additional request.
+	6.	The Right to Correct or Update Your PHI. If you believe that there is a mistake in your PHI, or that a piece of important information is missing from your PHI, you have the right to request that I correct the existing information or add the missing information. I may say “no” to your request, but I will tell you why in writing within 60 days of receiving your request.
+	7.	The Right to Get a Paper or Electronic Copy of this Notice. You have the right get a paper copy of this Notice, and you have the right to get a copy of this notice by e-mail. And, even if you have agreed to receive this Notice via e-mail, you also have the right to request a paper copy of it.
+
+EFFECTIVE DATE OF THIS NOTICE
+This notice went into effect on January 16, 2015
+Acknowledgement of Receipt of Privacy Notice
+Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), you have certain rights regarding the use and disclosure of your protected health information. By using this App, you are acknowledging that you have received a copy of HIPPA Notice of Privacy Practices.</string>
                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1397,7 +1403,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Y0n-rh-KqA">
                                 <rect key="frame" x="16" y="80" width="343" height="572"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aob-Dq-CZQ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practice Policy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aob-Dq-CZQ">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="27"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1406,25 +1412,14 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PP-Sm-Rbk">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
+                                        <string key="text">TELEPHONE ACCESSIBILITY If you need to contact me prior to an appointment, please leave a voice message. I am often not immediately available. However, I will attempt to return your call within 24 hours. If a true emergency situation arises, please call 911 or any local emergency room.
 
-Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
+ELECTRONIC COMMUNICATION I cannot ensure the confidentiality of any form of communication through electronic media, including text messages. If you prefer to communicate via email or text messaging for issues, I will do so. While I may try to return messages in a timely manner, I cannot guarantee immediate response and request that you do not use these methods of communication to discuss therapeutic content and/or request assistance for emergencies.
+Services by electronic means, including but not limited to telephone communication, the Internet, facsimile machines, and e-mail is considered telemedicine by the State of California. Under the California Telemedicine Act of 1996, telemedicine is broadly defined as the use of information technology to deliver medical services and information from one location to another. You need to understand that: (1) You retain the option to withhold or withdraw consent at any time without affecting the right to future care or treatment. (2) All existing confidentiality protections are equally applicable. (3) Your access to all medical information transmitted during a telemedicine consultation is guaranteed, and copies of this information are available for a reasonable fee. (4) Dissemination of any of your identifiable images or information from the telemedicine interaction to researchers or other entities shall not occur without your consent. (5) There are potential risks, consequences, and benefits of telemedicine. Potential benefits include, but are not limited to improved communication capabilities, providing convenient access to up-to-date information, consultations, support, reduced costs, improved quality, change in the conditions of practice, improved access to therapy, better continuity of care, and reduction of lost work time and travel costs. When using information technology for medical treatment, potential risks include, but are not limited to the care giver’s inability to make visual and olfactory observations of clinically or therapeutically potentially relevant issues such as: your physical condition including deformities, apparent height and weight, body type, gait and motor coordination, posture, work speed, any noteworthy mannerism or gestures, physical or medical conditions including bruises or injuries, basic grooming and hygiene including appropriateness of dress, eye contact (including any changes in the previously listed issues), sex, chronological and apparent age, ethnicity, facial and body language, and congruence of language and facial or bodily expression. Potential consequences thus include the care giver not being aware of what he or she would consider important information, that you may not recognize as significant to present verbally.
 
-“Can you prescribe something for this rash?”
-“Would you be able to repair my laceration at my home?”
-“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
-“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
+MINORS If you are a minor, your parents may be legally entitled to some information about your treatment. I will discuss with you and your parents what information is appropriate for them to receive and which issues are more appropriately kept confidential.
 
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
-
-Our main service is house calls for people who have questions and problems that really don’t need extensive diagnostic study or emergency care. 
-
-“Can you prescribe something for this rash?”
-“Would you be able to repair my laceration at my home?”
-“Momma just needs a dressing change and she has a hard time getting to see her doctor.”
-“My wife is dehydrated with morning sickness. Can you give her some IV saline?”
-
-Unlike concierge medicine, we do not require memberships. Consider Pre-R to be your mobile urgent care in San Luis Obispo.</string>
+TERMINATION Ending relationships can be difficult. Therefore, it is important to have a termination process in order to achieve some closure. I may terminate treatment after appropriate discussion with you if I determine that my recommended treatment is not proving beneficial and if you may be better served by an alternative therapeutic approach.</string>
                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>

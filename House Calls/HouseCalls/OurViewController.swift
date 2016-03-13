@@ -35,6 +35,8 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         self.availButton.layer.cornerRadius = 5.0
         self.distanceButton.layer.cornerRadius = 5.0
 
+        self.availButton.titleLabel?.adjustsFontSizeToFitWidth = true
+
         // Set the blurred background image
         if let image = UIImage(named: "downtown.jpg") {
             // initialize the value of imageView with a CGRectZero, resize it later
