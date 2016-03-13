@@ -9,14 +9,15 @@
 import UIKit
 import Alamofire
 import MessageUI
+import JLToast
 //import mandrill
 
 class RequestViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
+    @IBOutlet weak var FirstName: UITextField!
     @IBOutlet weak var Zip: UITextField!
     @IBOutlet weak var State: UITextField!
     @IBOutlet weak var LastName: UITextField!
-    @IBOutlet weak var FirstName: UITextField!
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var City: UITextField!
     @IBOutlet weak var Phone: UITextField!
@@ -46,7 +47,7 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
         let twilioPassword = "a10c9b4790dba27fa905597d35b3d4c2"
         
         let data = [
-            "To" : "+17076889656",
+            "To" : "+18585312501",
             "From" : "+17074160746",
             "Body" : "You have a client that submitted a request form"
         ]
@@ -76,6 +77,8 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
                     print("ERROR")
                 }
         }
+        
+        JLToast.makeText("Form Submitted").show()
         
         /*let mandrill = require("mandrill");
         mandrill.initialize("mandrillAPIKey");

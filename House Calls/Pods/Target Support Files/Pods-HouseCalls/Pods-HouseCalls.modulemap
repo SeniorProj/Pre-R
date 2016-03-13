@@ -1,0 +1,6 @@
+framework module Pods_HouseCalls {
+  umbrella header "Pods-HouseCalls-umbrella.h"
+
+  export *
+  module * { export * }
+}

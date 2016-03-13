@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270465F74C4F50D9AF826336A61AE392 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9679F2E85E55F5A1541CFE4FD780A32 /* UIImageView+LBBlurredImage.m */; };
+		272AF8383B30189BEFE7B7F22A201114 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FADA093204771B6ADEA7E3F830F91BD /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D6C1EC98FC975EFCBC81477481A923A /* Pods-HouseCalls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94103D21D5C1375DF43D7D6BFC41400E /* Pods-HouseCalls-dummy.m */; };
+		3616AD54D34C2E14B554653AED596949 /* JLToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64313DF3EAD102FD3812F3F8803CF19F /* JLToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C6FF6DDC84522D51C28E84365D3B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */; };
+		44938CB1DDF7FFC491E7BEFD9E5CBA42 /* JLToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D62480363509FAC95FB62D653F49E71 /* JLToast-dummy.m */; };
+		563976A5CDB073A09EDD4F99A945F725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */; };
+		5BCDD23B5B4CBB93FF204480E26B5244 /* UIImageView+LBBlurredImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D405EB955C291088AA02CBBBFF6B8DAB /* UIImageView+LBBlurredImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FFFCA65F970E01A9A8621FD07FE72BF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6450DEE030ABBA6456982DCC3DB481DA /* Accelerate.framework */; };
+		73D07DE43C613F07C3E791021DD5BDFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */; };
+		7901D313EBA7552B7884C6D17E7A2EBB /* JLToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453E583598C9A484EAC0ADA56E7B1B90 /* JLToastCenter.swift */; };
+		795642C6F17AB9540388036F38C17E79 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB6BF697E726462AA27B0834EB3624 /* UIImage+ImageEffects.m */; };
+		7AD0208F6EB51AFB61808A7B71DCABA3 /* Pods-HouseCalls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0738137FBAAA291BC34D873C2D5BD2DD /* Pods-HouseCalls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A05821854504C6C75DBEE4208AD7D1 /* LBBlurredImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6262F22BB2FDBC579C7744EF22087D /* LBBlurredImage-dummy.m */; };
+		88ED20D88FD5E6972E0D198EE66CE38E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB473778DE118FABEDC6DD18FE9CA1B0 /* CoreGraphics.framework */; };
+		8F3C45264A0CE145439BD6EDF2C63330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69318E0913D1AAB4A7B09824CD9FBAE8 /* UIKit.framework */; };
+		BE3091549837A604151E5917BF8A9A6B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE5806410B13B81A623F22AD767E3EB /* QuartzCore.framework */; };
+		D36A029CEF60071F5C3638DDC621130E /* JLToast.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E910F70B87928A2066D8A99C5DD4E8 /* JLToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E111F21E49289AD29377229E697E60D2 /* JLToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10249F86A57B99FE09C756488E146D1B /* JLToastView.swift */; };
+		EA11BBEC6D0F589401769300F94BF6FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69318E0913D1AAB4A7B09824CD9FBAE8 /* UIKit.framework */; };
+		EEB9F014CC9291C83A9055C1D0B25369 /* JLToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19890937FAFE0E7CD866A791AA055C22 /* JLToastWindow.swift */; };
+		F722262008FB916BF980E4C385084DFF /* LBBlurredImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE38D9D9BAEABA59847A2E31690FA07 /* LBBlurredImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA95CA3AD7F8A7BDD3B89D1168E9470 /* JLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948064684EE185EC65870A76CC6017A /* JLToast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F47A837A183FAA4EB9719E6759D380A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 892FE5BFDD0FD8B38E22D76135459FE4;
+			remoteInfo = JLToast;
+		};
+		95DD4AE42EC6BA669D2686B4794555C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4633A3DA665F92D77E2167443C4D45F;
+			remoteInfo = LBBlurredImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028808F4B67336E2B5B34BDA81334D31 /* Pods-HouseCalls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HouseCalls-resources.sh"; sourceTree = "<group>"; };
+		06E148A91A1F67E5F7ACD6BC4646EAEF /* Pods-HouseCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HouseCalls.debug.xcconfig"; sourceTree = "<group>"; };
+		0738137FBAAA291BC34D873C2D5BD2DD /* Pods-HouseCalls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HouseCalls-umbrella.h"; sourceTree = "<group>"; };
+		091409C3D638C072C77198369ADF6D91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE38D9D9BAEABA59847A2E31690FA07 /* LBBlurredImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBBlurredImage-umbrella.h"; sourceTree = "<group>"; };
+		10249F86A57B99FE09C756488E146D1B /* JLToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastView.swift; path = JLToast/JLToastView.swift; sourceTree = "<group>"; };
+		1313F5DC2F2C3B3D6CCFD6AE893ED2BA /* JLToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLToast.xcconfig; sourceTree = "<group>"; };
+		19890937FAFE0E7CD866A791AA055C22 /* JLToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastWindow.swift; path = JLToast/JLToastWindow.swift; sourceTree = "<group>"; };
+		1D62480363509FAC95FB62D653F49E71 /* JLToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLToast-dummy.m"; sourceTree = "<group>"; };
+		2948064684EE185EC65870A76CC6017A /* JLToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToast.swift; path = JLToast/JLToast.swift; sourceTree = "<group>"; };
+		2C2DE4D6EA2A91F6AD03C9834A062A08 /* Pods-HouseCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HouseCalls.release.xcconfig"; sourceTree = "<group>"; };
+		2CDED95BAA8852ECE6446A87A0662BA9 /* JLToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F18D42ABD889F4941064FC3F7BE154 /* LBBlurredImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LBBlurredImage.modulemap; sourceTree = "<group>"; };
+		3CF1FC7C7DA632DB4A25933D5D992774 /* Pods-HouseCalls-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HouseCalls-frameworks.sh"; sourceTree = "<group>"; };
+		3F0A687ED16E5EDEAB1CEE292BCD3DA6 /* Pods-HouseCalls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HouseCalls.modulemap"; sourceTree = "<group>"; };
+		3FB92C97C007BCA6BF8D7AB79B605534 /* LBBlurredImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBBlurredImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		402AB4989967CED88F58CFF5DE981588 /* JLToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToast-prefix.pch"; sourceTree = "<group>"; };
+		453E583598C9A484EAC0ADA56E7B1B90 /* JLToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastCenter.swift; path = JLToast/JLToastCenter.swift; sourceTree = "<group>"; };
+		4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		478E660FAB15FBBEC1DC293CC361EF52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5DDADF0F3D06C060D888E96FD8A87B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5058523CDEEF1B3F7CD1FB5003A2E0C2 /* Pods-HouseCalls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HouseCalls-acknowledgements.plist"; sourceTree = "<group>"; };
+		59FB6BF697E726462AA27B0834EB3624 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "LBBlurredImage/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		63DC153D27009F30DA1DC57D8C0BF957 /* LBBlurredImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBBlurredImage-prefix.pch"; sourceTree = "<group>"; };
+		64313DF3EAD102FD3812F3F8803CF19F /* JLToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToast-umbrella.h"; sourceTree = "<group>"; };
+		6450DEE030ABBA6456982DCC3DB481DA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		69318E0913D1AAB4A7B09824CD9FBAE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7584737BCA81FD3F9D27D9A752C4716D /* LBBlurredImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBBlurredImage.xcconfig; sourceTree = "<group>"; };
+		900307C24B20E5CB220DF9C12C669492 /* Pods-HouseCalls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HouseCalls-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94103D21D5C1375DF43D7D6BFC41400E /* Pods-HouseCalls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HouseCalls-dummy.m"; sourceTree = "<group>"; };
+		9FADA093204771B6ADEA7E3F830F91BD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "LBBlurredImage/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		A9679F2E85E55F5A1541CFE4FD780A32 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+LBBlurredImage.m"; path = "LBBlurredImage/UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		AD6262F22BB2FDBC579C7744EF22087D /* LBBlurredImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBBlurredImage-dummy.m"; sourceTree = "<group>"; };
+		AFE5806410B13B81A623F22AD767E3EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1E910F70B87928A2066D8A99C5DD4E8 /* JLToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLToast.h; path = JLToast/JLToast.h; sourceTree = "<group>"; };
+		CB473778DE118FABEDC6DD18FE9CA1B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D405EB955C291088AA02CBBBFF6B8DAB /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+LBBlurredImage.h"; path = "LBBlurredImage/UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		EDE6F7CAFD9082B26B633415BF48ABE8 /* Pods_HouseCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD47C50B142373362984018757164D5 /* JLToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLToast.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AC35701843255704348B7CDA187B694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D07DE43C613F07C3E791021DD5BDFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5B1BFF39A32281B7F96DAA3BFFF2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6FF6DDC84522D51C28E84365D3B30 /* Foundation.framework in Frameworks */,
+				BE3091549837A604151E5917BF8A9A6B /* QuartzCore.framework in Frameworks */,
+				EA11BBEC6D0F589401769300F94BF6FF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E796DCB89AE0DF4F2A15C82F29FC693F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFFCA65F970E01A9A8621FD07FE72BF /* Accelerate.framework in Frameworks */,
+				88ED20D88FD5E6972E0D198EE66CE38E /* CoreGraphics.framework in Frameworks */,
+				563976A5CDB073A09EDD4F99A945F725 /* Foundation.framework in Frameworks */,
+				8F3C45264A0CE145439BD6EDF2C63330 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A4EFA49901C358609A06BAC13D6372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CDED95BAA8852ECE6446A87A0662BA9 /* JLToast.framework */,
+				3FB92C97C007BCA6BF8D7AB79B605534 /* LBBlurredImage.framework */,
+				EDE6F7CAFD9082B26B633415BF48ABE8 /* Pods_HouseCalls.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B18EB8BD780CE21B7DDD20BC84C77C8A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A0A69B91C2F4A850F6E922A7885F74A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				091409C3D638C072C77198369ADF6D91 /* Info.plist */,
+				33F18D42ABD889F4941064FC3F7BE154 /* LBBlurredImage.modulemap */,
+				7584737BCA81FD3F9D27D9A752C4716D /* LBBlurredImage.xcconfig */,
+				AD6262F22BB2FDBC579C7744EF22087D /* LBBlurredImage-dummy.m */,
+				63DC153D27009F30DA1DC57D8C0BF957 /* LBBlurredImage-prefix.pch */,
+				0FE38D9D9BAEABA59847A2E31690FA07 /* LBBlurredImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBBlurredImage";
+			sourceTree = "<group>";
+		};
+		76F465070C2EE860075716149FFC302B /* LBBlurredImage */ = {
+			isa = PBXGroup;
+			children = (
+				9FADA093204771B6ADEA7E3F830F91BD /* UIImage+ImageEffects.h */,
+				59FB6BF697E726462AA27B0834EB3624 /* UIImage+ImageEffects.m */,
+				D405EB955C291088AA02CBBBFF6B8DAB /* UIImageView+LBBlurredImage.h */,
+				A9679F2E85E55F5A1541CFE4FD780A32 /* UIImageView+LBBlurredImage.m */,
+				4A0A69B91C2F4A850F6E922A7885F74A /* Support Files */,
+			);
+			path = LBBlurredImage;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				FAFB304D6E15EB07AC990FCE362C6FC2 /* Pods */,
+				01A4EFA49901C358609A06BAC13D6372 /* Products */,
+				B9592876E854DACE50F8CAE4B197234B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9755A22C010E12B5955D61CA7FBA22CC /* JLToast */ = {
+			isa = PBXGroup;
+			children = (
+				C1E910F70B87928A2066D8A99C5DD4E8 /* JLToast.h */,
+				2948064684EE185EC65870A76CC6017A /* JLToast.swift */,
+				453E583598C9A484EAC0ADA56E7B1B90 /* JLToastCenter.swift */,
+				10249F86A57B99FE09C756488E146D1B /* JLToastView.swift */,
+				19890937FAFE0E7CD866A791AA055C22 /* JLToastWindow.swift */,
+				D2642B5D742E70D69CE3D1A05B48A809 /* Support Files */,
+			);
+			path = JLToast;
+			sourceTree = "<group>";
+		};
+		B18EB8BD780CE21B7DDD20BC84C77C8A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6450DEE030ABBA6456982DCC3DB481DA /* Accelerate.framework */,
+				CB473778DE118FABEDC6DD18FE9CA1B0 /* CoreGraphics.framework */,
+				4574E22861DA10BA7FB8D8B840D83A0D /* Foundation.framework */,
+				AFE5806410B13B81A623F22AD767E3EB /* QuartzCore.framework */,
+				69318E0913D1AAB4A7B09824CD9FBAE8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B9592876E854DACE50F8CAE4B197234B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C10D54629414BEFFE236861F935847B4 /* Pods-HouseCalls */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C10D54629414BEFFE236861F935847B4 /* Pods-HouseCalls */ = {
+			isa = PBXGroup;
+			children = (
+				4A5DDADF0F3D06C060D888E96FD8A87B /* Info.plist */,
+				3F0A687ED16E5EDEAB1CEE292BCD3DA6 /* Pods-HouseCalls.modulemap */,
+				900307C24B20E5CB220DF9C12C669492 /* Pods-HouseCalls-acknowledgements.markdown */,
+				5058523CDEEF1B3F7CD1FB5003A2E0C2 /* Pods-HouseCalls-acknowledgements.plist */,
+				94103D21D5C1375DF43D7D6BFC41400E /* Pods-HouseCalls-dummy.m */,
+				3CF1FC7C7DA632DB4A25933D5D992774 /* Pods-HouseCalls-frameworks.sh */,
+				028808F4B67336E2B5B34BDA81334D31 /* Pods-HouseCalls-resources.sh */,
+				0738137FBAAA291BC34D873C2D5BD2DD /* Pods-HouseCalls-umbrella.h */,
+				06E148A91A1F67E5F7ACD6BC4646EAEF /* Pods-HouseCalls.debug.xcconfig */,
+				2C2DE4D6EA2A91F6AD03C9834A062A08 /* Pods-HouseCalls.release.xcconfig */,
+			);
+			name = "Pods-HouseCalls";
+			path = "Target Support Files/Pods-HouseCalls";
+			sourceTree = "<group>";
+		};
+		D2642B5D742E70D69CE3D1A05B48A809 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				478E660FAB15FBBEC1DC293CC361EF52 /* Info.plist */,
+				FBD47C50B142373362984018757164D5 /* JLToast.modulemap */,
+				1313F5DC2F2C3B3D6CCFD6AE893ED2BA /* JLToast.xcconfig */,
+				1D62480363509FAC95FB62D653F49E71 /* JLToast-dummy.m */,
+				402AB4989967CED88F58CFF5DE981588 /* JLToast-prefix.pch */,
+				64313DF3EAD102FD3812F3F8803CF19F /* JLToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JLToast";
+			sourceTree = "<group>";
+		};
+		FAFB304D6E15EB07AC990FCE362C6FC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9755A22C010E12B5955D61CA7FBA22CC /* JLToast */,
+				76F465070C2EE860075716149FFC302B /* LBBlurredImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04AA84C3B6F47910CAF79B2A11E4F305 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD0208F6EB51AFB61808A7B71DCABA3 /* Pods-HouseCalls-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AC802A501AE8A8DBD7C05F7007A2E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3616AD54D34C2E14B554653AED596949 /* JLToast-umbrella.h in Headers */,
+				D36A029CEF60071F5C3638DDC621130E /* JLToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FCC6ADBFEE0EFBFDA34483566EAC9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F722262008FB916BF980E4C385084DFF /* LBBlurredImage-umbrella.h in Headers */,
+				272AF8383B30189BEFE7B7F22A201114 /* UIImage+ImageEffects.h in Headers */,
+				5BCDD23B5B4CBB93FF204480E26B5244 /* UIImageView+LBBlurredImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EF4FE80171841463DB1BC072A64D570 /* Pods-HouseCalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA632842A83BE6B8A7D30BE1BB1F8E3 /* Build configuration list for PBXNativeTarget "Pods-HouseCalls" */;
+			buildPhases = (
+				5B001713C33F4E28CE3903ED0B33107D /* Sources */,
+				6AC35701843255704348B7CDA187B694 /* Frameworks */,
+				04AA84C3B6F47910CAF79B2A11E4F305 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D280FEC2BE47FB10B34350998E78545 /* PBXTargetDependency */,
+				15580C7301AFAC0504CF8CCB4ACA10B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-HouseCalls";
+			productName = "Pods-HouseCalls";
+			productReference = EDE6F7CAFD9082B26B633415BF48ABE8 /* Pods_HouseCalls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1349755B78D3666A6D93F2206BE0E7 /* Build configuration list for PBXNativeTarget "JLToast" */;
+			buildPhases = (
+				AD5A5E42445A5807A5C463048B26E9AC /* Sources */,
+				7D5B1BFF39A32281B7F96DAA3BFFF2B3 /* Frameworks */,
+				34AC802A501AE8A8DBD7C05F7007A2E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLToast;
+			productName = JLToast;
+			productReference = 2CDED95BAA8852ECE6446A87A0662BA9 /* JLToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4633A3DA665F92D77E2167443C4D45F /* LBBlurredImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52632839A31E0CABF9EAB4BCDFD8206D /* Build configuration list for PBXNativeTarget "LBBlurredImage" */;
+			buildPhases = (
+				9E53EF262E6D3BB247F09287DAB44C8F /* Sources */,
+				E796DCB89AE0DF4F2A15C82F29FC693F /* Frameworks */,
+				C5FCC6ADBFEE0EFBFDA34483566EAC9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBBlurredImage;
+			productName = LBBlurredImage;
+			productReference = 3FB92C97C007BCA6BF8D7AB79B605534 /* LBBlurredImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 01A4EFA49901C358609A06BAC13D6372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */,
+				B4633A3DA665F92D77E2167443C4D45F /* LBBlurredImage */,
+				4EF4FE80171841463DB1BC072A64D570 /* Pods-HouseCalls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B001713C33F4E28CE3903ED0B33107D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C1EC98FC975EFCBC81477481A923A /* Pods-HouseCalls-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E53EF262E6D3BB247F09287DAB44C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A05821854504C6C75DBEE4208AD7D1 /* LBBlurredImage-dummy.m in Sources */,
+				795642C6F17AB9540388036F38C17E79 /* UIImage+ImageEffects.m in Sources */,
+				270465F74C4F50D9AF826336A61AE392 /* UIImageView+LBBlurredImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5A5E42445A5807A5C463048B26E9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44938CB1DDF7FFC491E7BEFD9E5CBA42 /* JLToast-dummy.m in Sources */,
+				FEA95CA3AD7F8A7BDD3B89D1168E9470 /* JLToast.swift in Sources */,
+				7901D313EBA7552B7884C6D17E7A2EBB /* JLToastCenter.swift in Sources */,
+				E111F21E49289AD29377229E697E60D2 /* JLToastView.swift in Sources */,
+				EEB9F014CC9291C83A9055C1D0B25369 /* JLToastWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15580C7301AFAC0504CF8CCB4ACA10B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBBlurredImage;
+			target = B4633A3DA665F92D77E2167443C4D45F /* LBBlurredImage */;
+			targetProxy = 95DD4AE42EC6BA669D2686B4794555C1 /* PBXContainerItemProxy */;
+		};
+		1D280FEC2BE47FB10B34350998E78545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLToast;
+			target = 892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */;
+			targetProxy = 1F47A837A183FAA4EB9719E6759D380A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28DF1000663A77F04AB6EBE1A82A575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E148A91A1F67E5F7ACD6BC4646EAEF /* Pods-HouseCalls.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HouseCalls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HouseCalls/Pods-HouseCalls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HouseCalls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34BDDB7399353D387F3388D7F77EF2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7584737BCA81FD3F9D27D9A752C4716D /* LBBlurredImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBBlurredImage/LBBlurredImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBBlurredImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBBlurredImage/LBBlurredImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LBBlurredImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66E1DF046161CEF2208B07357F845AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2DE4D6EA2A91F6AD03C9834A062A08 /* Pods-HouseCalls.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HouseCalls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HouseCalls/Pods-HouseCalls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HouseCalls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86B68B2A11F061A3E31DC8186CDED1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1313F5DC2F2C3B3D6CCFD6AE893ED2BA /* JLToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLToast/JLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToast/JLToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEDE9BA3780ACDEEC1663AD9F5E1056C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7584737BCA81FD3F9D27D9A752C4716D /* LBBlurredImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBBlurredImage/LBBlurredImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBBlurredImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBBlurredImage/LBBlurredImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LBBlurredImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6FF72CF46665E096E1EA60726E6A944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1313F5DC2F2C3B3D6CCFD6AE893ED2BA /* JLToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLToast/JLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToast/JLToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52632839A31E0CABF9EAB4BCDFD8206D /* Build configuration list for PBXNativeTarget "LBBlurredImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BDDB7399353D387F3388D7F77EF2BE /* Debug */,
+				BEDE9BA3780ACDEEC1663AD9F5E1056C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1349755B78D3666A6D93F2206BE0E7 /* Build configuration list for PBXNativeTarget "JLToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FF72CF46665E096E1EA60726E6A944 /* Debug */,
+				86B68B2A11F061A3E31DC8186CDED1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA632842A83BE6B8A7D30BE1BB1F8E3 /* Build configuration list for PBXNativeTarget "Pods-HouseCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DF1000663A77F04AB6EBE1A82A575F /* Debug */,
+				66E1DF046161CEF2208B07357F845AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
