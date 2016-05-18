@@ -36,41 +36,42 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?){
         view.endEditing(true)
         super.touchesBegan(touches, withEvent: event)
     }
     
-    @IBAction func submitRequestAction(sender: AnyObject) {
-        let twilioUsername = "AC674d685ee4f3246548bc79a539056aca"
-        let twilioPassword = "a10c9b4790dba27fa905597d35b3d4c2"
-        
-        let data = [
-            "To" : "+18585312501",
-            "From" : "+17074160746",
-            "Body" : "You have a client that submitted a request form"
-        ]
-        
-        Alamofire.request(.POST, "https://\(twilioUsername):\(twilioPassword)@api.twilio.com/2010-04-01/Accounts/\(twilioUsername)/Messages", parameters: data)
-            .responseData { response in
-                print(response.request)
-                print(response.response)
-                print(response.result)
-        }
-        
+    func sendEmail() {
+        if MFMailComposeViewController.canSendMail() {
+            let mail = MFMailComposeViewController()
+            mail.mailComposeDelegate = self
+            mail.setToRecipients(["pomtech16@gmail.com"])
+            mail.setMessageBody("<p>formData</p>", isHTML: true)
             
-        let formData = PFObject(className:"Form")
-        formData["First"] = FirstName.text
-        formData["Last"] = LastName.text
-        formData["Phone"] = Phone.text
-        formData["Email"] = Email.text
-        formData["City"] = City.text
-        formData["State"] = State.text
-        formData["Zip"] = Zip.text
-        formData.saveInBackgroundWithBlock {
+            presentViewController(mail, animated: true, completion: nil)
+        } else {
+            // show failure alert
+        }
+    }
+    
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        controller.dismissViewControllerAnimated(true, completion: nil)
+    }
+
+    
+        @IBAction func submitRequestAction(sender: AnyObject) {
+            
+            let formData = PFObject(className:"Form")
+            formData["First"] = FirstName.text
+            formData["Last"] = LastName.text
+            formData["Phone"] = Phone.text
+            formData["Email"] = Email.text
+            formData["City"] = City.text
+            formData["State"] = State.text
+            formData["Zip"] = Zip.text
+            formData.saveInBackgroundWithBlock {
                 (success: Bool, error: NSError?) -> Void in
                 if (success) {
                     print("Success")
@@ -78,8 +79,27 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
                     // There was a problem, check error.description
                     print("ERROR")
                 }
+            }
+            
+            let twilioUsername = "AC674d685ee4f3246548bc79a539056aca"
+            let twilioPassword = "a10c9b4790dba27fa905597d35b3d4c2"
+            
+            let data = [
+                "To" : "+18585312501",
+                "From" : "+17074160746",
+                "Body" : "You have a client that submitted a request form"
+            ]
+            
+            Alamofire.request(.POST, "https://\(twilioUsername):\(twilioPassword)@api.twilio.com/2010-04-01/Accounts/\(twilioUsername)/Messages", parameters: data)
+                .responseData { response in
+                    print(response.request)
+                    print(response.response)
+                    print(response.result)
+                    
+            self.sendEmail()
         }
         
+
         JLToast.makeText("Form Submitted").show()
         
         /*let mandrill = require("mandrill");
