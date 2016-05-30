@@ -86,8 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-HouseCalls/JLToast.framework"
   install_framework "Pods-HouseCalls/LBBlurredImage.framework"
+  install_framework "Pods-HouseCalls/SendGrid.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-HouseCalls/JLToast.framework"
   install_framework "Pods-HouseCalls/LBBlurredImage.framework"
+  install_framework "Pods-HouseCalls/SendGrid.framework"
 fi

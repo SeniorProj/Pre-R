@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import MessageUI
 import JLToast
-//import mandrill
+import SendGrid
 
 class RequestViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
@@ -85,7 +85,7 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
             let twilioPassword = "a10c9b4790dba27fa905597d35b3d4c2"
             
             let data = [
-                "To" : "+18585312501",
+                "To" : "+4256389697",
                 "From" : "+17074160746",
                 "Body" : "You have a client that submitted a request form"
             ]

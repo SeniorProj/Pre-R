@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '178C23D479D7ED7B13AE2C9F'
-               BlueprintName = 'LBBlurredImage'
+               BlueprintIdentifier = '1C847F90813B77C2BC903A1D'
+               BlueprintName = 'SendGrid'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'LBBlurredImage.framework'>
+               BuildableName = 'SendGrid.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

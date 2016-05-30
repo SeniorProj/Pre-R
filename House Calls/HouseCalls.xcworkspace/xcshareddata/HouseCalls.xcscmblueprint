@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C5AFEDC5A82B56EFC5CC4EFE9E8F3B2FB7105D4F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C5AFEDC5A82B56EFC5CC4EFE9E8F3B2FB7105D4F" : 0,
+    "6505FF70D2D5A573E653C1F3C32B9D7C0E0F069E" : 0,
+    "E86DCEECEB69652C9A41DC6549A1003A3CFA1217" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5C0281EF-615B-4956-B110-3A5EA4E923CD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C5AFEDC5A82B56EFC5CC4EFE9E8F3B2FB7105D4F" : "Pre-R\/",
+    "6505FF70D2D5A573E653C1F3C32B9D7C0E0F069E" : "Pre-R\/House%20Calls\/sendgrid-swift\/",
+    "E86DCEECEB69652C9A41DC6549A1003A3CFA1217" : "Pre-R\/House%20Calls\/sendgrid-swift\/smtpapi-swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HouseCalls",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "House Calls\/HouseCalls.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/scottkawai\/sendgrid-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6505FF70D2D5A573E653C1F3C32B9D7C0E0F069E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SeniorProj\/Pre-R.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C5AFEDC5A82B56EFC5CC4EFE9E8F3B2FB7105D4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/scottkawai\/smtpapi-swift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E86DCEECEB69652C9A41DC6549A1003A3CFA1217"
+    }
+  ]
+}
