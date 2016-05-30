@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Y1-pK-a9p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Y1-pK-a9p">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -75,6 +74,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ts9-nH-q4t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -94,6 +94,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="28" sectionFooterHeight="28" id="C3u-QI-Ee3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <sections>
@@ -108,12 +109,15 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhZ-wb-TLa">
                                                     <rect key="frame" x="8" y="16" width="286" height="24"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="0Y1-pK-a9p" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="d1F-mc-bjb"/>
                                         </connections>
@@ -127,11 +131,13 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ABOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aW2-kY-j1j">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="leadingMargin" secondItem="aW2-kY-j1j" secondAttribute="leading" id="M8y-hr-LNr"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="aW2-kY-j1j" secondAttribute="bottom" id="bQ7-Vm-7mF"/>
@@ -139,6 +145,7 @@
                                                 <constraint firstItem="aW2-kY-j1j" firstAttribute="top" secondItem="xV1-PC-70v" secondAttribute="topMargin" id="zcQ-Gs-KjO"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="RLD-pO-ZV9" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="y4i-E0-yUe"/>
                                         </connections>
@@ -152,11 +159,13 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FAQ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0J0-NC-UU3">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="leadingMargin" secondItem="0J0-NC-UU3" secondAttribute="leading" id="4RF-n6-nZw"/>
                                                 <constraint firstItem="0J0-NC-UU3" firstAttribute="top" secondItem="0Or-zE-JwW" secondAttribute="topMargin" id="6v4-Oz-g6u"/>
@@ -164,6 +173,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="0J0-NC-UU3" secondAttribute="bottom" id="y4J-dQ-6bf"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="eHY-1Y-XMk" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="alp-wI-eLt"/>
                                         </connections>
@@ -177,11 +187,13 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="INFORMED CONSENT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="E7a-tM-OFf">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="E7a-tM-OFf" secondAttribute="bottom" id="VE3-kf-qaX"/>
                                                 <constraint firstItem="E7a-tM-OFf" firstAttribute="top" secondItem="LYx-NI-fhw" secondAttribute="topMargin" id="XZt-pP-vNl"/>
@@ -189,6 +201,7 @@
                                                 <constraint firstAttribute="leadingMargin" secondItem="E7a-tM-OFf" secondAttribute="leading" id="lWB-Uz-uXS"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="swI-uD-Dwi" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="h5n-Gc-5lb"/>
                                         </connections>
@@ -202,11 +215,13 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PRIVACY PRACTICES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DhI-Tj-j78">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="DhI-Tj-j78" firstAttribute="top" secondItem="qV2-BE-vjI" secondAttribute="topMargin" id="BBA-E2-LXM"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="DhI-Tj-j78" secondAttribute="bottom" id="U7m-a7-yGX"/>
@@ -214,6 +229,7 @@
                                                 <constraint firstAttribute="leadingMargin" secondItem="DhI-Tj-j78" secondAttribute="leading" id="jFc-lY-XQb"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="LfY-f4-MWa" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="uuM-S8-dmz"/>
                                         </connections>
@@ -227,11 +243,13 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PRACTICE POLICY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vy-3s-F7H">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="leadingMargin" secondItem="9Vy-3s-F7H" secondAttribute="leading" id="Wpe-0U-VuQ"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="9Vy-3s-F7H" secondAttribute="trailing" id="Zge-jK-XAw"/>
@@ -239,6 +257,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="9Vy-3s-F7H" secondAttribute="bottom" id="xjA-u7-kWn"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="1hR-yx-7PK" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="o0m-SM-6tD"/>
                                         </connections>
@@ -252,11 +271,13 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DOCTOR LOGIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkQ-rk-t0i">
                                                     <rect key="frame" x="8" y="8" width="359" height="39"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
                                                     <color key="textColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="leadingMargin" secondItem="fkQ-rk-t0i" secondAttribute="leading" id="Jeo-82-raE"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="fkQ-rk-t0i" secondAttribute="bottom" id="Zze-Hz-SkY"/>
@@ -264,6 +285,7 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="fkQ-rk-t0i" secondAttribute="trailing" id="wZc-c1-IrA"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="9Xj-oI-1tz" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="irx-6c-Sl1"/>
                                         </connections>
@@ -296,28 +318,33 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOCTOR LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIk-c7-xab">
                                 <rect key="frame" x="69" y="159" width="238" height="43"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="31"/>
                                 <color key="textColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfK-Ew-kN1">
                                 <rect key="frame" x="-11" y="17" width="0.0" height="0.0"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.010051519906341788" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n2e-cN-KZP">
                                 <rect key="frame" x="75" y="268" width="225" height="30"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="next"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yze-3Y-TPl">
                                 <rect key="frame" x="75" y="311" width="225" height="30"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mt-Co-0kL">
                                 <rect key="frame" x="95" y="391" width="187" height="63"/>
+                                <animations/>
                                 <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="8Mt-Co-0kL" secondAttribute="height" multiplier="3:1" id="10I-Hc-g2b"/>
@@ -331,6 +358,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.98127003209999997" green="0.98127003209999997" blue="0.98127003209999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Yze-3Y-TPl" firstAttribute="top" secondItem="n2e-cN-KZP" secondAttribute="bottom" constant="13" id="5QS-yv-Pe9"/>
@@ -377,18 +405,21 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Status:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsV-Xi-F1M">
                                 <rect key="frame" x="79" y="119" width="216" height="28"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4h3-Eq-zqs">
                                 <rect key="frame" x="16" y="166" width="343" height="37"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="27"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDR-kU-2gl">
                                 <rect key="frame" x="94" y="506" width="188" height="63"/>
+                                <animations/>
                                 <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="0.80035021551724139" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hDR-kU-2gl" secondAttribute="height" multiplier="3:1" id="DdN-Gb-usV"/>
@@ -403,8 +434,10 @@
                             </button>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RdL-Cv-MVJ">
                                 <rect key="frame" x="-4" y="203" width="383" height="296"/>
+                                <animations/>
                             </pickerView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.98127003209999997" green="0.98127003209999997" blue="0.98127003209999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="4h3-Eq-zqs" firstAttribute="top" secondItem="TsV-Xi-F1M" secondAttribute="bottom" constant="19" id="1Gj-IX-bQs"/>
@@ -454,14 +487,17 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hDC-5U-v0J">
                                 <rect key="frame" x="0.0" y="64" width="375" height="408"/>
+                                <animations/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Im6-xB-YV5">
                                 <rect key="frame" x="73" y="587" width="256" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -488,6 +524,7 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T6f-83-F9d">
                                 <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
+                                <animations/>
                                 <items>
                                     <navigationItem title="Pre-R" id="aCf-Rr-CX2"/>
                                 </items>
@@ -496,19 +533,21 @@
                                 <rect key="frame" x="-4" y="267" width="383" height="400"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="h72-6u-hsi">
-                                        <rect key="frame" x="16" y="106" width="351" height="158"/>
+                                        <rect key="frame" x="16" y="106" width="351" height="157"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="msU-co-V0C" userLabel="Status">
-                                                <rect key="frame" x="0.0" y="0.0" width="169" height="158"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="157"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S T A T U S :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hPn-S6-GMm">
                                                         <rect key="frame" x="0.0" y="0.0" width="169" height="45"/>
+                                                        <animations/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="20"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="z7V-hR-DfC">
-                                                        <rect key="frame" x="0.0" y="45" width="169" height="113"/>
+                                                        <rect key="frame" x="0.0" y="45" width="169" height="112"/>
+                                                        <animations/>
                                                         <color key="backgroundColor" white="0.25" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="18"/>
                                                         <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
@@ -523,21 +562,24 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
                                                 </subviews>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstItem="hPn-S6-GMm" firstAttribute="height" secondItem="z7V-hR-DfC" secondAttribute="height" multiplier="0.4" id="Inz-F9-ill"/>
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bHC-VF-YwD" userLabel="Distance">
-                                                <rect key="frame" x="181" y="0.0" width="170" height="158"/>
+                                                <rect key="frame" x="181" y="0.0" width="170" height="157"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D I S T A N C E :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bPO-JH-PTX">
                                                         <rect key="frame" x="0.0" y="0.0" width="170" height="45"/>
+                                                        <animations/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="20"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DKH-5c-kiD">
-                                                        <rect key="frame" x="0.0" y="45" width="170" height="113"/>
+                                                        <rect key="frame" x="0.0" y="45" width="170" height="112"/>
+                                                        <animations/>
                                                         <color key="backgroundColor" white="0.25" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="26"/>
                                                         <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
@@ -554,17 +596,20 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstItem="bPO-JH-PTX" firstAttribute="height" secondItem="DKH-5c-kiD" secondAttribute="height" multiplier="0.4" id="i90-HF-ucp"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstItem="bHC-VF-YwD" firstAttribute="width" secondItem="msU-co-V0C" secondAttribute="width" constant="1" id="1ZO-Xd-Daw"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-Zm-wQp" userLabel="Request">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-Zm-wQp" userLabel="Request">
                                         <rect key="frame" x="16" y="276" width="351" height="112"/>
+                                        <animations/>
                                         <color key="backgroundColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                         <state key="normal" title="REQUEST A CONSULT">
@@ -580,6 +625,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="0.67879849137931036" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="aHd-Zm-wQp" firstAttribute="leading" secondItem="RIk-Dd-eZg" secondAttribute="leading" constant="16" id="Dxh-em-spA"/>
@@ -593,6 +639,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yer-ul-Igu" userLabel="Profile Pic">
                                 <rect key="frame" x="93" y="173" width="188" height="188"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="yer-ul-Igu" secondAttribute="height" multiplier="1:1" id="LqQ-Cd-6af"/>
                                 </constraints>
@@ -603,6 +650,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.98127003209999997" green="0.98127003209999997" blue="0.98127003209999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="yer-ul-Igu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9oq-hE-g2d"/>
@@ -650,12 +698,14 @@
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SamSlishman" translatesAutoresizingMaskIntoConstraints="NO" id="hfD-4g-ZuT">
                                                 <rect key="frame" x="77" y="20" width="189" height="189"/>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="hfD-4g-ZuT" secondAttribute="height" multiplier="1:1" id="nrO-em-aJP"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sam Slishman, MD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="y5g-ZO-4t9">
                                                 <rect key="frame" x="33" y="228" width="276" height="38"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="30"/>
                                                 <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -663,18 +713,20 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fE1-BY-CUL">
                                                 <rect key="frame" x="0.0" y="276" width="343" height="1180"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-US-yZZ">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-US-yZZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="201"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ER IS MY SPECIALTY, BUT I PREFER PRE-R" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-A7-RmW">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ER IS MY SPECIALTY, BUT I PREFER PRE-R" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-A7-RmW">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-6k-btw">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-6k-btw">
                                                                 <rect key="frame" x="0.0" y="76" width="343" height="125"/>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">WHILE EMERGENCY MEDICINE CAN BE FASCINATING AND EXCITING,
 PRE-R LETS ME SPEND MUCH MORE TIME WITH MY PATIENTS IN THE COMFORT OF THEIR HOMES</string>
@@ -682,19 +734,22 @@ PRE-R LETS ME SPEND MUCH MORE TIME WITH MY PATIENTS IN THE COMFORT OF THEIR HOME
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
                                                         </subviews>
+                                                        <animations/>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DeV-MZ-1bg">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DeV-MZ-1bg">
                                                         <rect key="frame" x="0.0" y="201" width="343" height="387"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="BIOGRAPHY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-m8-rQQ">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="BIOGRAPHY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-m8-rQQ">
                                                                 <rect key="frame" x="105" y="0.0" width="133" height="46"/>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-c8-zz7">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-c8-zz7">
                                                                 <rect key="frame" x="0.0" y="46" width="343" height="341"/>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">Since graduation from my residency in 2000, I have also worked in tiny rural New Mexico hospitals, in the NM Heart Hospital, and in Wyoming, New Zealand and Tasmania. In 2003, I started a nonprofit in Albuquerque, Endorphin Power Company, to help people with drug and alcohol problems.
 
@@ -703,25 +758,29 @@ Today I am part of the Central Coast Emergency Physicians group working in San L
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
                                                         </subviews>
+                                                        <animations/>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-YY-7jZ">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-YY-7jZ">
                                                         <rect key="frame" x="0.0" y="588" width="343" height="592"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="PRE-R ALLOWS ME TO BE PART OF THE COMMUNITY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-qH-tFQ">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="PRE-R ALLOWS ME TO BE PART OF THE COMMUNITY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-qH-tFQ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="I CAN TREAT PATIENTS MORE COMFORTABLY IN THEIR HOMES, AND MAYBE EVEN GO FOR HIKES WITH THEM." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20z-By-O6R">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="I CAN TREAT PATIENTS MORE COMFORTABLY IN THEIR HOMES, AND MAYBE EVEN GO FOR HIKES WITH THEM." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20z-By-O6R">
                                                                 <rect key="frame" x="0.0" y="76" width="343" height="82"/>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-i3-2Ij">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-i3-2Ij">
                                                                 <rect key="frame" x="0.0" y="158" width="343" height="322"/>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">In 2012 I moved to San Luis Obispo to live closer to my parents, and met my wife Vanessa shortly after. Today Vanessa and I love living in San Luis Obispo and we have embarked on a new adventure we call Pre-R. We want to help people with their basic medical needs in the comfort of home, while sheltering them from ER and urgent care stressors and expenses.
 
@@ -729,18 +788,22 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-9b-0Fp">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-9b-0Fp">
                                                                 <rect key="frame" x="0.0" y="480" width="343" height="112"/>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">In October 2015 Pre-R got a new boss named Max. I still do the medicine, Vanessa still does the books, while Max takes all the money… typical corporate medicine I guess. Joking aside, I’m considerably better at pediatrics now with Max in the mix.</string>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
                                                         </subviews>
+                                                        <animations/>
                                                     </stackView>
                                                 </subviews>
+                                                <animations/>
                                             </stackView>
                                         </subviews>
+                                        <animations/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="y5g-ZO-4t9" firstAttribute="height" secondItem="hfD-4g-ZuT" secondAttribute="height" multiplier="0.2" id="Hxl-6Q-3Il"/>
@@ -757,6 +820,7 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Gaa-76-Spr" secondAttribute="bottom" id="Ep6-1U-SbL"/>
                                     <constraint firstAttribute="trailing" secondItem="Gaa-76-Spr" secondAttribute="trailing" id="TX7-tD-M5E"/>
@@ -766,6 +830,7 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.98127003209999997" green="0.98127003209999997" blue="0.98127003209999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Awe-KD-B2f" firstAttribute="top" secondItem="kvz-A2-suc" secondAttribute="bottom" id="Tcg-AE-ffO"/>
@@ -794,38 +859,43 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4tv-yC-l0N">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4tv-yC-l0N">
                                 <rect key="frame" x="26" y="89" width="322" height="393"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="REQUEST A CONSULT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="d2B-EB-YyR">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REQUEST A CONSULT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="d2B-EB-YyR">
                                         <rect key="frame" x="11" y="0.0" width="300" height="40"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="29"/>
                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQM-uX-tn2">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQM-uX-tn2">
                                         <rect key="frame" x="25" y="70" width="272" height="230"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N4H-i6-Jex">
                                                 <rect key="frame" x="0.0" y="0.0" width="272" height="30"/>
+                                                <animations/>
                                                 <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TGX-ea-b8c">
                                                 <rect key="frame" x="0.0" y="40" width="272" height="30"/>
+                                                <animations/>
                                                 <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cgz-4H-eFh">
                                                 <rect key="frame" x="0.0" y="80" width="272" height="30"/>
+                                                <animations/>
                                                 <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="next"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j2B-HI-1YW">
                                                 <rect key="frame" x="0.0" y="120" width="272" height="30"/>
+                                                <animations/>
                                                 <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
@@ -835,31 +905,37 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                                 <subviews>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-xw-lG8">
                                                         <rect key="frame" x="0.0" y="0.0" width="126" height="30"/>
+                                                        <animations/>
                                                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xuf-YQ-Bpm">
                                                         <rect key="frame" x="146" y="0.0" width="126" height="30"/>
+                                                        <animations/>
                                                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                                     </textField>
                                                 </subviews>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstItem="xuf-YQ-Bpm" firstAttribute="width" secondItem="8UH-xw-lG8" secondAttribute="width" id="E1G-bq-CPv"/>
                                                 </constraints>
                                             </stackView>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zip Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P6Y-fP-Qwq">
                                                 <rect key="frame" x="0.0" y="200" width="272" height="30"/>
+                                                <animations/>
                                                 <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                             </textField>
                                         </subviews>
+                                        <animations/>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga9-ga-sDi">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga9-ga-sDi">
                                         <rect key="frame" x="67" y="330" width="188" height="63"/>
+                                        <animations/>
                                         <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.25882352939999997" alpha="0.82734375000000004" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Ga9-ga-sDi" secondAttribute="height" multiplier="3:1" id="5Cr-1s-6C5"/>
@@ -873,12 +949,14 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                         </connections>
                                     </button>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="CQM-uX-tn2" secondAttribute="trailing" constant="25" id="RKa-qF-AtR"/>
                                     <constraint firstItem="CQM-uX-tn2" firstAttribute="leading" secondItem="4tv-yC-l0N" secondAttribute="leading" constant="25" id="dRd-b0-2BP"/>
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.98127003209999997" green="0.98127003209999997" blue="0.98127003209999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Ga9-ga-sDi" firstAttribute="width" secondItem="hiG-DZ-LW9" secondAttribute="width" multiplier="0.5" id="2h7-BV-pku"/>
@@ -912,6 +990,7 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NWD-ZD-o3J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -931,6 +1010,7 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tFf-Kf-yxt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -958,12 +1038,14 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7s7-bG-hjF">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="27"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4U-DV-5jF">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
 
@@ -988,11 +1070,13 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="7s7-bG-hjF" firstAttribute="height" secondItem="M4U-DV-5jF" secondAttribute="height" multiplier="0.05" id="TgW-i6-DQs"/>
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Gd7-Nb-Ymb" firstAttribute="leading" secondItem="XKx-uD-gO6" secondAttribute="leadingMargin" id="UGS-wU-8Bc"/>
@@ -1022,6 +1106,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zqr-IS-7es">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1041,6 +1126,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QGM-V2-j9c">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1060,6 +1146,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="14K-oA-mHX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1079,6 +1166,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Glh-EJ-7ac">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1098,6 +1186,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zyC-Dh-YHv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1117,6 +1206,7 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="v7P-o8-QQT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1144,12 +1234,14 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F.A.Q." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="R6r-N7-7IA">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="27"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="028-WC-pNl">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">WHAT IS PRE-R?
 	Through telemedicine and house calls we offer care for basic acute medical problems. We accept calls from anywhere, but our house calls are offered primarily to the San Luis Obispo community. Dr. Sam Slishman has practiced emergency medicine since 1997. We provide thoughtful, personal care to help solve your problems as efficiently and pleasantly as possible with no financial surprises.
@@ -1191,11 +1283,13 @@ CAN YOU MAKE SPECIALIST REFERRALS?
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="R6r-N7-7IA" firstAttribute="height" secondItem="028-WC-pNl" secondAttribute="height" multiplier="0.05" id="RTh-pN-eZz"/>
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="cwr-wM-xnx" secondAttribute="bottom" constant="15" id="23R-cV-IqR"/>
@@ -1233,12 +1327,14 @@ CAN YOU MAKE SPECIALIST REFERRALS?
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Informed Consent for Medical Treatment" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36s-tG-Dgd">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="56"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trb-Re-LNH">
                                         <rect key="frame" x="0.0" y="66" width="343" height="506"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">General Information The doctor-patient relationship is unique in that it is a highly personal and at the same time, a contractual agreement. Given this, it is important for us to reach a clear understanding about how our relationship will work, and what each of us can expect. This consent will provide a clear framework for our work together. Feel free to discuss any of this with me. Please read and indicate that you have reviewed this information and agree to it by filling in the checkbox at the end of this document.
 
@@ -1261,6 +1357,7 @@ Samuel Slishman, MD Board Certified Emergency Medicine
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="36s-tG-Dgd" firstAttribute="height" secondItem="trb-Re-LNH" secondAttribute="height" multiplier="0.05" id="UjF-Oz-WzB"/>
                                 </constraints>
@@ -1271,6 +1368,7 @@ Samuel Slishman, MD Board Certified Emergency Medicine
                                 </variation>
                             </stackView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ova-3y-pTQ" firstAttribute="leading" secondItem="KvP-SD-K8r" secondAttribute="leadingMargin" id="Ess-aa-BSo"/>
@@ -1309,12 +1407,14 @@ Samuel Slishman, MD Board Certified Emergency Medicine
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notice of Privacy Practices" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CS1-Zq-vVY">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="27"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unS-fY-9IQ">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">THIS NOTICE DESCRIBES HOW HEALTH INFORMATION MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY.
 
@@ -1363,11 +1463,13 @@ Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), y
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="CS1-Zq-vVY" firstAttribute="height" secondItem="unS-fY-9IQ" secondAttribute="height" multiplier="0.05" id="z5i-6I-sBg"/>
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Vct-CU-KWf" firstAttribute="leading" secondItem="XHC-Qp-Usx" secondAttribute="leadingMargin" id="C1G-mZ-dTv"/>
@@ -1405,12 +1507,14 @@ Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), y
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practice Policy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aob-Dq-CZQ">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="27"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PP-Sm-Rbk">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">TELEPHONE ACCESSIBILITY If you need to contact me prior to an appointment, please leave a voice message. I am often not immediately available. However, I will attempt to return your call within 24 hours. If a true emergency situation arises, please call 911 or any local emergency room.
 
@@ -1424,11 +1528,13 @@ TERMINATION Ending relationships can be difficult. Therefore, it is important 
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="Aob-Dq-CZQ" firstAttribute="height" secondItem="4PP-Sm-Rbk" secondAttribute="height" multiplier="0.05" id="WKz-qq-B9f"/>
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Y0n-rh-KqA" secondAttribute="trailing" id="0N1-Zy-PRB"/>
@@ -1466,12 +1572,14 @@ TERMINATION Ending relationships can be difficult. Therefore, it is important 
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIPPA Notice" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kg4-bj-a03">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="27"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUT-J9-tB7">
                                         <rect key="frame" x="0.0" y="37" width="343" height="535"/>
+                                        <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Our goal is to help people with their simple medical needs in the comfort of home, while sheltering them from er and urgent care stressors and expenses.
 
@@ -1496,11 +1604,13 @@ Unlike concierge medicine, we do not require memberships. Consider Pre-R to be y
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="Kg4-bj-a03" firstAttribute="height" secondItem="cUT-J9-tB7" secondAttribute="height" multiplier="0.05" id="c0t-IG-0Qe"/>
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="nGz-jW-LnK" secondAttribute="bottom" constant="15" id="3mS-SI-j3M"/>
