@@ -11,6 +11,7 @@ import Foundation
 import LBBlurredImage
 import MapKit
 import CoreLocation
+import Firebase
 
 class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
@@ -25,6 +26,8 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var availButton: UIButton!
     @IBOutlet weak var distanceButton: UIButton!
+    
+    var ref = FIRDatabase.database().reference()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,6 +75,14 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
         
         do {
+            
+            let userID = FIRAuth.auth()?.currentUser?.uid
+            ref.child("availability").child(userID!).observeSingleEventOfType(.Value, withBlock: { (snapshot) in
+                let status = snapshot.value!["availability"] as! String
+                self.availButton.setTitle(status.uppercaseString, forState: .Normal)
+            }) { (error) in
+                print(error.localizedDescription)
+            }
             //var user = try PFQuery.getUserObjectWithId("dB4rAootm2")
             //var status = user["availability"] as! String
             //availButton.setTitle(status.uppercaseString, forState: .Normal)
@@ -97,6 +108,13 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     func getStatus() {
         do {
+            let userID = FIRAuth.auth()?.currentUser?.uid
+            ref.child("availability").child(userID!).observeSingleEventOfType(.Value, withBlock: { (snapshot) in
+                let status = snapshot.value!["availability"] as! String
+                self.availButton.setTitle(status.uppercaseString, forState: .Normal)
+            }) { (error) in
+                print(error.localizedDescription)
+            }
             //var user = try PFQuery.getUserObjectWithId("dB4rAootm2")
             //var status = user["availability"] as! String
             //availButton.setTitle(status.uppercaseString, forState: .Normal)
