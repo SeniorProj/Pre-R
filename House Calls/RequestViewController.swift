@@ -43,19 +43,6 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
         super.touchesBegan(touches, withEvent: event)
     }
     
-    func sendEmail() {
-        if MFMailComposeViewController.canSendMail() {
-            let mail = MFMailComposeViewController()
-            mail.mailComposeDelegate = self
-            mail.setToRecipients(["pomtech16@gmail.com"])
-            mail.setMessageBody("<p>formData</p>", isHTML: true)
-            
-            presentViewController(mail, animated: true, completion: nil)
-        } else {
-            // show failure alert
-        }
-    }
-    
     func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
         controller.dismissViewControllerAnimated(true, completion: nil)
     }
@@ -63,31 +50,34 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
     
         @IBAction func submitRequestAction(sender: AnyObject) {
             
-            let formData = PFObject(className:"Form")
-            formData["First"] = FirstName.text
-            formData["Last"] = LastName.text
-            formData["Phone"] = Phone.text
-            formData["Email"] = Email.text
-            formData["City"] = City.text
-            formData["State"] = State.text
-            formData["Zip"] = Zip.text
-            formData.saveInBackgroundWithBlock {
-                (success: Bool, error: NSError?) -> Void in
-                if (success) {
-                    print("Success")
-                } else {
-                    // There was a problem, check error.description
-                    print("ERROR")
-                }
-            }
+            let sg = SendGrid(username: "pomtech16", password: "pomtechrulez16")
+            let emailmessage = SendGrid.Email()
             
+            try! emailmessage.addTo("pomtech16@gmail.com", name: "Dr. Slishman")
+            emailmessage.setFrom(Email.text!, name: FirstName.text)
+            emailmessage.setSubject(FirstName.text! + " " + LastName.text! + " Requests A Consult")
+            emailmessage.setTextBody("First Name: " + FirstName.text! + "Last Name: " + LastName.text!)
+            emailmessage.setHtmlBody("<p>First Name: " + FirstName.text! + "<br />" +
+                                    "Last Name: " + LastName.text! + "<br />" +
+                                    "Phone: " + Phone.text! + "<br />" +
+                                    "Email: " + Email.text! + "<br />" +
+                                    "City: " + City.text! + "<br />" +
+                                    "State: " + State.text! + "<br />" +
+                                    "Zip: " + Zip.text! + "</p>" )
+            
+            try! sg.send(emailmessage, completionHandler: { (response, data, error) -> Void in
+                if let json = NSString(data: data!, encoding: NSUTF8StringEncoding) {
+                    print(json)
+                }
+            })
+
             let twilioUsername = "AC674d685ee4f3246548bc79a539056aca"
             let twilioPassword = "a10c9b4790dba27fa905597d35b3d4c2"
             
             let data = [
                 "To" : "+4256389697",
                 "From" : "+17074160746",
-                "Body" : "You have a client that submitted a request form"
+                "Body" : "You have a client that requests a consult"
             ]
             
             Alamofire.request(.POST, "https://\(twilioUsername):\(twilioPassword)@api.twilio.com/2010-04-01/Accounts/\(twilioUsername)/Messages", parameters: data)
@@ -95,35 +85,11 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
                     print(response.request)
                     print(response.response)
                     print(response.result)
-                    
-            self.sendEmail()
+            
+                    JLToast.makeText("Email Sent! Dr. Slishman will contact you shortly.", duration: JLToastDelay.LongDelay).show()
         }
         
 
-        JLToast.makeText("Form Submitted").show()
-        
-        /*let mandrill = require("mandrill");
-        mandrill.initialize("mandrillAPIKey");
-        
-        Parse.Cloud.define("myMandrillFunction", function(request, response) {
-            mandrill.sendEmail({
-                message: {
-                    text: "Hello World!",
-                    subject: "Using Cloud Code and Mandrill is great!",
-                    from_email: "parse@cloudcode.com",
-                    from_name: "Cloud Code",
-                    to: [
-                    {
-                    email: "you@parse.com",
-                    name: "Your Name"
-                    }
-                    ]
-                },
-                async: true
-                }, {
-                    success: function(httpResponse) { response.success("Email sent!"); },
-                    error: function(httpResponse) { response.error("Uh oh, something went wrong"); }
-            });*/
         }//submitrequestactionsender
     /*
     // MARK: - Navigation
