@@ -18,7 +18,6 @@ class LogInViewController: UIViewController {
     @IBOutlet var passwordTextField: UITextField!
     @IBOutlet var verificationLabel: UILabel!
     
-    //var ref = Firebase(url: "https://com.AllieLustig.HouseCalls.firebaseio.com")
     
     override func viewDidLoad() {
         super.viewDidLoad()
