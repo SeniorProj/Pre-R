@@ -52,30 +52,11 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
         
         let sg = SendGrid(username: "pomtech16", password: "pomtechrulez16")
         let emailmessage = SendGrid.Email()
-        
-        try! emailmessage.addTo("pomtech16@gmail.com", name: "Dr. Slishman")
-        emailmessage.setFrom(Email.text!, name: FirstName.text)
-        emailmessage.setSubject(FirstName.text! + " " + LastName.text! + " Requests A Consult")
-        emailmessage.setTextBody("First Name: " + FirstName.text! + "Last Name: " + LastName.text!)
-        emailmessage.setHtmlBody("<p>First Name: " + FirstName.text! + "<br />" +
-            "Last Name: " + LastName.text! + "<br />" +
-            "Phone: " + Phone.text! + "<br />" +
-            "Email: " + Email.text! + "<br />" +
-            "City: " + City.text! + "<br />" +
-            "State: " + State.text! + "<br />" +
-            "Zip: " + Zip.text! + "</p>" )
-        
-        try! sg.send(emailmessage, completionHandler: { (response, data, error) -> Void in
-            if let json = NSString(data: data!, encoding: NSUTF8StringEncoding) {
-                print(json)
-            }
-        })
-        
         let twilioUsername = "AC674d685ee4f3246548bc79a539056aca"
         let twilioPassword = "a10c9b4790dba27fa905597d35b3d4c2"
         
         let data = [
-            "To" : "+4256389697",
+            "To" : "+14256389697",
             "From" : "+17074160746",
             "Body" : "You have a client that requests a consult"
         ]
@@ -86,6 +67,25 @@ class RequestViewController: UIViewController, MFMailComposeViewControllerDelega
                 print(response.response)
                 print(response.result)
                 
+        
+        try! emailmessage.addTo("pomtech16@gmail.com", name: "Dr. Slishman")
+        emailmessage.setFrom(self.Email.text!, name: self.FirstName.text)
+        emailmessage.setSubject(self.FirstName.text! + " " + self.LastName.text! + " Requests A Consult")
+        emailmessage.setTextBody("First Name: " + self.FirstName.text! + "Last Name: " + self.LastName.text!)
+        emailmessage.setHtmlBody("<p>First Name: " + self.FirstName.text! + "<br />" +
+            "Last Name: " + self.LastName.text! + "<br />" +
+            "Phone: " + self.Phone.text! + "<br />" +
+            "Email: " + self.Email.text! + "<br />" +
+            "City: " + self.City.text! + "<br />" +
+            "State: " + self.State.text! + "<br />" +
+            "Zip: " + self.Zip.text! + "</p>" )
+        
+        try! sg.send(emailmessage, completionHandler: { (response, data, error) -> Void in
+            if let json = NSString(data: data!, encoding: NSUTF8StringEncoding) {
+                print(json)
+            }
+        })
+        
                 JLToast.makeText("Email Sent! Dr. Slishman will contact you shortly.", duration: JLToastDelay.LongDelay).show()
         }
         
