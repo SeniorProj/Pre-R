@@ -4,10 +4,12 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'HouseCalls' do
-  pod 'LBBlurredImage', '~> 0.2'
-  pod 'JLToast', '~> 1.3'
-end
+  pod 'LBBlurredImage', '~> 0.2.2'
+  pod 'JLToast', '~> 1.4.1'
+  pod 'SendGrid',:git => 'https://github.com/scottkawai/sendgrid-swift.git', :submodules => true
+  end
 
 post_install do |installer|
     system "sed -i '' -E 's/EMBEDDED_CONTENT_CONTAINS_SWIFT[[:space:]]=[[:space:]]YES/EMBEDDED_CONTENT_CONTAINS_SWIFT = NO/g' Pods/Target\\ Support\\ Files/Pods-HouseCalls/*.xcconfig"
+
 end

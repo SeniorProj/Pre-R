@@ -1,0 +1,3 @@
+[submodule "House Calls/sendgrid-swift"]
+	path = House Calls/sendgrid-swift
+	url = https://github.com/scottkawai/sendgrid-swift.git

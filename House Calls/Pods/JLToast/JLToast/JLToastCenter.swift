@@ -23,6 +23,10 @@ import UIKit
 
     private var _queue: NSOperationQueue!
 
+    public var currentToast: JLToast? {
+        return self._queue.operations.first as? JLToast
+    }
+
     private struct Singletone {
         static let defaultCenter = JLToastCenter()
     }
@@ -37,7 +41,7 @@ import UIKit
         self._queue.maxConcurrentOperationCount = 1
         NSNotificationCenter.defaultCenter().addObserver(
             self,
-            selector: "deviceOrientationDidChange:",
+            selector: #selector(self.deviceOrientationDidChange),
             name: UIDeviceOrientationDidChangeNotification,
             object: nil
         )
@@ -53,4 +57,11 @@ import UIKit
             lastToast.view.updateView()
         }
     }
+
+    public func cancelAllToasts() {
+        for toast in self._queue.operations {
+            toast.cancel()
+        }
+    }
+
 }
