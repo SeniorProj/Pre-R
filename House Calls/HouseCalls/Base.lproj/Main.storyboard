@@ -495,10 +495,10 @@
                                 <rect key="frame" x="-4" y="267" width="383" height="400"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="h72-6u-hsi">
-                                        <rect key="frame" x="16" y="106" width="351" height="157"/>
+                                        <rect key="frame" x="16" y="106" width="351" height="158"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="msU-co-V0C" userLabel="Status">
-                                                <rect key="frame" x="0.0" y="0.0" width="169" height="157"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="158"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S T A T U S :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hPn-S6-GMm">
                                                         <rect key="frame" x="0.0" y="0.0" width="169" height="45"/>
@@ -507,7 +507,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="z7V-hR-DfC">
-                                                        <rect key="frame" x="0.0" y="45" width="169" height="112"/>
+                                                        <rect key="frame" x="0.0" y="45" width="169" height="113"/>
                                                         <color key="backgroundColor" white="0.25" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="18"/>
                                                         <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
@@ -527,7 +527,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bHC-VF-YwD" userLabel="Distance">
-                                                <rect key="frame" x="181" y="0.0" width="170" height="157"/>
+                                                <rect key="frame" x="181" y="0.0" width="170" height="158"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D I S T A N C E :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bPO-JH-PTX">
                                                         <rect key="frame" x="0.0" y="0.0" width="170" height="45"/>
@@ -536,7 +536,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DKH-5c-kiD">
-                                                        <rect key="frame" x="0.0" y="45" width="170" height="112"/>
+                                                        <rect key="frame" x="0.0" y="45" width="170" height="113"/>
                                                         <color key="backgroundColor" white="0.25" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="26"/>
                                                         <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
@@ -562,7 +562,7 @@
                                             <constraint firstItem="bHC-VF-YwD" firstAttribute="width" secondItem="msU-co-V0C" secondAttribute="width" constant="1" id="1ZO-Xd-Daw"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-Zm-wQp" userLabel="Request">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-Zm-wQp" userLabel="Request">
                                         <rect key="frame" x="16" y="276" width="351" height="112"/>
                                         <color key="backgroundColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
@@ -662,17 +662,17 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fE1-BY-CUL">
                                                 <rect key="frame" x="0.0" y="276" width="343" height="1180"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-US-yZZ">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-US-yZZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="201"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ER IS MY SPECIALTY, BUT I PREFER PRE-R" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-A7-RmW">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="ER IS MY SPECIALTY, BUT I PREFER PRE-R" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-A7-RmW">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-6k-btw">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-6k-btw">
                                                                 <rect key="frame" x="0.0" y="76" width="343" height="125"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">WHILE EMERGENCY MEDICINE CAN BE FASCINATING AND EXCITING,
@@ -682,17 +682,17 @@ PRE-R LETS ME SPEND MUCH MORE TIME WITH MY PATIENTS IN THE COMFORT OF THEIR HOME
                                                             </textView>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DeV-MZ-1bg">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DeV-MZ-1bg">
                                                         <rect key="frame" x="0.0" y="201" width="343" height="387"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="BIOGRAPHY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-m8-rQQ">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="BIOGRAPHY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-m8-rQQ">
                                                                 <rect key="frame" x="105" y="0.0" width="133" height="46"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="0.23921568630000001" green="0.50196078430000002" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-c8-zz7">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-c8-zz7">
                                                                 <rect key="frame" x="0.0" y="46" width="343" height="341"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">Since graduation from my residency in 2000, I have also worked in tiny rural New Mexico hospitals, in the NM Heart Hospital, and in Wyoming, New Zealand and Tasmania. In 2003, I started a nonprofit in Albuquerque, Endorphin Power Company, to help people with drug and alcohol problems.
@@ -703,23 +703,23 @@ Today I am part of the Central Coast Emergency Physicians group working in San L
                                                             </textView>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-YY-7jZ">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-YY-7jZ">
                                                         <rect key="frame" x="0.0" y="588" width="343" height="592"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="PRE-R ALLOWS ME TO BE PART OF THE COMMUNITY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-qH-tFQ">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="PRE-R ALLOWS ME TO BE PART OF THE COMMUNITY" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-qH-tFQ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="textColor" red="1" green="0.24313725489999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="I CAN TREAT PATIENTS MORE COMFORTABLY IN THEIR HOMES, AND MAYBE EVEN GO FOR HIKES WITH THEM." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20z-By-O6R">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="I CAN TREAT PATIENTS MORE COMFORTABLY IN THEIR HOMES, AND MAYBE EVEN GO FOR HIKES WITH THEM." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20z-By-O6R">
                                                                 <rect key="frame" x="0.0" y="76" width="343" height="82"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-i3-2Ij">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-i3-2Ij">
                                                                 <rect key="frame" x="0.0" y="158" width="343" height="322"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">In 2012 I moved to San Luis Obispo to live closer to my parents, and met my wife Vanessa shortly after. Today Vanessa and I love living in San Luis Obispo and we have embarked on a new adventure we call Pre-R. We want to help people with their basic medical needs in the comfort of home, while sheltering them from ER and urgent care stressors and expenses.
@@ -728,7 +728,7 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-9b-0Fp">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-9b-0Fp">
                                                                 <rect key="frame" x="0.0" y="480" width="343" height="112"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <string key="text">In October 2015 Pre-R got a new boss named Max. I still do the medicine, Vanessa still does the books, while Max takes all the money… typical corporate medicine I guess. Joking aside, I’m considerably better at pediatrics now with Max in the mix.</string>
@@ -877,11 +877,6 @@ I manage the patient care and medical notes, while Vanessa manages our books, th
                                     <constraint firstItem="CQM-uX-tn2" firstAttribute="leading" secondItem="4tv-yC-l0N" secondAttribute="leading" constant="25" id="dRd-b0-2BP"/>
                                 </constraints>
                             </stackView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Pressing submit will send an Email with this info to the Doctor" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N9P-Sc-ifg">
-                                <rect key="frame" x="20" y="490" width="328" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.98127003209999997" green="0.98127003209999997" blue="0.98127003209999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
