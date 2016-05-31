@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		095D92D91C55697D00660599 /* DoctorStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D92D81C55697D00660599 /* DoctorStatusViewController.swift */; };
+		096615E61CFD5E8800EC3689 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 096615E51CFD5E8800EC3689 /* GoogleService-Info.plist */; };
+		0FE53C18AB92F355E8A3D6F6 /* Pods_HouseCalls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D06CB9FE8449087C0FCEB6E /* Pods_HouseCalls.framework */; };
 		271BDF811C121D5F0075A29E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271BDF721C121D2D0075A29E /* Alamofire.framework */; };
 		271BDF821C121D5F0075A29E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 271BDF721C121D2D0075A29E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2750873A1BFC66380030863E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275087391BFC66380030863E /* SWRevealViewController.m */; };
@@ -35,16 +37,10 @@
 		3B97FCBA1C0AF5E00009DFEB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCB91C0AF5E00009DFEB /* Accounts.framework */; };
 		3B97FCBC1C0AF5E50009DFEB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCBB1C0AF5E50009DFEB /* Social.framework */; };
 		3B97FCBF1C0AF61B0009DFEB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */; };
-		3B97FCC01C0AF61B0009DFEB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCBE1C0AF61B0009DFEB /* Parse.framework */; };
 		3B97FCC71C0B11B70009DFEB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97FCC61C0B11B70009DFEB /* LogInViewController.swift */; };
-		3B97FCCC1C0B17FB0009DFEB /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCC81C0B17FB0009DFEB /* ParseFacebookUtils.framework */; };
-		3B97FCCD1C0B17FB0009DFEB /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCC91C0B17FB0009DFEB /* ParseFacebookUtilsV4.framework */; };
-		3B97FCCE1C0B17FB0009DFEB /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */; };
-		3B97FCCF1C0B17FB0009DFEB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */; };
 		3BCFFEF81C0CF7A800C20C79 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */; };
 		49BEB6DA1C83B3AB00BA55A1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BEB6D91C83B3AB00BA55A1 /* MapViewController.swift */; };
 		49BEB6E21C83BCAC00BA55A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */; };
-		ACF0A699CF9837B47EBF7CDF /* Pods_HouseCalls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE9EE8FBB259764C05D3B09 /* Pods_HouseCalls.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		D04A7EDB1C73F87300787EE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */; };
 		D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */; };
 		D07AF9641C559003006AB1AF /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF9631C559002006AB1AF /* FAQViewController.swift */; };
@@ -138,6 +134,7 @@
 
 /* Begin PBXFileReference section */
 		095D92D81C55697D00660599 /* DoctorStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorStatusViewController.swift; sourceTree = "<group>"; };
+		096615E51CFD5E8800EC3689 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		271BDF671C121D2C0075A29E /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Frameworks/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		275087371BFC66370030863E /* HouseCalls-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HouseCalls-Bridging-Header.h"; sourceTree = "<group>"; };
 		275087381BFC66380030863E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -168,17 +165,12 @@
 		3B97FCB91C0AF5E00009DFEB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		3B97FCBB1C0AF5E50009DFEB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		3B97FCBE1C0AF61B0009DFEB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		3B97FCC61C0B11B70009DFEB /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../LogInViewController.swift; sourceTree = "<group>"; };
-		3B97FCC81C0B17FB0009DFEB /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		3B97FCC91C0B17FB0009DFEB /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
-		3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
-		3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestViewController.swift; path = ../RequestViewController.swift; sourceTree = "<group>"; };
 		49BEB6D91C83B3AB00BA55A1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		4FE9EE8FBB259764C05D3B09 /* Pods_HouseCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FCDF99E732508E2CF2C94FC /* Pods-HouseCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseCalls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseCalls/Pods-HouseCalls.debug.xcconfig"; sourceTree = "<group>"; };
+		6D06CB9FE8449087C0FCEB6E /* Pods_HouseCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782A8D22912CAF0AF4919D8A /* Pods-HouseCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseCalls.release.xcconfig"; path = "Pods/Target Support Files/Pods-HouseCalls/Pods-HouseCalls.release.xcconfig"; sourceTree = "<group>"; };
 		D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D07AF9631C559002006AB1AF /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
@@ -188,7 +180,7 @@
 		D07AF96B1C559044006AB1AF /* HIPPANoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIPPANoticeViewController.swift; sourceTree = "<group>"; };
 		D0FB78361C69C6D8002905BE /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		D0FB78381C69C7C0002905BE /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		F0FE88443BDB522A8C5E88CC /* Pods-HouseCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseCalls.release.xcconfig"; path = "Pods/Target Support Files/Pods-HouseCalls/Pods-HouseCalls.release.xcconfig"; sourceTree = "<group>"; };
+		E9B5306051B67C3E5DE5009F /* Pods-HouseCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseCalls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseCalls/Pods-HouseCalls.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,7 +188,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B97FCCF1C0B17FB0009DFEB /* ParseUI.framework in Frameworks */,
 				3B97FCBC1C0AF5E50009DFEB /* Social.framework in Frameworks */,
 				3B97FCBA1C0AF5E00009DFEB /* Accounts.framework in Frameworks */,
 				3B97FCB81C0AF5B60009DFEB /* libsqlite3.tbd in Frameworks */,
@@ -206,17 +197,13 @@
 				3B97FCB21C0AF59D0009DFEB /* StoreKit.framework in Frameworks */,
 				3B97FCB01C0AF5980009DFEB /* Security.framework in Frameworks */,
 				3B97FCBF1C0AF61B0009DFEB /* Bolts.framework in Frameworks */,
-				3B97FCCC1C0B17FB0009DFEB /* ParseFacebookUtils.framework in Frameworks */,
 				3B97FCAE1C0AF58F0009DFEB /* QuartzCore.framework in Frameworks */,
 				271BDF811C121D5F0075A29E /* Alamofire.framework in Frameworks */,
-				3B97FCCD1C0B17FB0009DFEB /* ParseFacebookUtilsV4.framework in Frameworks */,
 				3B97FCAC1C0AF5860009DFEB /* CoreLocation.framework in Frameworks */,
-				3B97FCC01C0AF61B0009DFEB /* Parse.framework in Frameworks */,
 				3B97FCAA1C0AF5800009DFEB /* CoreGraphics.framework in Frameworks */,
-				3B97FCCE1C0B17FB0009DFEB /* ParseTwitterUtils.framework in Frameworks */,
 				3B97FCA81C0AF5790009DFEB /* CFNetwork.framework in Frameworks */,
 				3B97FCA61C0AF5740009DFEB /* AudioToolbox.framework in Frameworks */,
-				ACF0A699CF9837B47EBF7CDF /* Pods_HouseCalls.framework in Frameworks */,
+				0FE53C18AB92F355E8A3D6F6 /* Pods_HouseCalls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +254,7 @@
 				27C3E78E1BFC0ECB002F67C8 /* HouseCalls */,
 				27C3E78D1BFC0ECB002F67C8 /* Products */,
 				271BDF671C121D2C0075A29E /* Alamofire.xcodeproj */,
-				FC08B7CA7091267D496B190A /* Pods */,
+				45F992323F551848E9FCCA18 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -301,6 +288,7 @@
 				D07AF96B1C559044006AB1AF /* HIPPANoticeViewController.swift */,
 				095D92D81C55697D00660599 /* DoctorStatusViewController.swift */,
 				3B97FCC61C0B11B70009DFEB /* LogInViewController.swift */,
+				096615E51CFD5E8800EC3689 /* GoogleService-Info.plist */,
 				27C3E7961BFC0ECB002F67C8 /* Assets.xcassets */,
 				27C3E79B1BFC0ECB002F67C8 /* Info.plist */,
 			);
@@ -311,12 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */,
-				3B97FCC81C0B17FB0009DFEB /* ParseFacebookUtils.framework */,
-				3B97FCC91C0B17FB0009DFEB /* ParseFacebookUtilsV4.framework */,
-				3B97FCCA1C0B17FB0009DFEB /* ParseTwitterUtils.framework */,
-				3B97FCCB1C0B17FB0009DFEB /* ParseUI.framework */,
 				3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */,
-				3B97FCBE1C0AF61B0009DFEB /* Parse.framework */,
 				3B97FCBB1C0AF5E50009DFEB /* Social.framework */,
 				3B97FCB91C0AF5E00009DFEB /* Accounts.framework */,
 				3B97FCB71C0AF5B60009DFEB /* libsqlite3.tbd */,
@@ -329,16 +312,16 @@
 				3B97FCA91C0AF5800009DFEB /* CoreGraphics.framework */,
 				3B97FCA71C0AF5790009DFEB /* CFNetwork.framework */,
 				3B97FCA51C0AF5740009DFEB /* AudioToolbox.framework */,
-				4FE9EE8FBB259764C05D3B09 /* Pods_HouseCalls.framework */,
+				6D06CB9FE8449087C0FCEB6E /* Pods_HouseCalls.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC08B7CA7091267D496B190A /* Pods */ = {
+		45F992323F551848E9FCCA18 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8FCDF99E732508E2CF2C94FC /* Pods-HouseCalls.debug.xcconfig */,
-				F0FE88443BDB522A8C5E88CC /* Pods-HouseCalls.release.xcconfig */,
+				E9B5306051B67C3E5DE5009F /* Pods-HouseCalls.debug.xcconfig */,
+				782A8D22912CAF0AF4919D8A /* Pods-HouseCalls.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -350,13 +333,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27C3E79E1BFC0ECB002F67C8 /* Build configuration list for PBXNativeTarget "HouseCalls" */;
 			buildPhases = (
-				3C32DD5D8673EA1D3C8464EA /* Check Pods Manifest.lock */,
+				0336473F164D0E3E25CFCF3D /* 📦 Check Pods Manifest.lock */,
 				27C3E7881BFC0ECB002F67C8 /* Sources */,
 				27C3E7891BFC0ECB002F67C8 /* Frameworks */,
 				27C3E78A1BFC0ECB002F67C8 /* Resources */,
 				3BF599531C0C196E00B460E8 /* Embed Frameworks */,
-				FC302E65D0024B122C306406 /* Embed Pods Frameworks */,
-				31D2CC400DB77E6985B5ADC9 /* Copy Pods Resources */,
+				D9D05D1C769F8835C3194E7D /* 📦 Embed Pods Frameworks */,
+				20F176A2B435D6CF1E49E3DC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -478,6 +461,7 @@
 				3B97FC9C1BFC81FB0009DFEB /* menu.png in Resources */,
 				27C3E7951BFC0ECB002F67C8 /* Main.storyboard in Resources */,
 				2750874A1BFC78330030863E /* sam-pic.jpg in Resources */,
+				096615E61CFD5E8800EC3689 /* GoogleService-Info.plist in Resources */,
 				D0FB78391C69C7C0002905BE /* OpenSans-Regular.ttf in Resources */,
 				275087461BFC76B70030863E /* sam.jpg in Resources */,
 			);
@@ -486,29 +470,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31D2CC400DB77E6985B5ADC9 /* Copy Pods Resources */ = {
+		0336473F164D0E3E25CFCF3D /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseCalls/Pods-HouseCalls-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3C32DD5D8673EA1D3C8464EA /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,14 +485,29 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		FC302E65D0024B122C306406 /* Embed Pods Frameworks */ = {
+		20F176A2B435D6CF1E49E3DC /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseCalls/Pods-HouseCalls-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D05D1C769F8835C3194E7D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -675,7 +659,7 @@
 		};
 		27C3E79F1BFC0ECB002F67C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FCDF99E732508E2CF2C94FC /* Pods-HouseCalls.debug.xcconfig */;
+			baseConfigurationReference = E9B5306051B67C3E5DE5009F /* Pods-HouseCalls.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -687,20 +671,18 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = HouseCalls/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AllieLustig.HouseCalls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HouseCalls/HouseCalls-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		27C3E7A01BFC0ECB002F67C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0FE88443BDB522A8C5E88CC /* Pods-HouseCalls.release.xcconfig */;
+			baseConfigurationReference = 782A8D22912CAF0AF4919D8A /* Pods-HouseCalls.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -712,13 +694,11 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = HouseCalls/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AllieLustig.HouseCalls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HouseCalls/HouseCalls-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

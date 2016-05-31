@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import Parse
 import CoreData
+import Firebase
 
 class LogInViewController: UIViewController {
 
@@ -17,6 +17,8 @@ class LogInViewController: UIViewController {
     @IBOutlet var usernameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
     @IBOutlet var verificationLabel: UILabel!
+    
+    //var ref = Firebase(url: "https://com.AllieLustig.HouseCalls.firebaseio.com")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,6 +69,21 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func logInButtonAction(sender: AnyObject) {
+        let username = usernameTextField.text
+        let password = passwordTextField.text
+        FIRAuth.auth()?.signInWithEmail(username!, password: password!) { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+            else {
+                dispatch_async(dispatch_get_main_queue()) {
+                    var Storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    self.performSegueWithIdentifier("statusMenu", sender: self)
+                }
+            }
+        }
+        /*
         var user = PFUser()
         user.username = usernameTextField.text!
         user.password = passwordTextField.text!
@@ -86,6 +103,7 @@ class LogInViewController: UIViewController {
                 self.verificationLabel.text = "Username/Password combination not valid"
             }
         })
+        */
     }
     
 

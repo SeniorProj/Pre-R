@@ -36,24 +36,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
     {
-        let request = MKDirectionsRequest() //A
         let location = locations.last
-      
-        request.source = MKMapItem(placemark: MKPlacemark(coordinate:CLLocationCoordinate2D(latitude: manager.location!.coordinate.latitude, longitude: manager.location!.coordinate.longitude), addressDictionary: nil)) // A
-        request.destination = MKMapItem(placemark: MKPlacemark(coordinate:CLLocationCoordinate2D(latitude: 35.289239, longitude: -120.667206), addressDictionary: nil)) // A
-      
-        let directions = MKDirections(request: request) //A
-        directions.calculateETAWithCompletionHandler { response, error in
-           if error == nil {
-              if let r = response {
-               let result = r.expectedTravelTime
-              }
-           }
-        }
-      
         let distanceMiles = doctorLocation.distanceFromLocation(location!) * 0.000621371192237
         distance.text = NSString(format: "%.2f miles", distanceMiles) as String
-        //print(distanceMiles)
+        print(distanceMiles)
         let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))
         self.maps.setRegion(region, animated: true)

@@ -7,6 +7,9 @@ target 'HouseCalls' do
   pod 'LBBlurredImage', '~> 0.2.2'
   pod 'JLToast', '~> 1.4.1'
   pod 'SendGrid',:git => 'https://github.com/scottkawai/sendgrid-swift.git', :submodules => true
+  pod 'Firebase'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
   end
 
 post_install do |installer|

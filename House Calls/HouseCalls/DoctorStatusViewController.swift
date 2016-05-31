@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Parse
 
 class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDelegate {
     
@@ -19,6 +18,7 @@ class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPic
      let pickerData = ["Available","Temporarily Unavailable", "Telemedicine", "Unavailable"]
 
     @IBAction func updateStatusButton(sender: AnyObject) {
+        /*
         var currentUser = PFUser.currentUser()
         if currentUser != nil{
             print(currentUser!.username)
@@ -27,6 +27,7 @@ class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPic
         } else{
             print("error")
         }
+ */
     }
     
     override func viewDidLoad() {

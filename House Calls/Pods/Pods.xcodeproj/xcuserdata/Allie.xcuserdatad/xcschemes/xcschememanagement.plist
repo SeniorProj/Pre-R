@@ -6,33 +6,23 @@
 	<dict>
 		<key>JLToast.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>LBBlurredImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-HouseCalls.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>SendGrid.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3F31995448AE0847BBB18FE7825282CA</key>
+		<key>05E100B0AE16FBB9516837D6F2AC3012</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>85BB0E63E89158F0238D6B85708199D8</key>
+		<key>56303EBF87028A2262FAA4CBD1A402FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

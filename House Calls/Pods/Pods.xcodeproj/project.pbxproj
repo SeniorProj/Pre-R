@@ -1,2388 +1,1084 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00D266FE2B4111EDD72BAAA7DB33F1CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>JLToast.swift</string>
-			<key>path</key>
-			<string>JLToast/JLToast.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>028808F4B67336E2B5B34BDA81334D31</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-HouseCalls-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>044E1C0EE56C4A063886121042D25F0F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B0694CE056B6460F8FA64F1E1749C127</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>055007F85DF5DE03ED148C82B0CE1BDE</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3F31995448AE0847BBB18FE7825282CA</string>
-			<key>remoteInfo</key>
-			<string>SendGrid</string>
-		</dict>
-		<key>0576805CBE85A592B660E034C816FCCE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4574E22861DA10BA7FB8D8B840D83A0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06E148A91A1F67E5F7ACD6BC4646EAEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HouseCalls.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0738137FBAAA291BC34D873C2D5BD2DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-HouseCalls-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A2507A523837947E50896413E33FEB7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JLToast.h</string>
-			<key>path</key>
-			<string>JLToast/JLToast.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C96FC3BD00069DC64D09A88CAFAF8DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12F41DD6BE80A97477963062B94D35BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JLToast-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1304560716E181425314A4AD95ED93EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4574E22861DA10BA7FB8D8B840D83A0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14B6BC9757E345172B347E04DF487C16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F365BE2B5616D08F059FF016AC85814</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1ACBC0829967D850F1E67CFB04C4D442</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4008AD72ACFA9B4C6235455C104DE05F</string>
-				<string>C6D7CD57A516A26D9C596FDA23C496E0</string>
-				<string>8939B7C453CBAA45106CD8650E01D449</string>
-				<string>E5A83F988C055E0FC6C7BD4DEFE8C6E1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D751BA52EEBDCA0B75158EC2747A941</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>37773F0F22421BF703ADDD16A49B7F15</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SendGrid/SendGrid-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SendGrid/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/SendGrid/SendGrid.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>SendGrid</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1EC2CC46D9BF03CC2545A96647B552C3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SendGrid-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F0EA39890D3A6D9B4FCCF12A476E15A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SendGrid</string>
-			<key>target</key>
-			<string>3F31995448AE0847BBB18FE7825282CA</string>
-			<key>targetProxy</key>
-			<string>055007F85DF5DE03ED148C82B0CE1BDE</string>
-		</dict>
-		<key>20B56609144CE204DFA8221F742B2D76</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B18EB8BD780CE21B7DDD20BC84C77C8A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2311F07C39E509AAE2325919E78B63E2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C886F2EDAB3505E81B0A9970AC0746B7</string>
-				<string>A759E70A1317E24CE37AB89E3111A778</string>
-				<string>4FAD78A4EF9DC7615CA23C827D29FC98</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25B4B427898650E2288DC0BD36F23655</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3DC787AE9B3AD85C6CA51A90E2A7FB73</string>
-				<string>1D751BA52EEBDCA0B75158EC2747A941</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>270465F74C4F50D9AF826336A61AE392</key>
-		<dict>
-			<key>fileRef</key>
-			<string>47618F75F8E39EBCBF7267D73B424435</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>272AF8383B30189BEFE7B7F22A201114</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B43E620A432EC843DFE24FC333863914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2C2DE4D6EA2A91F6AD03C9834A062A08</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HouseCalls.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C882D0A942B72B247405879D9BE4671</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0C96FC3BD00069DC64D09A88CAFAF8DC</string>
-				<string>8A3DB98AAD6D8A67E95F0DDA61E8FBE2</string>
-				<string>8C4E026D0A6C1B9793C8D4021BBBF6AD</string>
-				<string>12F41DD6BE80A97477963062B94D35BE</string>
-				<string>EB397AE991740A6ACD2D526A03645CA7</string>
-				<string>F5873B7BE1F62DC99DCAC80BD1AABE93</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/JLToast</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A70CDAD61F90AC503C7D04CC22DA2923</string>
-				<string>FB45FFD90572718D82AB9092B750F0CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>31CBC1794E55D608EDF6469DC49F8D1E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SendGrid-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>33682F6A159FC50F4929DF165C5EBBB6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B85FDB9A410E7524CC2B2902DEDC77A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>34AC802A501AE8A8DBD7C05F7007A2E9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3616AD54D34C2E14B554653AED596949</string>
-				<string>D36A029CEF60071F5C3638DDC621130E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>34BDDB7399353D387F3388D7F77EF2BE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AA2320C37D02D8C0CDA605781AF79C6E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/LBBlurredImage/LBBlurredImage-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/LBBlurredImage/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/LBBlurredImage/LBBlurredImage.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>LBBlurredImage</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3616AD54D34C2E14B554653AED596949</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5873B7BE1F62DC99DCAC80BD1AABE93</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>36C6FF6DDC84522D51C28E84365D3B30</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4574E22861DA10BA7FB8D8B840D83A0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37773F0F22421BF703ADDD16A49B7F15</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SendGrid.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CF1FC7C7DA632DB4A25933D5D992774</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-HouseCalls-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DC787AE9B3AD85C6CA51A90E2A7FB73</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>37773F0F22421BF703ADDD16A49B7F15</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SendGrid/SendGrid-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SendGrid/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/SendGrid/SendGrid.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SendGrid</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3E7C11E215C87D06BBF48503DDDAFEDC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E54A8CD744A5F15B40264CFF5289D42E</string>
-				<string>F7512FE17B8A55711457BED9470099B9</string>
-				<string>538DD8A380F41B8585AB8D3D29C2AB35</string>
-				<string>40E1C9ADB1F8A6970C0E5DE25097A185</string>
-				<string>60FA6BE0E4BDD59F5B305A3FE70D3C7E</string>
-				<string>920681F19D066177F84D1606F8B707ED</string>
-				<string>974BB86C129E33B98742528CB6AFF3AB</string>
-				<string>33682F6A159FC50F4929DF165C5EBBB6</string>
-				<string>14B6BC9757E345172B347E04DF487C16</string>
-				<string>044E1C0EE56C4A063886121042D25F0F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3F0A687ED16E5EDEAB1CEE292BCD3DA6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-HouseCalls.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F31995448AE0847BBB18FE7825282CA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>25B4B427898650E2288DC0BD36F23655</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3E7C11E215C87D06BBF48503DDDAFEDC</string>
-				<string>6E818E091D9A227EAE736AFF79741F99</string>
-				<string>B2DC730976299539932DAC62AA0C9FE1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SendGrid</string>
-			<key>productName</key>
-			<string>SendGrid</string>
-			<key>productReference</key>
-			<string>E5A83F988C055E0FC6C7BD4DEFE8C6E1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>4008AD72ACFA9B4C6235455C104DE05F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JLToast.framework</string>
-			<key>path</key>
-			<string>JLToast.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>40E1C9ADB1F8A6970C0E5DE25097A185</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1EC2CC46D9BF03CC2545A96647B552C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>43063E08A784F595257AFEB1BB3EDE58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SendGrid-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44938CB1DDF7FFC491E7BEFD9E5CBA42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>12F41DD6BE80A97477963062B94D35BE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4574E22861DA10BA7FB8D8B840D83A0D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>47618F75F8E39EBCBF7267D73B424435</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+LBBlurredImage.m</string>
-			<key>path</key>
-			<string>LBBlurredImage/UIImageView+LBBlurredImage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47C6232FAD817E2F28E24233C7C75664</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B4633A3DA665F92D77E2167443C4D45F</string>
-			<key>remoteInfo</key>
-			<string>LBBlurredImage</string>
-		</dict>
-		<key>4A5DDADF0F3D06C060D888E96FD8A87B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4AB8AC4E51374135342484C795B5DCCC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>31CBC1794E55D608EDF6469DC49F8D1E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4DC836595CBE44432B53565B6AA7BED8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LBBlurredImage-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4FAD78A4EF9DC7615CA23C827D29FC98</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>73902CD5EA4922AD3957A2D589CA0DBD</string>
-				<string>9D1EA4841F2AB1FB3BB71D3A543699D0</string>
-				<string>DFA972BCA6B3471ECB242E5851BC3D58</string>
-				<string>D73E73E12DB49D8D4178831A9412E9F6</string>
-				<string>9E425C2A8097EFBF658AF70EBA0BFC4A</string>
-				<string>A899BC708A80CA7F442D0C54874D659C</string>
-				<string>B85FDB9A410E7524CC2B2902DEDC77A0</string>
-				<string>5F365BE2B5616D08F059FF016AC85814</string>
-				<string>B0694CE056B6460F8FA64F1E1749C127</string>
-				<string>B98F4C3C0A6FB966A3B9158C03507C79</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SendGrid</string>
-			<key>path</key>
-			<string>SendGrid</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5058523CDEEF1B3F7CD1FB5003A2E0C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-HouseCalls-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52632839A31E0CABF9EAB4BCDFD8206D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>34BDDB7399353D387F3388D7F77EF2BE</string>
-				<string>BEDE9BA3780ACDEEC1663AD9F5E1056C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>538DD8A380F41B8585AB8D3D29C2AB35</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DFA972BCA6B3471ECB242E5851BC3D58</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>563976A5CDB073A09EDD4F99A945F725</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4574E22861DA10BA7FB8D8B840D83A0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>56D36D9025979D982DFCA4E9259986A0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LBBlurredImage</string>
-			<key>target</key>
-			<string>B4633A3DA665F92D77E2167443C4D45F</string>
-			<key>targetProxy</key>
-			<string>47C6232FAD817E2F28E24233C7C75664</string>
-		</dict>
-		<key>5BCDD23B5B4CBB93FF204480E26B5244</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69E680E6085B54CF4CD14ED3B1DDC39E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5F365BE2B5616D08F059FF016AC85814</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SmtpApi.swift</string>
-			<key>path</key>
-			<string>smtpapi-swift/SMTPAPI/SmtpApi.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FC7E6F765D743CB8928D27226F86E0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FFFCA65F970E01A9A8621FD07FE72BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6450DEE030ABBA6456982DCC3DB481DA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>60FA6BE0E4BDD59F5B305A3FE70D3C7E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D73E73E12DB49D8D4178831A9412E9F6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6351F45080D1251005F7D01E83C32B2F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8AD5826160B9896F243915752BCAD17A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>63FEC3EA1B8B882793A3DB42B68428CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>JLToastCenter.swift</string>
-			<key>path</key>
-			<string>JLToast/JLToastCenter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6450DEE030ABBA6456982DCC3DB481DA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Accelerate.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Accelerate.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>66E253027E72FE9C80CDEE7B1716CE41</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>JLToast</string>
-			<key>target</key>
-			<string>892FE5BFDD0FD8B38E22D76135459FE4</string>
-			<key>targetProxy</key>
-			<string>E36669CC87161F155A5EB9BF8F595065</string>
-		</dict>
-		<key>69318E0913D1AAB4A7B09824CD9FBAE8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>69E680E6085B54CF4CD14ED3B1DDC39E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageView+LBBlurredImage.h</string>
-			<key>path</key>
-			<string>LBBlurredImage/UIImageView+LBBlurredImage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A00046DC1DC5CCEDA793479138DCCBC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5FC7E6F765D743CB8928D27226F86E0F</string>
-				<string>A1FDECB8E58BFE2913F5577A97D1013C</string>
-				<string>AA2320C37D02D8C0CDA605781AF79C6E</string>
-				<string>F03A7612A8B18291B4631F3B8CF1558B</string>
-				<string>FA52AEB9F2C342FB8BB86C47F331F52C</string>
-				<string>4DC836595CBE44432B53565B6AA7BED8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/LBBlurredImage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E818E091D9A227EAE736AFF79741F99</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1304560716E181425314A4AD95ED93EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>70429FE3998A5ED244AAA032E5A6F2BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SendGrid.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73902CD5EA4922AD3957A2D589CA0DBD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Attachment.swift</string>
-			<key>path</key>
-			<string>SendGrid-Swift/Attachment.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7901D313EBA7552B7884C6D17E7A2EBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>63FEC3EA1B8B882793A3DB42B68428CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>795642C6F17AB9540388036F38C17E79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>949330311FB9B56B20864712B20A126D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D5B1BFF39A32281B7F96DAA3BFFF2B3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>36C6FF6DDC84522D51C28E84365D3B30</string>
-				<string>BE3091549837A604151E5917BF8A9A6B</string>
-				<string>EA11BBEC6D0F589401769300F94BF6FF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>20B56609144CE204DFA8221F742B2D76</string>
-				<string>2311F07C39E509AAE2325919E78B63E2</string>
-				<string>1ACBC0829967D850F1E67CFB04C4D442</string>
-				<string>B9592876E854DACE50F8CAE4B197234B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85BB0E63E89158F0238D6B85708199D8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FFC54109C401868F3B687E01FFB015F5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6351F45080D1251005F7D01E83C32B2F</string>
-				<string>DD1C4B0A0CF28AA2C483586E34C69E53</string>
-				<string>BFFBAC4910B0AFFD35E5ED32CB0FAB8E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>66E253027E72FE9C80CDEE7B1716CE41</string>
-				<string>56D36D9025979D982DFCA4E9259986A0</string>
-				<string>1F0EA39890D3A6D9B4FCCF12A476E15A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-HouseCalls</string>
-			<key>productName</key>
-			<string>Pods-HouseCalls</string>
-			<key>productReference</key>
-			<string>8939B7C453CBAA45106CD8650E01D449</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>86B68B2A11F061A3E31DC8186CDED1BA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8C4E026D0A6C1B9793C8D4021BBBF6AD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/JLToast/JLToast-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/JLToast/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/JLToast/JLToast.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>JLToast</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>87A05821854504C6C75DBEE4208AD7D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F03A7612A8B18291B4631F3B8CF1558B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>88ED20D88FD5E6972E0D198EE66CE38E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB473778DE118FABEDC6DD18FE9CA1B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>892FE5BFDD0FD8B38E22D76135459FE4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9A1349755B78D3666A6D93F2206BE0E7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AD5A5E42445A5807A5C463048B26E9AC</string>
-				<string>7D5B1BFF39A32281B7F96DAA3BFFF2B3</string>
-				<string>34AC802A501AE8A8DBD7C05F7007A2E9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>JLToast</string>
-			<key>productName</key>
-			<string>JLToast</string>
-			<key>productReference</key>
-			<string>4008AD72ACFA9B4C6235455C104DE05F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>8939B7C453CBAA45106CD8650E01D449</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_HouseCalls.framework</string>
-			<key>path</key>
-			<string>Pods_HouseCalls.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8A3DB98AAD6D8A67E95F0DDA61E8FBE2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>JLToast.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8AD5826160B9896F243915752BCAD17A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>94103D21D5C1375DF43D7D6BFC41400E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C4E026D0A6C1B9793C8D4021BBBF6AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>JLToast.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F3C45264A0CE145439BD6EDF2C63330</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69318E0913D1AAB4A7B09824CD9FBAE8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>900307C24B20E5CB220DF9C12C669492</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-HouseCalls-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>920681F19D066177F84D1606F8B707ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9E425C2A8097EFBF658AF70EBA0BFC4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>94103D21D5C1375DF43D7D6BFC41400E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-HouseCalls-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>949330311FB9B56B20864712B20A126D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+ImageEffects.m</string>
-			<key>path</key>
-			<string>LBBlurredImage/UIImage+ImageEffects.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>974BB86C129E33B98742528CB6AFF3AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A899BC708A80CA7F442D0C54874D659C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9A1349755B78D3666A6D93F2206BE0E7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E6FF72CF46665E096E1EA60726E6A944</string>
-				<string>86B68B2A11F061A3E31DC8186CDED1BA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9D1EA4841F2AB1FB3BB71D3A543699D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Email.swift</string>
-			<key>path</key>
-			<string>SendGrid-Swift/Email.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E425C2A8097EFBF658AF70EBA0BFC4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SendGridAuth.swift</string>
-			<key>path</key>
-			<string>SendGrid-Swift/SendGridAuth.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E53EF262E6D3BB247F09287DAB44C8F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>87A05821854504C6C75DBEE4208AD7D1</string>
-				<string>795642C6F17AB9540388036F38C17E79</string>
-				<string>270465F74C4F50D9AF826336A61AE392</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9EC97B5271D86D1592959F7003ABBAA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1FDECB8E58BFE2913F5577A97D1013C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LBBlurredImage.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A759E70A1317E24CE37AB89E3111A778</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B43E620A432EC843DFE24FC333863914</string>
-				<string>949330311FB9B56B20864712B20A126D</string>
-				<string>69E680E6085B54CF4CD14ED3B1DDC39E</string>
-				<string>47618F75F8E39EBCBF7267D73B424435</string>
-				<string>6A00046DC1DC5CCEDA793479138DCCBC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LBBlurredImage</string>
-			<key>path</key>
-			<string>LBBlurredImage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A899BC708A80CA7F442D0C54874D659C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SendGridErrors.swift</string>
-			<key>path</key>
-			<string>SendGrid-Swift/SendGridErrors.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA2320C37D02D8C0CDA605781AF79C6E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>LBBlurredImage.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ABD8EEA4F5F785F43ECDD0A16BF90F9E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>06E148A91A1F67E5F7ACD6BC4646EAEF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-HouseCalls/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-HouseCalls/Pods-HouseCalls.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_HouseCalls</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AC695092056D0ADE3481F1E9B26698DE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2C2DE4D6EA2A91F6AD03C9834A062A08</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-HouseCalls/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-HouseCalls/Pods-HouseCalls.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_HouseCalls</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AD5A5E42445A5807A5C463048B26E9AC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>44938CB1DDF7FFC491E7BEFD9E5CBA42</string>
-				<string>FEA95CA3AD7F8A7BDD3B89D1168E9470</string>
-				<string>7901D313EBA7552B7884C6D17E7A2EBB</string>
-				<string>E111F21E49289AD29377229E697E60D2</string>
-				<string>EEB9F014CC9291C83A9055C1D0B25369</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AFE5806410B13B81A623F22AD767E3EB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B0694CE056B6460F8FA64F1E1749C127</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SmtpApiErrors.swift</string>
-			<key>path</key>
-			<string>smtpapi-swift/SMTPAPI/SmtpApiErrors.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B18EB8BD780CE21B7DDD20BC84C77C8A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6450DEE030ABBA6456982DCC3DB481DA</string>
-				<string>CB473778DE118FABEDC6DD18FE9CA1B0</string>
-				<string>4574E22861DA10BA7FB8D8B840D83A0D</string>
-				<string>AFE5806410B13B81A623F22AD767E3EB</string>
-				<string>69318E0913D1AAB4A7B09824CD9FBAE8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2DC730976299539932DAC62AA0C9FE1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4AB8AC4E51374135342484C795B5DCCC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B43E620A432EC843DFE24FC333863914</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+ImageEffects.h</string>
-			<key>path</key>
-			<string>LBBlurredImage/UIImage+ImageEffects.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4633A3DA665F92D77E2167443C4D45F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>52632839A31E0CABF9EAB4BCDFD8206D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9E53EF262E6D3BB247F09287DAB44C8F</string>
-				<string>E796DCB89AE0DF4F2A15C82F29FC693F</string>
-				<string>C5FCC6ADBFEE0EFBFDA34483566EAC9A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LBBlurredImage</string>
-			<key>productName</key>
-			<string>LBBlurredImage</string>
-			<key>productReference</key>
-			<string>C6D7CD57A516A26D9C596FDA23C496E0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>B85FDB9A410E7524CC2B2902DEDC77A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SendGridFilter.swift</string>
-			<key>path</key>
-			<string>smtpapi-swift/SMTPAPI/SendGridFilter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9592876E854DACE50F8CAE4B197234B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C10D54629414BEFFE236861F935847B4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B98F4C3C0A6FB966A3B9158C03507C79</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9EC97B5271D86D1592959F7003ABBAA1</string>
-				<string>70429FE3998A5ED244AAA032E5A6F2BE</string>
-				<string>37773F0F22421BF703ADDD16A49B7F15</string>
-				<string>1EC2CC46D9BF03CC2545A96647B552C3</string>
-				<string>43063E08A784F595257AFEB1BB3EDE58</string>
-				<string>31CBC1794E55D608EDF6469DC49F8D1E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SendGrid</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BE3091549837A604151E5917BF8A9A6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFE5806410B13B81A623F22AD767E3EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BEDE9BA3780ACDEEC1663AD9F5E1056C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AA2320C37D02D8C0CDA605781AF79C6E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/LBBlurredImage/LBBlurredImage-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/LBBlurredImage/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/LBBlurredImage/LBBlurredImage.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>LBBlurredImage</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BFFBAC4910B0AFFD35E5ED32CB0FAB8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F864EDBC3A56B5462236CBF8631468D4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C10D54629414BEFFE236861F935847B4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4A5DDADF0F3D06C060D888E96FD8A87B</string>
-				<string>3F0A687ED16E5EDEAB1CEE292BCD3DA6</string>
-				<string>900307C24B20E5CB220DF9C12C669492</string>
-				<string>5058523CDEEF1B3F7CD1FB5003A2E0C2</string>
-				<string>94103D21D5C1375DF43D7D6BFC41400E</string>
-				<string>3CF1FC7C7DA632DB4A25933D5D992774</string>
-				<string>028808F4B67336E2B5B34BDA81334D31</string>
-				<string>0738137FBAAA291BC34D873C2D5BD2DD</string>
-				<string>06E148A91A1F67E5F7ACD6BC4646EAEF</string>
-				<string>2C2DE4D6EA2A91F6AD03C9834A062A08</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-HouseCalls</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-HouseCalls</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5FCC6ADBFEE0EFBFDA34483566EAC9A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F722262008FB916BF980E4C385084DFF</string>
-				<string>272AF8383B30189BEFE7B7F22A201114</string>
-				<string>5BCDD23B5B4CBB93FF204480E26B5244</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C6D7CD57A516A26D9C596FDA23C496E0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LBBlurredImage.framework</string>
-			<key>path</key>
-			<string>LBBlurredImage.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C886F2EDAB3505E81B0A9970AC0746B7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0A2507A523837947E50896413E33FEB7</string>
-				<string>00D266FE2B4111EDD72BAAA7DB33F1CF</string>
-				<string>63FEC3EA1B8B882793A3DB42B68428CF</string>
-				<string>EACCDC0DC17B53B19B0CFCB2EA890C15</string>
-				<string>FD077F75F2785B5F6A155104B47C9915</string>
-				<string>2C882D0A942B72B247405879D9BE4671</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JLToast</string>
-			<key>path</key>
-			<string>JLToast</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB473778DE118FABEDC6DD18FE9CA1B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D36A029CEF60071F5C3638DDC621130E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A2507A523837947E50896413E33FEB7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>1ACBC0829967D850F1E67CFB04C4D442</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>892FE5BFDD0FD8B38E22D76135459FE4</string>
-				<string>B4633A3DA665F92D77E2167443C4D45F</string>
-				<string>85BB0E63E89158F0238D6B85708199D8</string>
-				<string>3F31995448AE0847BBB18FE7825282CA</string>
-			</array>
-		</dict>
-		<key>D73E73E12DB49D8D4178831A9412E9F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SendGrid.swift</string>
-			<key>path</key>
-			<string>SendGrid-Swift/SendGrid.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD1C4B0A0CF28AA2C483586E34C69E53</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0576805CBE85A592B660E034C816FCCE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DFA972BCA6B3471ECB242E5851BC3D58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Logger.swift</string>
-			<key>path</key>
-			<string>smtpapi-swift/SMTPAPI/Logger.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E111F21E49289AD29377229E697E60D2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EACCDC0DC17B53B19B0CFCB2EA890C15</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E36669CC87161F155A5EB9BF8F595065</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>892FE5BFDD0FD8B38E22D76135459FE4</string>
-			<key>remoteInfo</key>
-			<string>JLToast</string>
-		</dict>
-		<key>E54A8CD744A5F15B40264CFF5289D42E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73902CD5EA4922AD3957A2D589CA0DBD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E5A83F988C055E0FC6C7BD4DEFE8C6E1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SendGrid.framework</string>
-			<key>path</key>
-			<string>SendGrid.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E6FF72CF46665E096E1EA60726E6A944</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8C4E026D0A6C1B9793C8D4021BBBF6AD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/JLToast/JLToast-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/JLToast/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/JLToast/JLToast.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>JLToast</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E796DCB89AE0DF4F2A15C82F29FC693F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5FFFCA65F970E01A9A8621FD07FE72BF</string>
-				<string>88ED20D88FD5E6972E0D198EE66CE38E</string>
-				<string>563976A5CDB073A09EDD4F99A945F725</string>
-				<string>8F3C45264A0CE145439BD6EDF2C63330</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA11BBEC6D0F589401769300F94BF6FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69318E0913D1AAB4A7B09824CD9FBAE8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EACCDC0DC17B53B19B0CFCB2EA890C15</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>JLToastView.swift</string>
-			<key>path</key>
-			<string>JLToast/JLToastView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB397AE991740A6ACD2D526A03645CA7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JLToast-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EEB9F014CC9291C83A9055C1D0B25369</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD077F75F2785B5F6A155104B47C9915</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F03A7612A8B18291B4631F3B8CF1558B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LBBlurredImage-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5873B7BE1F62DC99DCAC80BD1AABE93</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JLToast-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F722262008FB916BF980E4C385084DFF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DC836595CBE44432B53565B6AA7BED8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F7512FE17B8A55711457BED9470099B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1EA4841F2AB1FB3BB71D3A543699D0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F864EDBC3A56B5462236CBF8631468D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0738137FBAAA291BC34D873C2D5BD2DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FA52AEB9F2C342FB8BB86C47F331F52C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LBBlurredImage-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FB45FFD90572718D82AB9092B750F0CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD077F75F2785B5F6A155104B47C9915</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>JLToastWindow.swift</string>
-			<key>path</key>
-			<string>JLToast/JLToastWindow.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEA95CA3AD7F8A7BDD3B89D1168E9470</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00D266FE2B4111EDD72BAAA7DB33F1CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FFC54109C401868F3B687E01FFB015F5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>ABD8EEA4F5F785F43ECDD0A16BF90F9E</string>
-				<string>AC695092056D0ADE3481F1E9B26698DE</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034FCB860246E31FD7708F1B50823CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6A73974E9D5639340C15E196250587 /* Foundation.framework */; };
+		0AF5CD92D29E34E615683FECE04DFA2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767314F53A0138E7FC180A3CB914559B /* QuartzCore.framework */; };
+		12640C93243058B623B6A2F5B7F941FF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02FE8708302E8E2D5284A8AAC56AA97 /* Logger.swift */; };
+		14067A100281AAB7331E94AEE9977DF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821945910E2D2D1653B86A6AC7EF80C7 /* CoreGraphics.framework */; };
+		24E9EF089E3CEE0BA09357C1FDF89DC1 /* Pods-HouseCalls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0738137FBAAA291BC34D873C2D5BD2DD /* Pods-HouseCalls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270465F74C4F50D9AF826336A61AE392 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C6608AFF3A5E9F7DDD03D25CFD6033 /* UIImageView+LBBlurredImage.m */; };
+		272AF8383B30189BEFE7B7F22A201114 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = D057DCBAC9F84FF4DB1FE1ED8AA8EB0F /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28C9C9C83462EAE81C971F0B55070A0B /* SendGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A522F4722D335C1367B01E127BF61 /* SendGrid.swift */; };
+		3616AD54D34C2E14B554653AED596949 /* JLToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94187DCCC2F56DE2608C9D2CCD2C2D05 /* JLToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44938CB1DDF7FFC491E7BEFD9E5CBA42 /* JLToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0F9D21661AA1F052F3BC751FCAF88 /* JLToast-dummy.m */; };
+		57E02BD7BFA9A037E274051048EB27C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6A73974E9D5639340C15E196250587 /* Foundation.framework */; };
+		5BCDD23B5B4CBB93FF204480E26B5244 /* UIImageView+LBBlurredImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB91A5AAFCF4EB71849FDEF74121B18 /* UIImageView+LBBlurredImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63A1979BB17A89E105AB2A6972A3F402 /* SmtpApiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070E57B964A2C4A66A06874E881D147 /* SmtpApiErrors.swift */; };
+		660A88BEF665C5A810571658A2E0BD6D /* SendGridErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF6EE9C12BE0CE15C996818057EDB7A /* SendGridErrors.swift */; };
+		66356CAB40B6B0351645795C6ED9E61B /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D84A48A542B26DE4B25046005E93FB /* Attachment.swift */; };
+		7901D313EBA7552B7884C6D17E7A2EBB /* JLToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D838B675D03A783A4315DD8F565E350 /* JLToastCenter.swift */; };
+		795642C6F17AB9540388036F38C17E79 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5935823D65A36295A9BA913A2738C3 /* UIImage+ImageEffects.m */; };
+		7DFE3B04558191273BDA305BCE2A737E /* SendGridAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A946718E8E965C9F2AC5601776EDA /* SendGridAuth.swift */; };
+		87A05821854504C6C75DBEE4208AD7D1 /* LBBlurredImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BCA6588B1DC49182D465BD019C3633 /* LBBlurredImage-dummy.m */; };
+		8B477D06D237E716502E6129AAE9F5FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6A73974E9D5639340C15E196250587 /* Foundation.framework */; };
+		90DC65B06F9202CB3260800487016582 /* SmtpApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E77027609D285269762D10DBC196A /* SmtpApi.swift */; };
+		B175131E722FE6970D820DB479CD3186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6A73974E9D5639340C15E196250587 /* Foundation.framework */; };
+		B28907EB94DAD2DB469B74416C0503A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8B559E8C013EC95F16295E90681C2D /* UIKit.framework */; };
+		CA3D1233568F5B217950B447C259458C /* Pods-HouseCalls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94103D21D5C1375DF43D7D6BFC41400E /* Pods-HouseCalls-dummy.m */; };
+		D36A029CEF60071F5C3638DDC621130E /* JLToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 198E9D1F6D36DBB9E62E3579E8EC3780 /* JLToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB80AF003C6C8A07518679D7E02F946C /* SendGrid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AFAEA90295C78C5DFE5984E4567441 /* SendGrid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD5A871CF83DDEA822C52716344DFD47 /* SendGrid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A473C91A234D3B9C4EAC2C3D054635 /* SendGrid-dummy.m */; };
+		E11138ECAC101191170A30EC9202C678 /* SendGridFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4522657C5A051293CA6E90E9FC68F44 /* SendGridFilter.swift */; };
+		E111F21E49289AD29377229E697E60D2 /* JLToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C2212380B9902B523580A6D5306D5 /* JLToastView.swift */; };
+		E2228ADA66DEFAE8C3387F8E34A38D93 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195BC713D9BF2BAB7EB17482D950FFF8 /* Accelerate.framework */; };
+		E46C6D25031E5A5411584A56D4768EB9 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1966DD3DFF8666CBCAAA3862D64AF83A /* Email.swift */; };
+		EEB9F014CC9291C83A9055C1D0B25369 /* JLToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB04435BE341D3FAF8631EE03BBA8659 /* JLToastWindow.swift */; };
+		F722262008FB916BF980E4C385084DFF /* LBBlurredImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD0996A326C9D740E385571FA64A2CD /* LBBlurredImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8665563F74A059CE781A668FD5EC50F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8B559E8C013EC95F16295E90681C2D /* UIKit.framework */; };
+		FEA95CA3AD7F8A7BDD3B89D1168E9470 /* JLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2D5784B31EB2E5D8AC3A5A54C999D /* JLToast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F8AE40F5E7678A3858C6B8DD02360B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 892FE5BFDD0FD8B38E22D76135459FE4;
+			remoteInfo = JLToast;
+		};
+		6144FAFD8B13155016C744C3A6213592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4633A3DA665F92D77E2167443C4D45F;
+			remoteInfo = LBBlurredImage;
+		};
+		762DB2D2E0F7689063F0576EEE86AE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E100B0AE16FBB9516837D6F2AC3012;
+			remoteInfo = SendGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028808F4B67336E2B5B34BDA81334D31 /* Pods-HouseCalls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HouseCalls-resources.sh"; sourceTree = "<group>"; };
+		02C6608AFF3A5E9F7DDD03D25CFD6033 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+LBBlurredImage.m"; path = "LBBlurredImage/UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		053E77027609D285269762D10DBC196A /* SmtpApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmtpApi.swift; path = "smtpapi-swift/SMTPAPI/SmtpApi.swift"; sourceTree = "<group>"; };
+		06E148A91A1F67E5F7ACD6BC4646EAEF /* Pods-HouseCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HouseCalls.debug.xcconfig"; sourceTree = "<group>"; };
+		0738137FBAAA291BC34D873C2D5BD2DD /* Pods-HouseCalls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HouseCalls-umbrella.h"; sourceTree = "<group>"; };
+		15965DC340AB12DD8F3B79F23BED7473 /* SendGrid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SendGrid-prefix.pch"; sourceTree = "<group>"; };
+		195BC713D9BF2BAB7EB17482D950FFF8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		1966DD3DFF8666CBCAAA3862D64AF83A /* Email.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Email.swift; path = "SendGrid-Swift/Email.swift"; sourceTree = "<group>"; };
+		198E9D1F6D36DBB9E62E3579E8EC3780 /* JLToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLToast.h; path = JLToast/JLToast.h; sourceTree = "<group>"; };
+		1C6A73974E9D5639340C15E196250587 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2070E57B964A2C4A66A06874E881D147 /* SmtpApiErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmtpApiErrors.swift; path = "smtpapi-swift/SMTPAPI/SmtpApiErrors.swift"; sourceTree = "<group>"; };
+		23A777DAF11625A27F5413E7F6887819 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		2518B5515CF66A7F57E436D86C4BD32C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		26B5B54A00BA60824CCF4638DE8B93FE /* SendGrid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SendGrid.xcconfig; sourceTree = "<group>"; };
+		2984212B88595CA8231D78F576CFE15D /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		29FB57C6D7E56CB3C59945A71FC75EB4 /* LBBlurredImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LBBlurredImage.modulemap; sourceTree = "<group>"; };
+		2C2DE4D6EA2A91F6AD03C9834A062A08 /* Pods-HouseCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HouseCalls.release.xcconfig"; sourceTree = "<group>"; };
+		2DD0996A326C9D740E385571FA64A2CD /* LBBlurredImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBBlurredImage-umbrella.h"; sourceTree = "<group>"; };
+		2E6EA73F70F4E895CF3D42D3D6C665AE /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		331E657EEC47B16144C738E95632087E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358DB9778F09BCEC105645107EA101ED /* LBBlurredImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBBlurredImage-prefix.pch"; sourceTree = "<group>"; };
+		3CF1FC7C7DA632DB4A25933D5D992774 /* Pods-HouseCalls-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HouseCalls-frameworks.sh"; sourceTree = "<group>"; };
+		3D838B675D03A783A4315DD8F565E350 /* JLToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastCenter.swift; path = JLToast/JLToastCenter.swift; sourceTree = "<group>"; };
+		3E0F03C3AB9ED19F37793BFBFE84A367 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0A687ED16E5EDEAB1CEE292BCD3DA6 /* Pods-HouseCalls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HouseCalls.modulemap"; sourceTree = "<group>"; };
+		40E2D5784B31EB2E5D8AC3A5A54C999D /* JLToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToast.swift; path = JLToast/JLToast.swift; sourceTree = "<group>"; };
+		48403E5789E96F5DA8A9D3248F53E928 /* JLToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLToast.modulemap; sourceTree = "<group>"; };
+		48DCF29CB877B0F4DEE889DB4175F265 /* JLToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToast-prefix.pch"; sourceTree = "<group>"; };
+		4A05BCB157A80C57B30DAC7522BD27B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5DDADF0F3D06C060D888E96FD8A87B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB91A5AAFCF4EB71849FDEF74121B18 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+LBBlurredImage.h"; path = "LBBlurredImage/UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		5058523CDEEF1B3F7CD1FB5003A2E0C2 /* Pods-HouseCalls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HouseCalls-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A5935823D65A36295A9BA913A2738C3 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "LBBlurredImage/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		5F4A946718E8E965C9F2AC5601776EDA /* SendGridAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SendGridAuth.swift; path = "SendGrid-Swift/SendGridAuth.swift"; sourceTree = "<group>"; };
+		63E0F9D21661AA1F052F3BC751FCAF88 /* JLToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLToast-dummy.m"; sourceTree = "<group>"; };
+		671A522F4722D335C1367B01E127BF61 /* SendGrid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SendGrid.swift; path = "SendGrid-Swift/SendGrid.swift"; sourceTree = "<group>"; };
+		6DBE7ADAF034CD44011DD9C5D00D5E80 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		73BA68CB0D4C3CDF1233388F75D0C615 /* JLToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLToast.xcconfig; sourceTree = "<group>"; };
+		767314F53A0138E7FC180A3CB914559B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		769E31361C46A5934DBF1F19CB056CB7 /* SendGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SendGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A473C91A234D3B9C4EAC2C3D054635 /* SendGrid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SendGrid-dummy.m"; sourceTree = "<group>"; };
+		7DF6EE9C12BE0CE15C996818057EDB7A /* SendGridErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SendGridErrors.swift; path = "SendGrid-Swift/SendGridErrors.swift"; sourceTree = "<group>"; };
+		821945910E2D2D1653B86A6AC7EF80C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		885C2212380B9902B523580A6D5306D5 /* JLToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastView.swift; path = JLToast/JLToastView.swift; sourceTree = "<group>"; };
+		900307C24B20E5CB220DF9C12C669492 /* Pods-HouseCalls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HouseCalls-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94103D21D5C1375DF43D7D6BFC41400E /* Pods-HouseCalls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HouseCalls-dummy.m"; sourceTree = "<group>"; };
+		94187DCCC2F56DE2608C9D2CCD2C2D05 /* JLToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToast-umbrella.h"; sourceTree = "<group>"; };
+		94AFAEA90295C78C5DFE5984E4567441 /* SendGrid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SendGrid-umbrella.h"; sourceTree = "<group>"; };
+		9D0183190EC261338CE446342A633AE3 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		A70C420084D374304897512FFA5DD6F3 /* JLToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8B559E8C013EC95F16295E90681C2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B8D84A48A542B26DE4B25046005E93FB /* Attachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attachment.swift; path = "SendGrid-Swift/Attachment.swift"; sourceTree = "<group>"; };
+		BC931DD35DE71A206DD7107895BF3518 /* SendGrid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SendGrid.modulemap; sourceTree = "<group>"; };
+		CF65500CD41928C64FC9A53595215A65 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		D057DCBAC9F84FF4DB1FE1ED8AA8EB0F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "LBBlurredImage/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DEC7FB75C30E9E3E53053574CF945EE3 /* Pods_HouseCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF2885081C454A2FA5A4013E7DFF7C5 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		E4522657C5A051293CA6E90E9FC68F44 /* SendGridFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SendGridFilter.swift; path = "smtpapi-swift/SMTPAPI/SendGridFilter.swift"; sourceTree = "<group>"; };
+		E59F03EF9D17386C581A1CE0D136AE6C /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		EF80AA3D57BAAE0FEB034A03855AC3AE /* LBBlurredImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBBlurredImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02FE8708302E8E2D5284A8AAC56AA97 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = "smtpapi-swift/SMTPAPI/Logger.swift"; sourceTree = "<group>"; };
+		F0BCA6588B1DC49182D465BD019C3633 /* LBBlurredImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBBlurredImage-dummy.m"; sourceTree = "<group>"; };
+		F77C9D5C060B2A142CBB2AA5F839073C /* LBBlurredImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBBlurredImage.xcconfig; sourceTree = "<group>"; };
+		F7DEF5BC04176E54FB3D08F7E5D2B0CB /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		FB04435BE341D3FAF8631EE03BBA8659 /* JLToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastWindow.swift; path = JLToast/JLToastWindow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641C1366D1535BE40BBDB57678FA9375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B477D06D237E716502E6129AAE9F5FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5B1BFF39A32281B7F96DAA3BFFF2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034FCB860246E31FD7708F1B50823CE4 /* Foundation.framework in Frameworks */,
+				0AF5CD92D29E34E615683FECE04DFA2A /* QuartzCore.framework in Frameworks */,
+				B28907EB94DAD2DB469B74416C0503A3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801E142B7131B55AE9993920F39CE959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E02BD7BFA9A037E274051048EB27C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E796DCB89AE0DF4F2A15C82F29FC693F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2228ADA66DEFAE8C3387F8E34A38D93 /* Accelerate.framework in Frameworks */,
+				14067A100281AAB7331E94AEE9977DF5 /* CoreGraphics.framework in Frameworks */,
+				B175131E722FE6970D820DB479CD3186 /* Foundation.framework in Frameworks */,
+				F8665563F74A059CE781A668FD5EC50F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09589E944A2CC8D44617122A4C88BE7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E59F03EF9D17386C581A1CE0D136AE6C /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09746616DB9372CBEB90A53DFE5E33C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2984212B88595CA8231D78F576CFE15D /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C440FC662567446ED52EA2647070089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A70C420084D374304897512FFA5DD6F3 /* JLToast.framework */,
+				EF80AA3D57BAAE0FEB034A03855AC3AE /* LBBlurredImage.framework */,
+				DEC7FB75C30E9E3E53053574CF945EE3 /* Pods_HouseCalls.framework */,
+				769E31361C46A5934DBF1F19CB056CB7 /* SendGrid.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C55B25E32D25C62140040FFFB5C0D46 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				CF65500CD41928C64FC9A53595215A65 /* FIRInstanceID.h */,
+				D1CA69A46AD20DCED0B57B705061597A /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		1FC2CC1F14A9DDAA038413D5ABA616C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A05BCB157A80C57B30DAC7522BD27B4 /* Info.plist */,
+				BC931DD35DE71A206DD7107895BF3518 /* SendGrid.modulemap */,
+				26B5B54A00BA60824CCF4638DE8B93FE /* SendGrid.xcconfig */,
+				77A473C91A234D3B9C4EAC2C3D054635 /* SendGrid-dummy.m */,
+				15965DC340AB12DD8F3B79F23BED7473 /* SendGrid-prefix.pch */,
+				94AFAEA90295C78C5DFE5984E4567441 /* SendGrid-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SendGrid";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				459F91A28B5567A7EED5B416B6D0A9DE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		212539FCE9BB5381319094529BEFC69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0183190EC261338CE446342A633AE3 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		276278692F2156ED9FB4DBC2595A1CF3 /* JLToast */ = {
+			isa = PBXGroup;
+			children = (
+				198E9D1F6D36DBB9E62E3579E8EC3780 /* JLToast.h */,
+				40E2D5784B31EB2E5D8AC3A5A54C999D /* JLToast.swift */,
+				3D838B675D03A783A4315DD8F565E350 /* JLToastCenter.swift */,
+				885C2212380B9902B523580A6D5306D5 /* JLToastView.swift */,
+				FB04435BE341D3FAF8631EE03BBA8659 /* JLToastWindow.swift */,
+				A4DCE3C9C5F27995C9B7884F8139C388 /* Support Files */,
+			);
+			path = JLToast;
+			sourceTree = "<group>";
+		};
+		2E7475D4FAFC6ABCFC033856E47A97A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB02DE72324718BDE400C51045E6E1 /* Firebase */,
+				BF9549ED7650F07F38CA726E62A9BC0F /* FirebaseAnalytics */,
+				98157FE4D5890BA03F30B63DBA411742 /* FirebaseAuth */,
+				74AF171AC2A4EBDAE8BA266F9A4913EE /* FirebaseDatabase */,
+				1C55B25E32D25C62140040FFFB5C0D46 /* FirebaseInstanceID */,
+				A6144D14E8C0F2FB9119A409529BB222 /* GoogleInterchangeUtilities */,
+				FC05201403B4C3DD505F54D7861B3F8F /* GoogleNetworkingUtilities */,
+				48852E72E8B2BF1B8D5E02C2B2723A98 /* GoogleSymbolUtilities */,
+				80F54850227224992E8389C207732C5D /* GoogleUtilities */,
+				276278692F2156ED9FB4DBC2595A1CF3 /* JLToast */,
+				A42DE570654AD5DAFBFBA8C3DB994982 /* LBBlurredImage */,
+				DD13A12E1C103B6343ED5854A41E3236 /* SendGrid */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38C467A9F8713C1E14E1741E3A9E26D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E6EA73F70F4E895CF3D42D3D6C665AE /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		459F91A28B5567A7EED5B416B6D0A9DE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				195BC713D9BF2BAB7EB17482D950FFF8 /* Accelerate.framework */,
+				821945910E2D2D1653B86A6AC7EF80C7 /* CoreGraphics.framework */,
+				1C6A73974E9D5639340C15E196250587 /* Foundation.framework */,
+				767314F53A0138E7FC180A3CB914559B /* QuartzCore.framework */,
+				AF8B559E8C013EC95F16295E90681C2D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48852E72E8B2BF1B8D5E02C2B2723A98 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				212539FCE9BB5381319094529BEFC69F /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		4A9C0BADDCDBCC9D89DE77A09BF9BC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2518B5515CF66A7F57E436D86C4BD32C /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CEB02DE72324718BDE400C51045E6E1 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B6609AFBC961F053A8BBA0C93F69F825 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		74AF171AC2A4EBDAE8BA266F9A4913EE /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				38C467A9F8713C1E14E1741E3A9E26D5 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				2E7475D4FAFC6ABCFC033856E47A97A9 /* Pods */,
+				1C440FC662567446ED52EA2647070089 /* Products */,
+				B9592876E854DACE50F8CAE4B197234B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80F54850227224992E8389C207732C5D /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C6ACCC37A6175CB5EE49E2A97C2FC406 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		98157FE4D5890BA03F30B63DBA411742 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				09746616DB9372CBEB90A53DFE5E33C2 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		A42DE570654AD5DAFBFBA8C3DB994982 /* LBBlurredImage */ = {
+			isa = PBXGroup;
+			children = (
+				D057DCBAC9F84FF4DB1FE1ED8AA8EB0F /* UIImage+ImageEffects.h */,
+				5A5935823D65A36295A9BA913A2738C3 /* UIImage+ImageEffects.m */,
+				4EB91A5AAFCF4EB71849FDEF74121B18 /* UIImageView+LBBlurredImage.h */,
+				02C6608AFF3A5E9F7DDD03D25CFD6033 /* UIImageView+LBBlurredImage.m */,
+				E8A3DBFFD9AAABD97A24C6AB65BCAE18 /* Support Files */,
+			);
+			path = LBBlurredImage;
+			sourceTree = "<group>";
+		};
+		A4DCE3C9C5F27995C9B7884F8139C388 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				331E657EEC47B16144C738E95632087E /* Info.plist */,
+				48403E5789E96F5DA8A9D3248F53E928 /* JLToast.modulemap */,
+				73BA68CB0D4C3CDF1233388F75D0C615 /* JLToast.xcconfig */,
+				63E0F9D21661AA1F052F3BC751FCAF88 /* JLToast-dummy.m */,
+				48DCF29CB877B0F4DEE889DB4175F265 /* JLToast-prefix.pch */,
+				94187DCCC2F56DE2608C9D2CCD2C2D05 /* JLToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JLToast";
+			sourceTree = "<group>";
+		};
+		A6144D14E8C0F2FB9119A409529BB222 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				09589E944A2CC8D44617122A4C88BE7D /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		B6609AFBC961F053A8BBA0C93F69F825 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				DEF2885081C454A2FA5A4013E7DFF7C5 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		B9592876E854DACE50F8CAE4B197234B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C10D54629414BEFFE236861F935847B4 /* Pods-HouseCalls */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF9549ED7650F07F38CA726E62A9BC0F /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C0BADDCDBCC9D89DE77A09BF9BC64 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		C10D54629414BEFFE236861F935847B4 /* Pods-HouseCalls */ = {
+			isa = PBXGroup;
+			children = (
+				4A5DDADF0F3D06C060D888E96FD8A87B /* Info.plist */,
+				3F0A687ED16E5EDEAB1CEE292BCD3DA6 /* Pods-HouseCalls.modulemap */,
+				900307C24B20E5CB220DF9C12C669492 /* Pods-HouseCalls-acknowledgements.markdown */,
+				5058523CDEEF1B3F7CD1FB5003A2E0C2 /* Pods-HouseCalls-acknowledgements.plist */,
+				94103D21D5C1375DF43D7D6BFC41400E /* Pods-HouseCalls-dummy.m */,
+				3CF1FC7C7DA632DB4A25933D5D992774 /* Pods-HouseCalls-frameworks.sh */,
+				028808F4B67336E2B5B34BDA81334D31 /* Pods-HouseCalls-resources.sh */,
+				0738137FBAAA291BC34D873C2D5BD2DD /* Pods-HouseCalls-umbrella.h */,
+				06E148A91A1F67E5F7ACD6BC4646EAEF /* Pods-HouseCalls.debug.xcconfig */,
+				2C2DE4D6EA2A91F6AD03C9834A062A08 /* Pods-HouseCalls.release.xcconfig */,
+			);
+			name = "Pods-HouseCalls";
+			path = "Target Support Files/Pods-HouseCalls";
+			sourceTree = "<group>";
+		};
+		C6ACCC37A6175CB5EE49E2A97C2FC406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23A777DAF11625A27F5413E7F6887819 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1CA69A46AD20DCED0B57B705061597A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE7ADAF034CD44011DD9C5D00D5E80 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD13A12E1C103B6343ED5854A41E3236 /* SendGrid */ = {
+			isa = PBXGroup;
+			children = (
+				B8D84A48A542B26DE4B25046005E93FB /* Attachment.swift */,
+				1966DD3DFF8666CBCAAA3862D64AF83A /* Email.swift */,
+				F02FE8708302E8E2D5284A8AAC56AA97 /* Logger.swift */,
+				671A522F4722D335C1367B01E127BF61 /* SendGrid.swift */,
+				5F4A946718E8E965C9F2AC5601776EDA /* SendGridAuth.swift */,
+				7DF6EE9C12BE0CE15C996818057EDB7A /* SendGridErrors.swift */,
+				E4522657C5A051293CA6E90E9FC68F44 /* SendGridFilter.swift */,
+				053E77027609D285269762D10DBC196A /* SmtpApi.swift */,
+				2070E57B964A2C4A66A06874E881D147 /* SmtpApiErrors.swift */,
+				1FC2CC1F14A9DDAA038413D5ABA616C9 /* Support Files */,
+			);
+			path = SendGrid;
+			sourceTree = "<group>";
+		};
+		E8A3DBFFD9AAABD97A24C6AB65BCAE18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E0F03C3AB9ED19F37793BFBFE84A367 /* Info.plist */,
+				29FB57C6D7E56CB3C59945A71FC75EB4 /* LBBlurredImage.modulemap */,
+				F77C9D5C060B2A142CBB2AA5F839073C /* LBBlurredImage.xcconfig */,
+				F0BCA6588B1DC49182D465BD019C3633 /* LBBlurredImage-dummy.m */,
+				358DB9778F09BCEC105645107EA101ED /* LBBlurredImage-prefix.pch */,
+				2DD0996A326C9D740E385571FA64A2CD /* LBBlurredImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBBlurredImage";
+			sourceTree = "<group>";
+		};
+		E91B8B6DFEDD0C96425C81A83A78CC29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7DEF5BC04176E54FB3D08F7E5D2B0CB /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC05201403B4C3DD505F54D7861B3F8F /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E91B8B6DFEDD0C96425C81A83A78CC29 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34AC802A501AE8A8DBD7C05F7007A2E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3616AD54D34C2E14B554653AED596949 /* JLToast-umbrella.h in Headers */,
+				D36A029CEF60071F5C3638DDC621130E /* JLToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FCC6ADBFEE0EFBFDA34483566EAC9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F722262008FB916BF980E4C385084DFF /* LBBlurredImage-umbrella.h in Headers */,
+				272AF8383B30189BEFE7B7F22A201114 /* UIImage+ImageEffects.h in Headers */,
+				5BCDD23B5B4CBB93FF204480E26B5244 /* UIImageView+LBBlurredImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1949DC9302622E34B793F8C5B4A798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB80AF003C6C8A07518679D7E02F946C /* SendGrid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F7159321E92365F82857BBEB996843 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E9EF089E3CEE0BA09357C1FDF89DC1 /* Pods-HouseCalls-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05E100B0AE16FBB9516837D6F2AC3012 /* SendGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E312DF83510023B1ADF5BDE3DCB0AC4 /* Build configuration list for PBXNativeTarget "SendGrid" */;
+			buildPhases = (
+				644D483B15E0F7097526B998BA5DAECB /* Sources */,
+				641C1366D1535BE40BBDB57678FA9375 /* Frameworks */,
+				EB1949DC9302622E34B793F8C5B4A798 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendGrid;
+			productName = SendGrid;
+			productReference = 769E31361C46A5934DBF1F19CB056CB7 /* SendGrid.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56303EBF87028A2262FAA4CBD1A402FC /* Pods-HouseCalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0114E106F63EBF1E02B1405BD6B4FE28 /* Build configuration list for PBXNativeTarget "Pods-HouseCalls" */;
+			buildPhases = (
+				984395BCC7DDC313876CEC6822B00D79 /* Sources */,
+				801E142B7131B55AE9993920F39CE959 /* Frameworks */,
+				F5F7159321E92365F82857BBEB996843 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C6897D690D0696F177649A10E20935 /* PBXTargetDependency */,
+				22CABC724D2F45F19E21B4A325EDC5D9 /* PBXTargetDependency */,
+				4CDE320DE3BB3D024B68E4E65D7BA712 /* PBXTargetDependency */,
+			);
+			name = "Pods-HouseCalls";
+			productName = "Pods-HouseCalls";
+			productReference = DEC7FB75C30E9E3E53053574CF945EE3 /* Pods_HouseCalls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1349755B78D3666A6D93F2206BE0E7 /* Build configuration list for PBXNativeTarget "JLToast" */;
+			buildPhases = (
+				AD5A5E42445A5807A5C463048B26E9AC /* Sources */,
+				7D5B1BFF39A32281B7F96DAA3BFFF2B3 /* Frameworks */,
+				34AC802A501AE8A8DBD7C05F7007A2E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLToast;
+			productName = JLToast;
+			productReference = A70C420084D374304897512FFA5DD6F3 /* JLToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4633A3DA665F92D77E2167443C4D45F /* LBBlurredImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52632839A31E0CABF9EAB4BCDFD8206D /* Build configuration list for PBXNativeTarget "LBBlurredImage" */;
+			buildPhases = (
+				9E53EF262E6D3BB247F09287DAB44C8F /* Sources */,
+				E796DCB89AE0DF4F2A15C82F29FC693F /* Frameworks */,
+				C5FCC6ADBFEE0EFBFDA34483566EAC9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBBlurredImage;
+			productName = LBBlurredImage;
+			productReference = EF80AA3D57BAAE0FEB034A03855AC3AE /* LBBlurredImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1C440FC662567446ED52EA2647070089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */,
+				B4633A3DA665F92D77E2167443C4D45F /* LBBlurredImage */,
+				56303EBF87028A2262FAA4CBD1A402FC /* Pods-HouseCalls */,
+				05E100B0AE16FBB9516837D6F2AC3012 /* SendGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644D483B15E0F7097526B998BA5DAECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66356CAB40B6B0351645795C6ED9E61B /* Attachment.swift in Sources */,
+				E46C6D25031E5A5411584A56D4768EB9 /* Email.swift in Sources */,
+				12640C93243058B623B6A2F5B7F941FF /* Logger.swift in Sources */,
+				DD5A871CF83DDEA822C52716344DFD47 /* SendGrid-dummy.m in Sources */,
+				28C9C9C83462EAE81C971F0B55070A0B /* SendGrid.swift in Sources */,
+				7DFE3B04558191273BDA305BCE2A737E /* SendGridAuth.swift in Sources */,
+				660A88BEF665C5A810571658A2E0BD6D /* SendGridErrors.swift in Sources */,
+				E11138ECAC101191170A30EC9202C678 /* SendGridFilter.swift in Sources */,
+				90DC65B06F9202CB3260800487016582 /* SmtpApi.swift in Sources */,
+				63A1979BB17A89E105AB2A6972A3F402 /* SmtpApiErrors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984395BCC7DDC313876CEC6822B00D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3D1233568F5B217950B447C259458C /* Pods-HouseCalls-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E53EF262E6D3BB247F09287DAB44C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A05821854504C6C75DBEE4208AD7D1 /* LBBlurredImage-dummy.m in Sources */,
+				795642C6F17AB9540388036F38C17E79 /* UIImage+ImageEffects.m in Sources */,
+				270465F74C4F50D9AF826336A61AE392 /* UIImageView+LBBlurredImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5A5E42445A5807A5C463048B26E9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44938CB1DDF7FFC491E7BEFD9E5CBA42 /* JLToast-dummy.m in Sources */,
+				FEA95CA3AD7F8A7BDD3B89D1168E9470 /* JLToast.swift in Sources */,
+				7901D313EBA7552B7884C6D17E7A2EBB /* JLToastCenter.swift in Sources */,
+				E111F21E49289AD29377229E697E60D2 /* JLToastView.swift in Sources */,
+				EEB9F014CC9291C83A9055C1D0B25369 /* JLToastWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22CABC724D2F45F19E21B4A325EDC5D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBBlurredImage;
+			target = B4633A3DA665F92D77E2167443C4D45F /* LBBlurredImage */;
+			targetProxy = 6144FAFD8B13155016C744C3A6213592 /* PBXContainerItemProxy */;
+		};
+		4CDE320DE3BB3D024B68E4E65D7BA712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SendGrid;
+			target = 05E100B0AE16FBB9516837D6F2AC3012 /* SendGrid */;
+			targetProxy = 762DB2D2E0F7689063F0576EEE86AE24 /* PBXContainerItemProxy */;
+		};
+		74C6897D690D0696F177649A10E20935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLToast;
+			target = 892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */;
+			targetProxy = 46F8AE40F5E7678A3858C6B8DD02360B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FF355DAABDC47E85216B2FE087DF722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BA68CB0D4C3CDF1233388F75D0C615 /* JLToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLToast/JLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToast/JLToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2398BFE982B7A9DDE157089C8BCB2AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2DE4D6EA2A91F6AD03C9834A062A08 /* Pods-HouseCalls.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HouseCalls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HouseCalls/Pods-HouseCalls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HouseCalls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		331966A9EDB01C8C23E946A24E2D041E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E148A91A1F67E5F7ACD6BC4646EAEF /* Pods-HouseCalls.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HouseCalls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HouseCalls/Pods-HouseCalls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HouseCalls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33B9CF12D0294F6C2244974901D44C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BA68CB0D4C3CDF1233388F75D0C615 /* JLToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLToast/JLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToast/JLToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3702377C7C7684B75F1F42E74FA262CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77C9D5C060B2A142CBB2AA5F839073C /* LBBlurredImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBBlurredImage/LBBlurredImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBBlurredImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBBlurredImage/LBBlurredImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LBBlurredImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		720F7CEF5E8E4BC5239C70D50326E5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B5B54A00BA60824CCF4638DE8B93FE /* SendGrid.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SendGrid/SendGrid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SendGrid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SendGrid/SendGrid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SendGrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9124C036DFBDA54197DBD2E402EE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77C9D5C060B2A142CBB2AA5F839073C /* LBBlurredImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBBlurredImage/LBBlurredImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBBlurredImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBBlurredImage/LBBlurredImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LBBlurredImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8585F04CA5FF2EFE2873F8AB3F72CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B5B54A00BA60824CCF4638DE8B93FE /* SendGrid.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SendGrid/SendGrid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SendGrid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SendGrid/SendGrid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SendGrid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0114E106F63EBF1E02B1405BD6B4FE28 /* Build configuration list for PBXNativeTarget "Pods-HouseCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331966A9EDB01C8C23E946A24E2D041E /* Debug */,
+				2398BFE982B7A9DDE157089C8BCB2AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52632839A31E0CABF9EAB4BCDFD8206D /* Build configuration list for PBXNativeTarget "LBBlurredImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3702377C7C7684B75F1F42E74FA262CE /* Debug */,
+				AF9124C036DFBDA54197DBD2E402EE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E312DF83510023B1ADF5BDE3DCB0AC4 /* Build configuration list for PBXNativeTarget "SendGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8585F04CA5FF2EFE2873F8AB3F72CD3 /* Debug */,
+				720F7CEF5E8E4BC5239C70D50326E5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1349755B78D3666A6D93F2206BE0E7 /* Build configuration list for PBXNativeTarget "JLToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B9CF12D0294F6C2244974901D44C9C /* Debug */,
+				1FF355DAABDC47E85216B2FE087DF722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
