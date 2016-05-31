@@ -111,10 +111,29 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
     {
-        let location = locations.last
-        let distanceMiles = doctorLocation.distanceFromLocation(location!) * 0.000621371192237
-        distanceButton.setTitle(NSString(format: "%.2f miles", distanceMiles) as String, forState: .Normal)
-        print(distanceMiles)
+      let request = MKDirectionsRequest() //A
+      let location = locations.last
+      var result: Double = 0.00;
+      
+      request.source = MKMapItem(placemark: MKPlacemark(coordinate:CLLocationCoordinate2D(latitude: manager.location!.coordinate.latitude, longitude: manager.location!.coordinate.longitude), addressDictionary: nil)) // A
+      request.destination = MKMapItem(placemark: MKPlacemark(coordinate:CLLocationCoordinate2D(latitude: 35.289239, longitude: -120.667206), addressDictionary: nil)) // A
+      print(manager.location!.coordinate.latitude)
+      print(manager.location!.coordinate.longitude)
+      
+      let directions = MKDirections(request: request) //A
+      directions.calculateETAWithCompletionHandler { response, error in
+         if error == nil {
+            if let r = response {
+                 result = r.expectedTravelTime
+                 //self.distanceButton.setTitle(NSString(format: "%.2f ", result) as String, forState: .Normal)
+                 //print(result)
+            }
+         }
+      }
+      
+        //let distanceMiles = doctorLocation.distanceFromLocation(location!) * 0.000621371192237
+        self.distanceButton.setTitle(NSString(format: "%.2f minutes", result) as String, forState: .Normal)
+        print(result)
         let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))
         self.locationManager.stopUpdatingLocation()

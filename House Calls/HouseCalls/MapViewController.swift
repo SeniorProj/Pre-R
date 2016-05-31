@@ -46,10 +46,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         directions.calculateETAWithCompletionHandler { response, error in
            if error == nil {
               if let r = response {
-               print(r.expectedTravelTime)
+               let result = r.expectedTravelTime
               }
            }
-        } //A
+        }
       
         let distanceMiles = doctorLocation.distanceFromLocation(location!) * 0.000621371192237
         distance.text = NSString(format: "%.2f miles", distanceMiles) as String
