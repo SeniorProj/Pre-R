@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDelegate {
     
@@ -16,8 +17,12 @@ class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPic
     
     @IBOutlet weak var doctorStatus: UILabel!
      let pickerData = ["Available","Temporarily Unavailable", "Telemedicine", "Unavailable"]
+    
+    var ref = FIRDatabase.database().reference()
 
     @IBAction func updateStatusButton(sender: AnyObject) {
+        let userID = FIRAuth.auth()?.currentUser?.uid
+        ref.child("availability").child(userID!).setValue(["availability" : doctorStatus.text!])
         /*
         var currentUser = PFUser.currentUser()
         if currentUser != nil{
