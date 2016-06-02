@@ -41,6 +41,7 @@
 		3BCFFEF81C0CF7A800C20C79 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */; };
 		49BEB6DA1C83B3AB00BA55A1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BEB6D91C83B3AB00BA55A1 /* MapViewController.swift */; };
 		49BEB6E21C83BCAC00BA55A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */; };
+		B7D786391CFFD1920077F0D5 /* JLToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D786381CFFD1920077F0D5 /* JLToast.framework */; };
 		D04A7EDB1C73F87300787EE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */; };
 		D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */; };
 		D07AF9641C559003006AB1AF /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF9631C559002006AB1AF /* FAQViewController.swift */; };
@@ -171,6 +172,7 @@
 		49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6D06CB9FE8449087C0FCEB6E /* Pods_HouseCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		782A8D22912CAF0AF4919D8A /* Pods-HouseCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseCalls.release.xcconfig"; path = "Pods/Target Support Files/Pods-HouseCalls/Pods-HouseCalls.release.xcconfig"; sourceTree = "<group>"; };
+		B7D786381CFFD1920077F0D5 /* JLToast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLToast.framework; path = "../../../Library/Developer/Xcode/DerivedData/HouseCalls-fpnfvtxxvqoormebjpccwxkqnkfm/Build/Products/Debug-iphonesimulator/JLToast/JLToast.framework"; sourceTree = "<group>"; };
 		D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D07AF9631C559002006AB1AF /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D786391CFFD1920077F0D5 /* JLToast.framework in Frameworks */,
 				3B97FCBC1C0AF5E50009DFEB /* Social.framework in Frameworks */,
 				3B97FCBA1C0AF5E00009DFEB /* Accounts.framework in Frameworks */,
 				3B97FCB81C0AF5B60009DFEB /* libsqlite3.tbd in Frameworks */,
@@ -298,6 +301,7 @@
 		3B97FCC11C0AF6200009DFEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B7D786381CFFD1920077F0D5 /* JLToast.framework */,
 				49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */,
 				3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */,
 				3B97FCBB1C0AF5E50009DFEB /* Social.framework */,
