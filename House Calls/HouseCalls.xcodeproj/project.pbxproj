@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		095D92D91C55697D00660599 /* DoctorStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D92D81C55697D00660599 /* DoctorStatusViewController.swift */; };
 		096615E61CFD5E8800EC3689 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 096615E51CFD5E8800EC3689 /* GoogleService-Info.plist */; };
-		0FE53C18AB92F355E8A3D6F6 /* Pods_HouseCalls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D06CB9FE8449087C0FCEB6E /* Pods_HouseCalls.framework */; };
 		271BDF811C121D5F0075A29E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271BDF721C121D2D0075A29E /* Alamofire.framework */; };
 		271BDF821C121D5F0075A29E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 271BDF721C121D2D0075A29E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2750873A1BFC66380030863E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275087391BFC66380030863E /* SWRevealViewController.m */; };
@@ -39,9 +38,14 @@
 		3B97FCBF1C0AF61B0009DFEB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */; };
 		3B97FCC71C0B11B70009DFEB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97FCC61C0B11B70009DFEB /* LogInViewController.swift */; };
 		3BCFFEF81C0CF7A800C20C79 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */; };
+		4990C6341D000E42001012F9 /* JLToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4990C6331D000E42001012F9 /* JLToast.framework */; };
 		49BEB6DA1C83B3AB00BA55A1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BEB6D91C83B3AB00BA55A1 /* MapViewController.swift */; };
 		49BEB6E21C83BCAC00BA55A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */; };
+<<<<<<< HEAD
 		B7D786391CFFD1920077F0D5 /* JLToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D786381CFFD1920077F0D5 /* JLToast.framework */; };
+=======
+		54F6C37E0262EA306EED983F /* Pods_HouseCalls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D06CB9FE8449087C0FCEB6E /* Pods_HouseCalls.framework */; };
+>>>>>>> 2285f496c94b1628f07215cdbe635539962b01bb
 		D04A7EDB1C73F87300787EE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A7EDA1C73F87300787EE1 /* ProfileViewController.swift */; };
 		D07AF95C1C5583E0006AB1AF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF95B1C5583E0006AB1AF /* AboutViewController.swift */; };
 		D07AF9641C559003006AB1AF /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AF9631C559002006AB1AF /* FAQViewController.swift */; };
@@ -168,6 +172,9 @@
 		3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		3B97FCC61C0B11B70009DFEB /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../LogInViewController.swift; sourceTree = "<group>"; };
 		3BCFFEF71C0CF7A800C20C79 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestViewController.swift; path = ../RequestViewController.swift; sourceTree = "<group>"; };
+		4988FCD41CFFC9590021A377 /* JLToast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLToast.framework; path = "../../../Library/Developer/Xcode/DerivedData/HouseCalls-efhsggfupzwhnidnsnhrwrvadtoj/Build/Products/Debug-iphonesimulator/JLToast/JLToast.framework"; sourceTree = "<group>"; };
+		4988FCDC1CFFC9DF0021A377 /* Pods_HouseCalls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_HouseCalls.framework; path = "../../../Library/Developer/Xcode/DerivedData/HouseCalls-efhsggfupzwhnidnsnhrwrvadtoj/Build/Products/Debug-iphonesimulator/Pods_HouseCalls.framework"; sourceTree = "<group>"; };
+		4990C6331D000E42001012F9 /* JLToast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLToast.framework; path = "Pods/../build/Debug-iphoneos/JLToast.framework"; sourceTree = "<group>"; };
 		49BEB6D91C83B3AB00BA55A1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6D06CB9FE8449087C0FCEB6E /* Pods_HouseCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,7 +197,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				B7D786391CFFD1920077F0D5 /* JLToast.framework in Frameworks */,
+=======
+				4990C6341D000E42001012F9 /* JLToast.framework in Frameworks */,
+>>>>>>> 2285f496c94b1628f07215cdbe635539962b01bb
 				3B97FCBC1C0AF5E50009DFEB /* Social.framework in Frameworks */,
 				3B97FCBA1C0AF5E00009DFEB /* Accounts.framework in Frameworks */,
 				3B97FCB81C0AF5B60009DFEB /* libsqlite3.tbd in Frameworks */,
@@ -206,7 +217,7 @@
 				3B97FCAA1C0AF5800009DFEB /* CoreGraphics.framework in Frameworks */,
 				3B97FCA81C0AF5790009DFEB /* CFNetwork.framework in Frameworks */,
 				3B97FCA61C0AF5740009DFEB /* AudioToolbox.framework in Frameworks */,
-				0FE53C18AB92F355E8A3D6F6 /* Pods_HouseCalls.framework in Frameworks */,
+				54F6C37E0262EA306EED983F /* Pods_HouseCalls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +312,13 @@
 		3B97FCC11C0AF6200009DFEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				B7D786381CFFD1920077F0D5 /* JLToast.framework */,
+=======
+				4990C6331D000E42001012F9 /* JLToast.framework */,
+				4988FCDC1CFFC9DF0021A377 /* Pods_HouseCalls.framework */,
+				4988FCD41CFFC9590021A377 /* JLToast.framework */,
+>>>>>>> 2285f496c94b1628f07215cdbe635539962b01bb
 				49BEB6E11C83BCAC00BA55A1 /* MapKit.framework */,
 				3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */,
 				3B97FCBB1C0AF5E50009DFEB /* Social.framework */,
@@ -368,7 +385,6 @@
 				TargetAttributes = {
 					27C3E78B1BFC0ECB002F67C8 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 8TTK5Y9L68;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -673,6 +689,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = HouseCalls/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -696,6 +713,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = HouseCalls/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
