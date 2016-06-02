@@ -76,12 +76,12 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         
         do {
             
-            let userID = FIRAuth.auth()?.currentUser?.uid
-            ref.child("availability").child(userID!).observeSingleEventOfType(.Value, withBlock: { (snapshot) in
+            //let userID = FIRAuth.auth()?.currentUser?.uid
+            ref.child("availability").observeSingleEventOfType(.Value, withBlock: { (snapshot) in
                 let status = snapshot.value!["availability"] as! String
                 self.availButton.setTitle(status.uppercaseString, forState: .Normal)
             }) { (error) in
-                print(error.localizedDescription)
+               print(error.localizedDescription)
             }
             //var user = try PFQuery.getUserObjectWithId("dB4rAootm2")
             //var status = user["availability"] as! String
@@ -108,8 +108,8 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     func getStatus() {
         do {
-            let userID = FIRAuth.auth()?.currentUser?.uid
-            ref.child("availability").child(userID!).observeSingleEventOfType(.Value, withBlock: { (snapshot) in
+            //let userID = FIRAuth.auth()?.currentUser?.uid
+            ref.child("availability").observeSingleEventOfType(.Value, withBlock: { (snapshot) in
                 let status = snapshot.value!["availability"] as! String
                 self.availButton.setTitle(status.uppercaseString, forState: .Normal)
             }) { (error) in
@@ -130,7 +130,25 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     {
         let location = locations.last
         let distanceMiles = 7 + (doctorLocation.distanceFromLocation(location!) * 0.000621371192237) * 2
-        distanceButton.setTitle(NSString(format: "%.2f minutes", distanceMiles) as String, forState: .Normal)
+        
+        ref.child("availability").observeSingleEventOfType(.Value, withBlock: { (snapshot) in
+            let status = snapshot.value!["availability"] as! String
+            if (status == "Available") {
+                self.distanceButton.setTitle(NSString(format: "%.2f minutes", distanceMiles) as String, forState: .Normal)
+            }
+            else if (status == "Temporarily Unavailable") {
+                self.distanceButton.setTitle(NSString(format: "N/A\n(Check within 12 hours)", distanceMiles) as String, forState: .Normal)
+            }
+            else if (status == "Telemedicine") {
+                self.distanceButton.setTitle(NSString(format: "N/A\n(Check within 24 hours)", distanceMiles) as String, forState: .Normal)
+            }
+            else {
+                self.distanceButton.setTitle(NSString(format: "N/A", distanceMiles) as String, forState: .Normal)
+            }
+        }) { (error) in
+            print(error.localizedDescription)
+        }
+        
         print(distanceMiles)
         let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))

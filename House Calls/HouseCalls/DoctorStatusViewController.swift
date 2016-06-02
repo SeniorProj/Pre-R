@@ -21,8 +21,8 @@ class DoctorStatusViewController: UIViewController, UIPickerViewDataSource,UIPic
     var ref = FIRDatabase.database().reference()
 
     @IBAction func updateStatusButton(sender: AnyObject) {
-        let userID = FIRAuth.auth()?.currentUser?.uid
-        ref.child("availability").child(userID!).setValue(["availability" : doctorStatus.text!])
+        //let userID = FIRAuth.auth()?.currentUser?.uid
+        ref.child("availability").setValue(["availability" : doctorStatus.text!])
         /*
         var currentUser = PFUser.currentUser()
         if currentUser != nil{
