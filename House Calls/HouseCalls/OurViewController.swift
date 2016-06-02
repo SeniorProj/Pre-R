@@ -133,13 +133,13 @@ class OurViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         
         ref.child("availability").observeSingleEventOfType(.Value, withBlock: { (snapshot) in
             let status = snapshot.value!["availability"] as! String
-            if (status == "Available") {
+            if status == "Available" {
                 self.distanceButton.setTitle(NSString(format: "%.2f minutes", distanceMiles) as String, forState: .Normal)
             }
-            else if (status == "Temporarily Unavailable") {
+            else if status == "Temporarily Unavailable" {
                 self.distanceButton.setTitle(NSString(format: "N/A\n(Check within 12 hours)", distanceMiles) as String, forState: .Normal)
             }
-            else if (status == "Telemedicine") {
+            else if status == "Telemedicine" {
                 self.distanceButton.setTitle(NSString(format: "N/A\n(Check within 24 hours)", distanceMiles) as String, forState: .Normal)
             }
             else {
